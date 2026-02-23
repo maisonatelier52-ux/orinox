@@ -38,11 +38,12 @@ import OnshoreOffshore from "../onshore-offshore-integrated-solutions/page";
 import OrinoxWorking from "../orinox-working/page";
 import OrinoxGlobalLocations from "../orinox-global-locations/page";
 import KeyDifferentiators from "../key-differentiators/page";
+import Orinox from "@/components/Orinox";
 
 export default function OrinoxHome() {
   return (
 <>
- <Home/>
+ <Orinox/>
  <Upstream/>
  <Future/>
  <WhoWeAre/>
