@@ -17,24 +17,25 @@ export default function OrinoxCommitsToDeliver() {
         />
       </div>
 
-    <div className="absolute top-130 md:top-95 -translate-y-1/2 left-10 space-y-3 md:space-y-5 sm:left-10 lg:left-25 z-20   text-white flex flex-col">    
+
+   <div className="absolute top-1/2 md:top-60 w-100 -translate-y-1/2 left-10 space-y-3 md:space-y-5 sm:left-10 lg:left-25 z-20  max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">    
    
 
   <div>
-    <h2 className="text-white/70 text-[13px] font-semibold">What Orinox commits to deliver</h2>
+    <h2 className="text-white/90 text-[14px] font-semibold">What Orinox commits to deliver</h2>
            </div>
         
        <div>
-        <p className="text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px] text-white/80 leading-tight">
 A phased drilling + near-field midstream scope, with integrated low-carbon readiness.
- 
-  <br/>
+<br/>
   A complete HSE and environmental management plan aligned to national regulations and international practice.
   <br/>
   A local content plan (jobs, training, supplier onboarding, reporting cadence).
   <br/>
   Transparent progress reporting and auditable KPIs (safety, schedule, emissions, local value).
- </p>
+ 
+</p>
        </div>
   
 </div>
