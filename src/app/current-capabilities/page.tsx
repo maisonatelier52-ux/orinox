@@ -34,7 +34,7 @@ export default function CurrentCapabilities() {
         {/* Description */}
         <div>
           <h2 className="text-[13px]">Drilling Services & Rig Operations</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
 Onshore drilling (exploration, appraisal, development wells).
            <br/>
         Work-over operations and basic well intervention.
@@ -44,7 +44,7 @@ Onshore drilling (exploration, appraisal, development wells).
         </div>
         <div>
           <h2 className="text-[13px]">Well Engineering & Project Management</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
      Well design (trajectory, casing program, mud program).
           <br/>
 AFE and cost estimation.
@@ -54,7 +54,7 @@ Drilling program planning, logistics coordination, contractor management.
         </div>
           <div>
           <h2 className="text-[13px]">Completions & Basic Production Support</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
      Casing and cementing supervision (via partners or in-house crew).
           <br/>
 Simple completions and well clean-up.
@@ -64,7 +64,7 @@ Simple completions and well clean-up.
         </div>
           <div>
           <h2 className="text-[13px]">HSE, Risk & Compliance in Drilling</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
     Rig safety management, permit-to-work, toolbox talks.
           <br/>
     Incident investigation, basic environmental compliance on pads.

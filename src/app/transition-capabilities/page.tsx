@@ -33,7 +33,7 @@ export default function TransitionCapabilities() {
         {/* Description */}
         <div>
           <h2 className="text-[13px]">Digital Drilling & Performance Optimization</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
           Real-time drilling analytics and KPI dashboards (ROP, NPT, bit life).
            <br/>
         AI/ML models for stuck-pipe risk, torque & drag, vibration monitoring.
@@ -43,7 +43,7 @@ export default function TransitionCapabilities() {
         </div>
         <div>
           <h2 className="text-[13px]">Advanced Reservoir & Production Optimization Support</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
         Collaboration with reservoir engineers to design well placement & completions for maximized EUR.
           <br/>
         Production surveillance data integration to refine drilling/completion strategy over field life.
@@ -51,7 +51,7 @@ export default function TransitionCapabilities() {
         </div>
           <div>
           <h2 className="text-[13px]">Low-Carbon Field Development Solutions</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
        Well designs compatible with CO₂-EOR or CO₂ storage in the future.
           <br/>
          Integration of electrified rigs / lower-emission drilling packages.
@@ -61,7 +61,7 @@ export default function TransitionCapabilities() {
         </div>
           <div>
           <h2 className="text-[13px]">Geothermal & Repurposing of Brownfields</h2>
-          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+          <p className="text-[12px]] text-white/60 leading-tight">
 Re-using old O&G wells for geothermal heat or power pilots.
           <br/>
   Portfolio screening services to identify geothermal prospects.

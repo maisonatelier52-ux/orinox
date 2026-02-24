@@ -34,13 +34,13 @@ export default function TransportationAndStorage() {
         {/* Description */}
         <div>
           <h2 className="text-[13px]">Transportation</h2>
-          <p className="text-[13px] md:text-[12px] text-white/50 leading-tight">
+          <p className="text-[12px]] text-white/50 leading-tight">
            We offer multiple services, depending on the product and location, including setting up of pipelines, and transportation by rail, road, and maritime vessels.
           </p>
         </div>
         <div>
           <h2 className="text-[13px]">Storage</h2>
-          <p className="text-[13px] md:text-[12px] text-white/50 leading-tight">
+          <p className="text-[12px]] text-white/50 leading-tight">
             Holding of raw materials like crude oil and natural gas, and finished products (refined petroleum products or liquefied natural gas) in facilities such as tanks, mounded storage vessels, or underground reservoirs, require the most trustworthy and reliable specialists.
 At Orinox, we ensure nothing is left to chance.
           </p>

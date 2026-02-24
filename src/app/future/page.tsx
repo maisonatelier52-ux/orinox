@@ -34,7 +34,7 @@ not disappearing.
 </h1>
 
   {/* Description */}
-  <p className="text-[13px] md:text-[12px] text-white/50 leading-tight">
+  <p className="text-[12px]] text-white/50 leading-tight">
    Global oil and gas demand forecasts with long plateau.
     <br />
 Capital disciplined operators seeking higher productivity, lower emissions.

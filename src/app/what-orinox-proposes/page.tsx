@@ -25,7 +25,7 @@ export default function WhatOrinoxProposes() {
            </div>
         
        <div>
-        <p className="text-[13px] md:text-[12px] text-white/80 leading-tight">
+        <p className="text-[12px]] text-white/80 leading-tight">
 Integrated well delivery (drilling + well engineering) with near-field midstream support (gathering, storage interfaces, commissioning) and built-in methane management and CCUS/H₂ readiness.
  </p>
        </div>

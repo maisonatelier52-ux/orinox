@@ -30,14 +30,14 @@ Upstream (Exploration & Production) Services
 
   <div>
     <h2 className="text-white/80 text-sm">Development Drilling & Completion</h2>
-         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+         <p className="text-[12px]] text-white/60 leading-tight">
 Orinox offers full-scale development drilling services once a project moves forward. This covers drilling production wells (and injection wells if needed for pressure support), using fit-for-purpose rigs (land rigs for onshore pads, offshore rigs or platform rigs for offshore projects).</p>    
   </div>
          <div>
-        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px]] text-white/60 leading-tight">
      We manage well design, directional drilling, and modern completion techniques (like multi-stage hydraulic fracturing for shale, or smart completions for offshore). Our teams handle well completion and stimulation, installing production tubing, artificial lift (ESPs or gas lift), and performing initial well productivity enhancements.</p>
       <div>
-        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px]] text-white/60 leading-tight">
      During field development, Orinox integrates drilling with facilities planning – e.g., clustering wells on pads or platforms to minimize surface footprint. The service extends to project management for drilling campaigns, including procurement of OCTG (tubulars) and wellheads, logistics for remote sites, and implementation of rigorous safety management. With Orinox’s drilling efficiency focus, clients benefit from reduced well costs and faster first oil.</p>
       </div>
      </div>

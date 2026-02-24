@@ -30,7 +30,7 @@ Upstream (Exploration & Production) Services
 
   <div>
     <h2 className="text-white/80 text-sm">Exploration Services</h2>
-         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+         <p className="text-[12px]] text-white/60 leading-tight">
 End-to-end exploration capability to identify new oil and gas reserves, including geological and geophysical (G&G) surveying, seismic data acquisition (2D/3D seismic campaigns), petrophysical analysis, and basin modeling.
           </p>
         </div>
@@ -38,7 +38,7 @@ End-to-end exploration capability to identify new oil and gas reserves, includin
            <p className="text-white/80 text-sm">Orinox can handle prospect generation, licensing rounds bids, and exploration well planning.</p>
         </div> 
         <div>
-        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px]] text-white/60 leading-tight">
          Once prospects are identified, Orinox manages exploration drilling – mobilizing suitable rigs to frontier locations (onshore or offshore). Our exploration teams aim to high-grade areas with the best chance of success using advanced tech (e.g. AI-assisted seismic interpretation and basin analog databases). By offering integrated exploration, Orinox helps resource holders (governments or partners) delineate new fields efficiently.
         </p>
         </div>

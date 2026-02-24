@@ -49,7 +49,7 @@ export default function OrinoxPage({data}:OrinoxPageProps) {
        {data.topic}
           </p>
           <h2 className="text-[14px] text-white/90">{data.title}</h2>
-          <p className="text-[13px] md:text-[12px] text-white/70 leading-tight">
+          <p className="text-[12px]] text-white/70 leading-tight">
         {data.description}
            <br/>
       {data.description1}

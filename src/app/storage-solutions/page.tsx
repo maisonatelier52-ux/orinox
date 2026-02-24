@@ -29,16 +29,16 @@ Midstream (Transportation, Storage, Processing, Marketing) Services
 
   <div>
     <h2 className="text-white/80 text-sm">Storage Solutions</h2>
-         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+         <p className="text-[12px]] text-white/60 leading-tight">
 Orinox provides hydrocarbon storage at various points in the value chain. For crude oil, we can build and manage tank farms – large storage tank batteries at field terminals or hub locations. These tanks buffer production, allow for blending, and ensure a ready supply for shipment. For natural gas, Orinox could operate underground gas storage reservoirs (depleted fields or salt caverns) to help clients balance seasonal demand. Gas is often injected into storage during low-demand periods and withdrawn in peak winter times, and Orinox’s service would include managing these injection/withdrawal cycles and maintaining gas deliverability.
 </p></div>
          <div>
-        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px]] text-white/60 leading-tight">
 We also handle NGL and refined product storage (pressurized bullets for propane/butane, etc., or atmospheric tanks for condensate). Storage is critical for system flexibility – for instance, as mentioned in GPA Midstream guidelines, stored gas is used to “smooth out” differences between steady production and variable demand. Orinox can bring expertise in safe tank operations, vapor recovery to reduce emissions, and inventory management.
 </p></div>
        <div>
 
-         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+         <p className="text-[12px]] text-white/60 leading-tight">
 Additionally, for LNG or export, we could manage storage in the form of cryogenic tanks or floating storage units. The ability to safely store volumes gives Orinox’s partners security of supply and operational leeway, which is particularly attractive to investors worried about offtake logistics.</p>     </div>
       
   

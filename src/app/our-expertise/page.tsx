@@ -38,7 +38,7 @@ Exploration and Production (E&P)
   <div>
   <h2 className="text-[13px]">Exploration
     </h2>
-  <p className="text-[13px] md:text-[12px] text-white/50 leading-tight">
+  <p className="text-[12px]] text-white/50 leading-tight">
   We are always searching for hydrocarbon reservoirs using seismic surveys and other geological data.
   </p>
  
@@ -46,7 +46,7 @@ Exploration and Production (E&P)
    <div>
       <h2 className="text-[13px]">Production
   </h2>
-  <p className="text-[13px] md:text-[12px] text-white/50 leading-tight">
+  <p className="text-[12px]] text-white/50 leading-tight">
   Our experienced team is known for drilling wells and developing facilities to extract crude oil and natural gas from the ground, both onshore and offshore.
   </p>
 

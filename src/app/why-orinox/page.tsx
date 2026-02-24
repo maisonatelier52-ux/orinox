@@ -27,25 +27,25 @@ Why Orinox?
 
   <div>
     
-         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+         <p className="text-[12px]] text-white/60 leading-tight">
 Faster time-to-production, reduced flaring and methane leakage, strengthened local capability, and improved reliability of evacuation infrastructure—delivered with transparent KPIs and auditable controls.
 </p>  </div>
          <div>
             <h2 className="text-white/70 text-[13px] font-semibold">Compliance-first Execution</h2>
-        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px]] text-white/60 leading-tight">
 Permit-to-work, well control, contractor bridging, and ESIA/ESMP planning embedded from day one. Clear reporting cadence and government audit rights.
 </p>
 </div>
        <div>
 <h2 className="text-white/70 text-[13px] font-semibold">Measured Emissions Management</h2>
-         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+         <p className="text-[12px]] text-white/60 leading-tight">
 LDAR programs, flaring minimization, fuel monitoring, and emissions dashboards (MRV-ready) to meet evolving methane and climate requirements.
 </p>
      
        </div>
        <div>
         <h2 className="text-white/70 text-[13px] font-semibold">Local Content and Skills Transfer</h2>
-        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px]] text-white/60 leading-tight">
       Structured workforce development, supplier onboarding, and training pipelines designed to meet local content regulations and build durable national capability.
 
      </p>

@@ -23,7 +23,7 @@ export default function OnshoreOffshore() {
   
           
          <div>
-        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
+        <p className="text-[12px]] text-white/60 leading-tight">
 Orinox provides integrated services across the Upstream (drilling, well engineering, and production support) and Near-Field Midstream (gathering, flowlines, storage interfaces, and commissioning support) segments of the oil and gas value chain.</p>
 </div>
       
