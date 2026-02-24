@@ -19,7 +19,7 @@ export default function OilAndGasProcessing() {
         />
       </div>
 
-        <div className="absolute top-100 md:top-1/2 -translate-y-1/2 left-10 space-y-3 md:space-y-5 sm:left-10 lg:left-25 z-20  max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">    
+        <div className="absolute top-1/2 -translate-y-1/2 left-10 space-y-3 md:space-y-5 sm:left-10 lg:left-25 z-20  max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">    
    <div>
         
           <h1 className="text-[14px] font-semibold leading-none text-white/60 ">
