@@ -11,11 +11,11 @@ export default function TransitionCapabilities() {
 
       {/* <div className="absolute inset-0 bg-black/40" /> */}
 
-      <div className="absolute top-8 right-16 z-20 flex items-center gap-3">
+      <div className="absolute top-8 right-10 md:right-16 z-20 flex items-center gap-3">
         <img
           src="/images/orinox-white-logo.png"
           alt="Orinox Logo"
-          className="h-12 w-auto"
+          className="h-10 md:h-12 w-auto"
         />
       </div>
 

@@ -13,11 +13,11 @@ export default function AddressingtheProblem() {
   bg-[radial-gradient(ellipse_at_bottom_left,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.35)_30%,rgba(0,0,0,0.15)_45%,transparent_60%)]">
 </div>
 
-      <div className="absolute top-8 right-16 z-20 flex items-center gap-3">
+      <div className="absolute top-8 right-10 md:right-16 z-20 flex items-center gap-3">
         <img
           src="/images/orinox-white-logo.png"
           alt="Orinox Logo"
-          className="h-12 w-auto"
+          className="h-10 md:h-12 w-auto"
         />
       </div>
 
