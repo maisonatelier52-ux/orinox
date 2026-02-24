@@ -34,7 +34,7 @@ We drill better, faster, safer
 
   <div>
     
-         <p className="text-[12px]] text-white/60 leading-tight">
+         <p className="text-[12px] text-white/60 leading-tight">
 We design field and midstream infrastructure that is ready for CCUS and hydrogen.
 We turn legacy oil & gas capex into future-proof, low-carbon assets.</p>    
   </div>

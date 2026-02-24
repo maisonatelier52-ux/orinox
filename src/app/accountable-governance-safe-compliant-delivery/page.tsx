@@ -24,7 +24,7 @@ export default function AccountableGovernance() {
           <h2 className="text-white/80 text-[13px] font-semibold">
             Accountable Governance Structure for Safe, Compliant Delivery
           </h2>
-          <p className="text-[12px]] text-white/70 leading-tight">
+          <p className="text-[12px] text-white/70 leading-tight">
             Orinox is a specialist well delivery and near-field midstream
             partner. We combine drilling execution, well engineering, and
             infrastructure readiness with measurable HSE and emissions
@@ -36,7 +36,7 @@ export default function AccountableGovernance() {
           <h2 className="text-white/80 text-[13px] font-semibold">
             Government Interface & Reporting
           </h2>
-          <p className="text-[12px]] text-white/70 leading-tight">
+          <p className="text-[12px] text-white/70 leading-tight">
            Monthly HSE and progress reporting (with incident/near-miss transparency).
             <br />
          Local content dashboard and supplier development status.

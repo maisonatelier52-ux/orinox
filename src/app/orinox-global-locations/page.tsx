@@ -24,7 +24,7 @@ export default function OrinoxGlobalLocations() {
 
   <div>
     <h2 className="text-white/80 text-sm font-semibold">United Kingdom</h2>
-         <p className="text-[12px]] text-white/80 leading-tight">
+         <p className="text-[12px] text-white/80 leading-tight">
 Level 28, 52 Lime Street, London,
 <br/>
 EC3M 7AF, United Kingdom
@@ -32,7 +32,7 @@ EC3M 7AF, United Kingdom
 </div> 
  <div>
     <h2 className="text-white/80 text-sm font-semibold">United Arab Emirates</h2>
-         <p className="text-[12px]] text-white/80 leading-tight">
+         <p className="text-[12px] text-white/80 leading-tight">
 Villa 145, Al Manara Street, Al Safa 2,
 <br/>
 Dubai, United Arab Emirates
@@ -40,7 +40,7 @@ Dubai, United Arab Emirates
 </div> 
  <div>
  <h2 className="text-white/80 text-sm font-semibold">Venezuela</h2>
-         <p className="text-[12px]] text-white/80 leading-tight">
+         <p className="text-[12px] text-white/80 leading-tight">
 Edificio Epsilon CIIP 3 Avenida Venezuela,
 <br/>
 Caracas 1060, Distrito Capital Piso 7
@@ -48,7 +48,7 @@ Caracas 1060, Distrito Capital Piso 7
 </div>
      <div>
     <h2 className="text-white/80 text-sm font-semibold">Spain</h2>
-         <p className="text-[12px]] text-white/80 leading-tight">
+         <p className="text-[12px] text-white/80 leading-tight">
 Plaza de la Independencia 8,
 <br/>
 Piso 3 Madrid Spain

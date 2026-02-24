@@ -35,7 +35,7 @@ Low-Carbon Infrastructure Partner
 
   {/* Description */}
   <p className="mb-2 md:mb-3 text-[14px] leading-tight">High-performance drilling and future-ready oil & gas infrastructure</p>
-  <p className="text-[12px]] text-white/50 leading-tight">
+  <p className="text-[12px] text-white/50 leading-tight">
    Specialist drilling and field development partner (Upstream & Near-Field Midstream).
     <br />
   Combining drilling excellence with digital optimization and low-carbon readiness.

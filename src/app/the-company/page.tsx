@@ -32,7 +32,7 @@ THE COMPANY
             <h2 className="text-white/80 text-[13px] font-semibold">Orinox: What we do now, and where we are going.</h2>
             </div> 
          <div>
-        <p className="text-[12px]] text-white/70 leading-tight">
+        <p className="text-[12px] text-white/70 leading-tight">
 Specialist drilling and field development partner focused on Upstream and Near-Field Midstream.
 Combining legacy expertise in drilling with digital optimization and low-carbon infrastructure.
 Targeting efficient IRR across a pipeline of drilling contracts and CCUS/hydrogen-ready advisory opportunities.</p>

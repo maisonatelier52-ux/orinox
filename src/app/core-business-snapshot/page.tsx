@@ -32,7 +32,7 @@ What Orinox already does well and reliably.
         </div>
 
   <div>
-         <p className="text-[12px]] text-white/60 leading-tight">
+         <p className="text-[12px] text-white/60 leading-tight">
 Onshore drilling operations and well engineering.
            <br/>
 Workovers and completions support.

@@ -25,7 +25,7 @@ export default function OrinoxCommitsToDeliver() {
            </div>
         
        <div>
-        <p className="text-[12px]] text-white/60 leading-tight">
+        <p className="text-[12px] text-white/60 leading-tight">
 A phased drilling + near-field midstream scope, with integrated low-carbon readiness.
  
   <br/>

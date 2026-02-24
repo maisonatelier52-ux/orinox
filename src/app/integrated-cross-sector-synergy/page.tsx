@@ -24,10 +24,10 @@ export default function IntegratedCrossSector() {
 
   <div>
     <h2 className="text-white/70 text-[13px] font-semibold">Integrated Cross-Sector Synergy</h2>
-         <p className="text-[12px]] text-white/60 leading-tight">
+         <p className="text-[12px] text-white/60 leading-tight">
 Perhaps Orinox’s most unique differentiator is the very premise of the company – an integrated approach bridging upstream and midstream, which allows synergies that stand-alone firms cannot offer. In practical terms, this means seamless coordination from reservoir to market. For example, when planning a field, Orinox’s team simultaneously plans the drilling program and the evacuation pipeline, optimizing both together. We might drill fewer wells but ensure each is placed to align with gathering infrastructure, accelerating first delivery.</p></div>
          <div>
-        <p className="text-[12px]] text-white/60 leading-tight">
+        <p className="text-[12px] text-white/60 leading-tight">
 There’s a financial synergy as well: we can bundle upstream and midstream investments in creative ways to improve project economics (e.g., using midstream cash flows, which are often stable, to support exploration risk). Clients (or host countries) benefit from dealing with one entity responsible for the whole value chain – reducing interface risk, avoiding blame games between producers and transporters, and simplifying project management.
 </p></div>
        

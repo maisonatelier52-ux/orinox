@@ -33,7 +33,7 @@ export default function CoreMidstream() {
         {/* Description */}
         <div>
           <h2 className="text-[13px] text-white/80">Pre-FEED / FEED Support for Gathering & Flowlines</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
       Well pad tie-in design, routing options, hydraulic considerations.
            <br/>
       Gathering system concepts for new fields.
@@ -43,21 +43,21 @@ export default function CoreMidstream() {
         </div>
         <div>
           <h2 className="text-[13px] text-white/80">Pipeline & Flowline Construction Management (via EPC partners)</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
      On-site construction supervision.   <br/>
      Quality assurance, welding inspection, pressure testing coordination.     </p>
         </div>
       
        <div>
           <h2 className="text-[13px] text-white/80">Tankage & Storage Interface Engineering</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
     Basic tank farm layout suggestions for field terminals (crude, produced water).  <br/>
    Metering, LACT units, small loading facilities.   </p>
         </div>
       
        <div>
           <h2 className="text-[13px] text-white/80">Operations Readiness & Commissioning Support</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
 Procedures, checklists, and training for first oil/gas.  <br/>
  Emergency response and safety drills around new midstream assets.   </p>
         </div>

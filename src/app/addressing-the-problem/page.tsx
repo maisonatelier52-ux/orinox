@@ -35,9 +35,9 @@ Inefficient, High-Emission Field Development
         </div>
 
         {/* Description */}
-        <p className="text-[12px]] text-white">Traditional drilling and midstream development is siloed, inefficient, and often wasteful.</p>
+        <p className="text-[12px] text-white">Traditional drilling and midstream development is siloed, inefficient, and often wasteful.</p>
         <div>
-         <p className="text-[12px]] text-white leading-tight">
+         <p className="text-[12px] text-white leading-tight">
 Siloed drilling, subsurface, and infrastructure planning.
            <br/>
  High NPT, cost overruns, under-utilized pipelines and terminals.

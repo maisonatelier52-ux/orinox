@@ -29,15 +29,15 @@ Midstream (Transportation, Storage, Processing, Marketing) Services
 
   <div>
     <h2 className="text-white/80 text-sm">Gathering & Transportation</h2>
-         <p className="text-[12px]] text-white/60 leading-tight">
+         <p className="text-[12px] text-white/60 leading-tight">
 Orinox designs, builds, and operates the infrastructure that moves hydrocarbons from the wellhead to processing or market. This includes gathering pipeline systems in field areas – small-diameter flowlines that connect each well or platform to central collection points. We can install multi-phase pipelines or separate oil/gas gathering lines, complete with compression for gas and pumps for oil as needed.</p>
  </div>
          <div>
-        <p className="text-[12px]] text-white/60 leading-tight">
+        <p className="text-[12px] text-white/60 leading-tight">
 Orinox also offers trunk pipeline development for larger volumes: e.g., regional oil pipelines from a field to a refinery or port, and gas transmission pipelines from producing basins to consuming markets. We have expertise in route selection, pipeline engineering, rights-of-way and permitting, and pipeline construction management. Our operations team would monitor pipelines via SCADA systems to ensure safe, efficient transport. Given that pipelines are the safest mode of oil & gas transport over long distances, Orinox will invest in advanced leak detection, corrosion control, and strict maintenance programs. Beyond pipelines, we can manage other transport modes as part of a solution – coordinating trucking fleets, rail transport, or marine tankers/barges where pipelines are not available. For example, Orinox might operate a fleet of oil tank trucks in an early production scenario, or charter barges to move crude down a river system.</p></div>
        <div>
 
-         <p className="text-[12px]] text-white/60 leading-tight">
+         <p className="text-[12px] text-white/60 leading-tight">
 The transportation service aims to ensure that product flows reliably from production sites to the next stage with minimal bottlenecks. (In the Permian Basin, for instance, gas production has nearly doubled to 25 Bcf/d in recent years, requiring ~16 Bcf/d of new pipeline capacity by 2030 – a need Orinox could help meet.)</p>     </div>
       
   

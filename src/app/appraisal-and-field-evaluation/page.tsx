@@ -30,13 +30,13 @@ Upstream (Exploration & Production) Services
 
   <div>
     <h2 className="text-white/80 text-sm">Appraisal & Field Evaluation</h2>
-         <p className="text-[12px]] text-white/80 leading-tight">
+         <p className="text-[12px] text-white/80 leading-tight">
 After a discovery, Orinox conducts appraisal drilling and testing to determine the field’s size and commercial viability.     </p>
         </div>
          <div>
-        <p className="text-[12px]] text-white/80 leading-tight">Services include drilling appraisal wells, performing well logs and extended well flow tests, coring and fluid sampling, and reservoir characterization studies. Our reservoir engineers build dynamic models to estimate reserves and optimal development plans.</p>  </div> 
+        <p className="text-[12px] text-white/80 leading-tight">Services include drilling appraisal wells, performing well logs and extended well flow tests, coring and fluid sampling, and reservoir characterization studies. Our reservoir engineers build dynamic models to estimate reserves and optimal development plans.</p>  </div> 
         <div>
-        <p className="text-[12px]] text-white/80 leading-tight">
+        <p className="text-[12px] text-white/80 leading-tight">
       For example, we provide well test analysis, pressure-volume-temperature (PVT) analysis, and simulation of different development scenarios. The goal is to assess reservoir deliverability and design the most effective development scheme. By combining subsurface expertise with well testing, Orinox can reduce uncertainty and ensure the development plan matches the reservoir’s characteristics. </p>
         </div>
      

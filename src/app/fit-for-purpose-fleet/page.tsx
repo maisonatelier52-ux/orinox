@@ -31,7 +31,7 @@ FIT-FOR-PURPOSE FLEET
         {/* Description */}
         <div>
           <h2 className="text-[13px] text-white/80">Type of Rigs</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
 Light / medium / heavy land rigs      <br/>
   HP rating (e.g., 750 HP vs 1500 HP)
   <br/>
@@ -40,7 +40,7 @@ Light / medium / heavy land rigs      <br/>
         </div>
         <div>
           <h2 className="text-[13px] text-white/80">Specialization</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
 Conventional vertical drilling <br/>
  High-angle / horizontal <br/>
  Workover / well service units   </p>
@@ -48,14 +48,14 @@ Conventional vertical drilling <br/>
       
        <div>
           <h2 className="text-[13px] text-white/80">Age & Condition</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
 New builds vs mid-life vs old units <br/>
 Automation level (top drive, iron roughneck, auto-driller, etc.) </p>
         </div>
       
        <div>
           <h2 className="text-[13px] text-white/80">Ownership Model</h2>
-          <p className="text-[12px]] text-white/60 leading-tight">
+          <p className="text-[12px] text-white/60 leading-tight">
 Fully owned rigs <br/>
 Long-term leased rigs <br/>
 “Asset-light” model relying on partnership fleets </p>

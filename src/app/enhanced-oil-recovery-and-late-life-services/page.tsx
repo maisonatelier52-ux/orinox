@@ -29,16 +29,16 @@ Upstream (Exploration & Production) Services
 
     <h2 className="text-white/80 text-sm">Enhanced Oil Recovery (EOR) & Late-life Services</h2>
   <div>
-         <p className="text-[12px]] text-white/60 leading-tight">
+         <p className="text-[12px] text-white/60 leading-tight">
 For maturing fields, Orinox can evaluate and implement EOR techniques, for example, gas injection, waterflood design, chemical EOR (polymer/surfactant flooding) or even CO₂ injection if available. We run pilot tests, design surface facilities (injection plants), and monitor EOR performance.</p>    
   </div>
          <div>
-        <p className="text-[12px]] text-white/60 leading-tight">
+        <p className="text-[12px] text-white/60 leading-tight">
 Additionally, as fields near end-of-life, Orinox provides well workovers and re-completions to revive production (e.g., adding perforations to new zones, or converting producers to injectors and vice versa).</p>
 </div>
        <div>
 
-         <p className="text-[12px]] text-white/60 leading-tight">
+         <p className="text-[12px] text-white/60 leading-tight">
   Finally, we can plan and execute plug & abandonment of wells safely and cost-effectively when needed, and manage decommissioning of small facilities – fulfilling late-life obligations in an environmentally responsible manner.</p>  
        </div>
       
