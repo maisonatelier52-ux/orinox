@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Future() {
   return (
-    <main className="relative min-h-screen min-h-[100dvh] w-full overflow-hidden">
+    <main className="relative h-screen w-full overflow-hidden">
       <img
         src="/images/future.png"
         alt="Oil and Gas Facility"
         className="absolute inset-0 h-full w-full object-cover"
       />
 
-      {/* <div className="absolute inset-0 bg-black/40" /> */}
+      <div className="absolute inset-0 bg-black/20" />
 
       <div className="absolute top-8 right-10 md:right-16 z-20 flex items-center gap-3">
         <img

@@ -9,7 +9,7 @@ export default function CoreMidstream() {
         className="absolute inset-0 h-full w-full object-cover"
       />
 
-      <div className="absolute inset-0 bg-black/20" />
+      <div className="absolute inset-0 bg-black/30" />
 
       <div className="absolute top-8 right-10 md:right-16 z-20 flex items-center gap-3">
         <img
@@ -19,7 +19,7 @@ export default function CoreMidstream() {
         />
       </div>
 
-     <div className="absolute top-1/2 w-110 -translate-y-1/2 left-6 sm:left-10 lg:left-25 z-20 space-y-5 max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">        <div>
+     <div className="absolute top-130 md:top-1/2 w-110 -translate-y-1/2 left-10 sm:left-10 lg:left-25 z-20 space-y-5 max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">        <div>
           <p className="inline-block text-xs uppercase tracking-wide text-white/50 mb-1">
         CURRENT CAPABILITIES
           </p>
@@ -33,7 +33,7 @@ export default function CoreMidstream() {
         {/* Description */}
         <div>
           <h2 className="text-[13px] text-white/80">Pre-FEED / FEED Support for Gathering & Flowlines</h2>
-          <p className="text-[12px] text-white/60 leading-tight">
+          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
       Well pad tie-in design, routing options, hydraulic considerations.
            <br/>
       Gathering system concepts for new fields.
@@ -43,21 +43,21 @@ export default function CoreMidstream() {
         </div>
         <div>
           <h2 className="text-[13px] text-white/80">Pipeline & Flowline Construction Management (via EPC partners)</h2>
-          <p className="text-[12px] text-white/60 leading-tight">
+          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
      On-site construction supervision.   <br/>
      Quality assurance, welding inspection, pressure testing coordination.     </p>
         </div>
       
        <div>
           <h2 className="text-[13px] text-white/80">Tankage & Storage Interface Engineering</h2>
-          <p className="text-[12px] text-white/60 leading-tight">
+          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
     Basic tank farm layout suggestions for field terminals (crude, produced water).  <br/>
    Metering, LACT units, small loading facilities.   </p>
         </div>
       
        <div>
           <h2 className="text-[13px] text-white/80">Operations Readiness & Commissioning Support</h2>
-          <p className="text-[12px] text-white/60 leading-tight">
+          <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
 Procedures, checklists, and training for first oil/gas.  <br/>
  Emergency response and safety drills around new midstream assets.   </p>
         </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhoWeAre() {
   return (
-    <main className="relative min-h-screen min-h-[100dvh] w-full overflow-hidden">
+    <main className="relative h-screen w-full overflow-hidden">
       <img
         src="/images/who-we-are.png"
         alt="Oil and Gas Facility"

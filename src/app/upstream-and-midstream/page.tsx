@@ -1,6 +1,6 @@
 export default function Upstream() {
   return (
-    <main className="relative min-h-screen min-h-[100dvh] h-screen w-full overflow-hidden">
+    <main className="relative  h-screen w-full overflow-hidden">
       {/* Background Image */}
       <img
         src="/images/e-p.png"
@@ -25,7 +25,7 @@ export default function Upstream() {
           <div className="text-right space-y-5">
             {/* Upstream */}
             <div>
-              <p className="text-white/70 text-[12px] md:text-[12px] mb-2">
+              <p className="text-white/70 text-[13px] md:text-[12px] mb-2">
           Upstream (Exploration & Production)
               </p>
               <h1 className="text-white text-5xl md:text-6xl font-light tracking-wide">
@@ -35,7 +35,7 @@ export default function Upstream() {
 
             {/* Midstream */}
             <div>
-              <p className="text-white/70 text-[14px] md:text-[12px] mb-2">
+              <p className="text-white/70 text-[13px] md:text-[12px] mb-2">
                Midstream (Transportation & Storage)
               </p>
               <h1 className="text-white text-5xl md:text-6xl font-light tracking-wide">
@@ -45,12 +45,12 @@ export default function Upstream() {
           </div>
         </div>
 
-        {/* Bottom Right Description */}
-        <div className="flex justify-end pb-14">
-          <p className="max-w-xl text-right text-white/70 text-[12px] leading-tight">
-           ORINOX is a full-service oil drilling company operating across the Upstream (Exploration & Production) and Midstream (Transportation & Storage) segments of the oil and gas value chain.
-          </p>
-        </div>
+    {/* Bottom Right Description */}
+<div className="flex justify-start md:justify-end pb-14">
+  <p className="max-w-xl text-left md:text-right text-white/70 text-[13px] md:text-[12px] leading-tight">
+    ORINOX is a full-service oil drilling company operating across the Upstream (Exploration & Production) and Midstream (Transportation & Storage) segments of the oil and gas value chain.
+  </p>
+</div>
       </div>
     </main>
   );

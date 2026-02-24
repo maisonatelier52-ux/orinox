@@ -25,7 +25,7 @@ export default function GlobalFootprint() {
             <div key={index} className="flex-1">
 
               {/* Label */}
-              <p className="text-[12px] tracking-[0.25em] text-white/90 mb-4">
+              <p className="text-[13px] md:text-[12px] tracking-[0.25em] text-white/90 mb-4">
                 ORINOX PRESENCE
               </p>
 

@@ -17,7 +17,7 @@ export default function WhyOrinox() {
         />
       </div>
 
-        <div className="absolute top-1/2 -translate-y-1/2 left-6 space-y-5 sm:left-10 lg:left-25 z-20  max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">    
+        <div className="absolute top-1/2 -translate-y-1/2 left-10 space-y-5 sm:left-10 lg:left-25 z-20  max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">    
    <div>
         
           <h1 className="text-[14px] font-semibold leading-none text-white/70 ">
@@ -27,25 +27,25 @@ Why Orinox?
 
   <div>
     
-         <p className="text-[12px] text-white/60 leading-tight">
+         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
 Faster time-to-production, reduced flaring and methane leakage, strengthened local capability, and improved reliability of evacuation infrastructure—delivered with transparent KPIs and auditable controls.
 </p>  </div>
          <div>
             <h2 className="text-white/70 text-[13px] font-semibold">Compliance-first Execution</h2>
-        <p className="text-[12px] text-white/60 leading-tight">
+        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
 Permit-to-work, well control, contractor bridging, and ESIA/ESMP planning embedded from day one. Clear reporting cadence and government audit rights.
 </p>
 </div>
        <div>
 <h2 className="text-white/70 text-[13px] font-semibold">Measured Emissions Management</h2>
-         <p className="text-[12px] text-white/60 leading-tight">
+         <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
 LDAR programs, flaring minimization, fuel monitoring, and emissions dashboards (MRV-ready) to meet evolving methane and climate requirements.
 </p>
      
        </div>
        <div>
         <h2 className="text-white/70 text-[13px] font-semibold">Local Content and Skills Transfer</h2>
-        <p className="text-[12px] text-white/60 leading-tight">
+        <p className="text-[13px] md:text-[12px] text-white/60 leading-tight">
       Structured workforce development, supplier onboarding, and training pipelines designed to meet local content regulations and build durable national capability.
 
      </p>
