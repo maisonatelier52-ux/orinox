@@ -9,7 +9,7 @@ export default function OrinoxLegacy() {
 
         {/* LEFT CONTENT */}
         <div className="flex-1 max-w-[580px]">
-          <h1 className="text-[38px] md:text-[64px] font-bold text-white/90 leading-[1.0] mb-8">
+          <h1 className="text-[38px] md:text-[64px] font-bold text-white leading-[1.0] mb-8">
             The Orinox Legacy
           </h1>
 
@@ -48,16 +48,14 @@ export default function OrinoxLegacy() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="flex-1 w-full max-w-[680px]"
         >
-          <div className="relative aspect-[16/11] rounded-3xl overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.7)] group">
+          <div className="relative aspect-[16/11] rounded-xl overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.7)] group">
             <Image
               src="/images/storage-solutions.jpg"
               alt="Orinox Integrated Solutions"
               fill
-              className="object-cover transition-all duration-700 scale-100 group-hover:scale-105"
+              className="object-cover grayscale opacity-40 transition-all duration-700 scale-100 group-hover:scale-105"
               priority
             />
-            {/* Subtler Dark Overlay - Fixed */}
-            <div className="absolute inset-0 bg-black/70 grayscale" />
           </div>
         </motion.div>
 
