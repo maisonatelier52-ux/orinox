@@ -120,7 +120,7 @@ export default function OrinoxAbout() {
   }, []);
 
   return (
-    <section className="relative  h-screen w-full bg-black overflow-hidden text-white">
+    <section className="relative pt-10 pb-20 md:pt-0 md:pb-0 md:h-screen w-full bg-black overflow-hidden text-white">
 
       <AnimatePresence>
         {phase !== "done" && (

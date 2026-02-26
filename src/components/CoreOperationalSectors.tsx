@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function CoreOperationalSectors() {
   return (
-    <section className="w-full bg-black text-white py-20 px-8 md:px-16 lg:px-24">
+    <section className="w-full bg-black text-white  pt-20 pb-10 md:pb-20 md:pt-20 px-8 md:px-16 lg:px-24">
       <div className="max-w-full mx-auto flex flex-col items-center text-center">
 
         {/* Heading */}

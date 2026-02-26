@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function QuoteSection() {
   return (
-    <section className="w-full bg-[#0A1A2F] py-20 md:py-4 0 px-6 md:px-20">
+    <section className="w-full bg-[#0A1A2F] py-20 md:py-30 0 px-6 md:px-20">
       <div className="max-w-[1100px] mx-auto text-center">
         <motion.h2 
           initial={{ y: 50, opacity: 0 }}

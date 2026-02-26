@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function StrategicLeadership() {
   return (
-    <section className="w-full bg-black text-white py-20  px-8 md:px-16 lg:px-24">
+    <section className="w-full bg-black text-white py-10 md:py-20  px-8 md:px-16 lg:px-24">
       <div className="max-w-[1200px] mx-auto flex">
 
         {/* Content */}
