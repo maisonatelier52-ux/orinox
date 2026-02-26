@@ -5,7 +5,7 @@ import Orinox from "./Orinox";
 import { motion, AnimatePresence, useAnimationControls } from "framer-motion";
 
 // Seismic scan line component
-function ScanLines({ count = 12 }) {
+function ScanLines({ count = 12 }: { count?: number }) {
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
       {Array.from({ length: count }).map((_, i) => (
@@ -108,12 +108,10 @@ function CornerBrackets({ visible }:CornerBracketsProps) {
 }
 
 export default function OrinoxAbout() {
-  const [phase, setPhase] = useState("intro"); // "intro" | "burst" | "done"
+  const [phase, setPhase] = useState("intro"); 
 
   useEffect(() => {
-    // After grid/scan animation (~1.8s), trigger the burst
     const burstTimer = setTimeout(() => setPhase("burst"), 1800);
-    // After burst settles, mark done
     const doneTimer = setTimeout(() => setPhase("done"), 2800);
     return () => {
       clearTimeout(burstTimer);
@@ -122,9 +120,8 @@ export default function OrinoxAbout() {
   }, []);
 
   return (
-    <section className="relative min-h-screen w-full bg-black overflow-hidden text-white">
+    <section className="relative  h-screen w-full bg-black overflow-hidden text-white">
 
-      {/* ── INTRO LAYER ── */}
       <AnimatePresence>
         {phase !== "done" && (
           <motion.div
@@ -201,9 +198,9 @@ export default function OrinoxAbout() {
         initial={{ opacity: 0 }}
         animate={{ opacity: phase === "done" ? 1 : 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="relative z-10 px-6 py-10 md:px-20 md:pt-20"
+        className="relative z-10 px-8 md:px-16 lg:px-24 md:pt-20"
       >
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[1100px] ">
           {/* Top bar */}
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10 md:gap-0">
             <img

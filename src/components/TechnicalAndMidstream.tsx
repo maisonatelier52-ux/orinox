@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function TechnicalAndMidstream() {
   return (
-    <section className="w-full bg-black text-white py-0 md:py-45 px-8 md:px-16 lg:px-12">
+    <section className="w-full bg-black text-white px-8 md:px-16 lg:px-12">
       <div className="max-w-full mx-auto flex flex-col items-center text-center">
        <div className="max-w-250">
       <motion.h1 
@@ -105,7 +105,7 @@ Integrated Technical Infrastructure & Midstream Logistics
       transition={{ duration: 1, ease: "easeOut" }}
       className="pt-10"
     >
-      <div className="mx-auto border border-white/60 rounded-xl p-7 md:p-14 flex flex-col lg:flex-row gap-12">
+      <div className="mx-auto bg-[#1a1a1a] rounded-xl p-7 md:p-14 flex flex-col lg:flex-row gap-12">
         {/* LEFT CONTENT */}
         <div className="flex-1 pt-5 ">
           {/* Small Label */}

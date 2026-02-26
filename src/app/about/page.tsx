@@ -18,7 +18,6 @@ export default function About() {
   return (
    <>
     <OrinoxAbout />
-    <div className="h-0 md:h-130 bg-black"/>
     <OrinoxLegacy/>
     <MissionVision/>  
     <CoreValues/>

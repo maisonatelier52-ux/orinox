@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function IntegratedInfrastructure() {
   return (
-    <section className="w-full bg-black overflow-hidden pt-5 md:pt-0">
+    <section className="w-full bg-[#1a1a1a] overflow-hidden pt-5 md:pt-0">
       <div className="flex flex-col lg:flex-row items-start mt-5">
         {/* RIGHT IMAGE - Order 1 on Mobile, 2 on Large */}
         <div className="flex-1 w-full max-w-[580px] order-1 lg:order-2 px-8 lg:px-0">

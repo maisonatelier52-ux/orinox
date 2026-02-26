@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function OrinoxLegacy() {
   return (
-    <section className="w-full bg-black py-6 md:py-40 px-8 md:px-16 lg:px-24">
+    <section className="w-full bg-black px-8 md:px-16 lg:px-24">
       <div className="max-w-[560px]">
 
         {/* Headline - appears immediately */}

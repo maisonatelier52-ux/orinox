@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AdvancingFrontier() {
   return (
-    <section className="w-full bg-black text-white pt-5 md:pt-40 px-6 md:px-20">
+    <section className="w-full bg-black text-white py-10 md:pt-10 px-6 md:px-20">
       <div className=" mx-auto flex flex-col items-center text-center">
         <h1 className="text-[32px] md:text-6xl lg:text-[86px] leading-none font-bold  mb-4 md:mb-9">
           Advancing the Frontier of Petroleum Infrastructure

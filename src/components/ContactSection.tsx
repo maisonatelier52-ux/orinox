@@ -76,7 +76,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="w-full bg-black text-white py-0 md:py-40 px-8 md:px-16 lg:px-24">
+    <section className="w-full bg-black text-white py-0 px-8 md:px-16 lg:px-24">
       <div className="mx-auto flex flex-col lg:flex-row items-start gap-10 md:gap-40 py-10">
 
         {/* RIGHT FORM - Order 1 on Mobile, 2 on Large */}

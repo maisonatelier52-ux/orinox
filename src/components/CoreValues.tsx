@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function CoreValues() {
   return (
-    <section className="w-full bg-black text-white py-20 px-8 md:px-16 lg:px-24">
+    <section className="w-full bg-black text-white py-7 px-8 md:px-16 lg:px-24">
       <div className="max-w-[1200px] mx-auto">
 
         {/* Heading */}
@@ -12,7 +12,7 @@ export default function CoreValues() {
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-[33px] md:text-6xl font-bold md:mb-20 mb-10 md:pb-15"
+          className="text-[33px] md:text-6xl font-bold md:mb-20 mb-10"
         >
           Core Values
         </motion.h2>
