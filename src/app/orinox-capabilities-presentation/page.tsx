@@ -108,26 +108,39 @@ export default function OrinoxCapabilitiesPresentation() {
         </div>
       </section>
 
-      {/* 4. CURRENT CAPABILITIES - CORE UPSTREAM */}
+      {/* 4. MISSION & VISION */}
       <section className="relative h-screen w-full overflow-hidden block">
-        <img src="/images/current-capabilities.png" alt="" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="absolute top-1/2 -translate-y-1/2 left-10 lg:left-25 z-20 space-y-3 md:space-y-5 max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">
-          <div>
-            <p className="inline-block text-xs uppercase tracking-wide mb-1 text-white/50">CURRENT CAPABILITIES</p>
-          </div>
-          <h1 className="text-[14px] font-semibold leading-none text-white/80">Core Upstream</h1>
-          <div className="space-y-1">
-            <h2 className="text-white/80 text-sm font-semibold">Drilling Services & Rig Operations</h2>
-            <p className="text-[12px] text-white/60 leading-tight">Onshore drilling (exploration, appraisal). Work-over operations. Day-rate or turnkey.</p>
-          </div>
-          <div className="space-y-1">
-            <h2 className="text-white/80 text-sm font-semibold">Well Engineering & project management</h2>
-            <p className="text-[12px] text-white/60 leading-tight">Well design (trajectory, casing, mud). AFE and cost estimation. Drilling program planning.</p>
-          </div>
-          <div className="space-y-1">
-            <h2 className="text-white/80 text-sm font-semibold">Completions & Basic Production Support</h2>
-            <p className="text-[12px] text-white/60 leading-tight">Casing/cementing supervision. Simple completions and clean-up. Hand-over procedures.</p>
+        <img
+          src="/images/transition-capabilities.png"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute bottom-20 left-0 right-0 z-20 px-10 md:px-32">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 lg:gap-32 max-w-7xl">
+            {/* Mission */}
+            <div className="flex flex-col">
+              <p className="text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-5">
+                MISSION
+              </p>
+              <h2 className="text-xl md:text-2xl lg:text-[26px] font-medium leading-[1.5] text-white">
+                To deliver high-precision infrastructure and<br className="hidden lg:block" />
+                technical reliability across the global energy<br className="hidden lg:block" />
+                value chain.
+              </h2>
+            </div>
+
+            {/* Vision */}
+            <div className="flex flex-col">
+              <p className="text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-5">
+                VISION
+              </p>
+              <h2 className="text-xl md:text-2xl lg:text-[26px] font-medium leading-[1.5] text-white">
+                Setting the global standard for operational<br className="hidden lg:block" />
+                transparency and technical mastery in<br className="hidden lg:block" />
+                petroleum logistics.
+              </h2>
+            </div>
           </div>
         </div>
       </section>
