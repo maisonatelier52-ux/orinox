@@ -42,7 +42,7 @@ export default function OrinoxCapabilitiesPresentation() {
       {/* 2. WHO WE ARE */}
       <section className="relative h-screen w-full overflow-hidden block">
         <img
-          src="/images/storage-solutions.jpg"
+          src="/images/storage-solutions1.jpg"
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -68,33 +68,42 @@ export default function OrinoxCapabilitiesPresentation() {
             </p>
           </div>
           <div>
-            <button className="px-8 py-3 border border-white/60 text-[10px] font-medium uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
+            <button className="px-8 py-3 border rounded-[5px] border-white/60 text-[10px] font-medium uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
               Know More
             </button>
           </div>
         </div>
       </section>
 
-      {/* 3. WHO WE ARE */}
+      {/* 3. WHAT WE DO */}
       <section className="relative h-screen w-full overflow-hidden block">
-        <img src="/images/who-we-are.png" alt="" className="absolute inset-0 h-full w-full object-cover" />
+        <img
+          src="/images/responsible-hydrocarbons-quantifiable-esc-metrics.png"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+        />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute bottom-10 left-10 lg:left-25 z-20 space-y-3 md:space-y-5 max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col">
-          <div>
-            <p className="inline-block text-xs uppercase tracking-wide mb-1 text-white/50">WHO WE ARE</p>
-          </div>
-          <h1 className="text-[14px] font-semibold leading-none text-white/80 text-2xl lg:text-3xl mb-4">
-            Precision Drilling &<br />Low-Carbon Infrastructure Partner
+        <div className="absolute top-24 md:top-36 left-10 md:left-32 z-20 max-w-5xl text-white flex flex-col">
+          <p className="text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-6">
+            WHAT WE DO
+          </p>
+          <h1 className="text-4xl md:text-5xl lg:text-[52px] font-bold leading-[1.1] mb-8 tracking-tight max-w-4xl">
+            We develop and manage Critical,<br />
+            Capital-Intensive Infrastructure<br />
+            for the Oil & Gas Industry
           </h1>
-          <div className="space-y-1">
-            <p className="text-[12px] text-white/60 leading-tight whitespace-pre-line">
-              High-performance drilling and future-ready oil & gas infrastructure
+          <div className="space-y-6 mb-12 max-w-2xl">
+            <p className="text-[14px] md:text-[15px] text-white/90 leading-relaxed font-normal">
+              Orinox Holding was founded with a clear mandate: to deliver technical excellence and absolute transparency to the petroleum infrastructure sector. Since our inception as a specialized engineering firm, we have evolved into a premier global organization, managing upstream exploration and midstream logistics with unparalleled precision.
             </p>
-            <p className="text-[12px] text-white/60 leading-tight whitespace-pre-line">
-              Specialist drilling and field development partner (Upstream & Near-Field Midstream).<br />
-              Combining drilling excellence with digital optimization and low-carbon readiness.<br />
-              Targeting attractive IRRs across drilling, CCUS, and hydrogen-ready advisory.
+            <p className="text-[14px] md:text-[15px] text-white/90 leading-relaxed font-normal">
+              Our path is defined by disciplined innovation and high-integrity development, ensuring sustained resource security and operational efficiency throughout the energy value chain.
             </p>
+          </div>
+          <div>
+            <button className="px-10 py-3.5 border rounded-[5px] border-white/60 text-[11px] font-medium uppercase tracking-[0.15em] hover:bg-white hover:text-black transition-all duration-300">
+              Know More
+            </button>
           </div>
         </div>
       </section>
