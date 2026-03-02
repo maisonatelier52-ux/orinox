@@ -13,8 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Orinox",
-  description: "Orinox",
+  title: "Orinox Holding - Global Technical Infrastructure",
+  description: "Global leader in strategic development and technical management of capital-intensive infrastructure across the petroleum value chain.",
+  openGraph: {
+    title: "Orinox Holding",
+    description: "Global leader in strategic development and technical management of capital-intensive infrastructure.",
+    images: [
+      {
+        url: "/images/logo1.png",
+        width: 1200,
+        height: 630,
+        alt: "Orinox Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Orinox Holding",
+    description: "Global leader in strategic development and technical management of capital-intensive infrastructure.",
+    images: ["/images/logo1.png"],
+  },
 };
 
 export default function RootLayout({
