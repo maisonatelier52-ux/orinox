@@ -32,29 +32,31 @@ export default function OrinoxCapabilitiesPresentation() {
 
       <Orinox />
 
-      {/* 1. UPSTREAM/MIDSTREAM OVERVIEW (Special Upstream Layout) */}
-      <section className="relative min-h-screen w-full overflow-hidden block">
-        <img src="/images/e-p.png" alt="" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-black/30" />
-        <div className="relative z-10 min-h-screen flex flex-col px-6 md:px-32 text-white py-20 md:py-0">
-          <div className="flex-1 flex justify-end items-center">
-            <div className="text-right space-y-4 md:space-y-4">
-              <motion.div {...anim(0.1)} className="flex flex-col items-end">
-                <p className="text-white/80 text-[12px] md:text-[13px] font-medium tracking-normal mb-1">Upstream (Exploration & Production)</p>
-                <h1 className="text-white text-4xl md:text-[86px] font-extralight leading-none tracking-tight">E&P</h1>
-              </motion.div>
-              <motion.div {...anim(0.3)} className="flex flex-col items-end">
-                <p className="text-white/80 text-[12px] md:text-[13px] font-medium tracking-normal mb-1">Midstream (Transportation & Storage)</p>
-                <h1 className="text-white text-4xl md:text-[86px] font-extralight leading-none tracking-tight">T&S</h1>
-              </motion.div>
-            </div>
-          </div>
-          <motion.div {...anim(0.5)} className="flex justify-end pb-12 md:pb-24">
-            <p className="max-w-xl text-right text-white/70 text-[12px] md:text-[13px] font-medium leading-[1.7] tracking-normal">
-              ORINOX is a full-service oil drilling company operating across the Upstream (Exploration & Production) and Midstream (Transportation & Storage) segments of the oil and gas value chain.
-            </p>
+      {/* 1. COMPANY HISTORY (Upstream/Midstream Overview) */}
+      <section className="relative h-screen w-full overflow-hidden flex flex-col justify-center bg-black px-6 md:px-32">
+        <img src="/images/e-p.png" alt="Industrial Sunset" className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-black/40" />
+
+        <div className="relative z-10 max-w-4xl space-y-6">
+          <motion.div {...anim(0.1)} className="space-y-4">
+            <p className="text-white text-[12px] md:text-[12px] font-medium uppercase tracking-[0.2em]">Company History</p>
+            <h1 className="text-white text-4xl md:text-4xl lg:text-[38px] font-bold leading-[1.1] tracking-tight">
+              A Legacy of Specialized Drilling Excellence
+            </h1>
           </motion.div>
+
+          <motion.p {...anim(0.3)} className="text-white/80 text-[14px] md:text-[16px] leading-relaxed max-w-2xl font-light">
+            ORINOX is a full-service oil drilling company operating across the Upstream (Exploration & Production)
+            and Midstream (Transportation & Storage) segments of the oil and gas value chain.
+          </motion.p>
         </div>
+
+        {/* Action Button */}
+        <motion.div {...anim(0.5)} className="absolute bottom-20 md:bottom-24 z-10">
+          <button className="px-8 py-4 border border-white/40 text-white text-[12px] md:text-[12px] font-medium tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-500 rounded-sm">
+            Know More
+          </button>
+        </motion.div>
       </section>
 
       {/* 2. WHO WE ARE */}
@@ -69,7 +71,7 @@ export default function OrinoxCapabilitiesPresentation() {
           <motion.p {...anim(0.1)} className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-5">
             WHO WE ARE
           </motion.p>
-          <motion.h1 {...anim(0.2)} className="text-3xl md:text-[56px] font-bold leading-[1.1] md:leading-[1.05] mb-5 tracking-tight">
+          <motion.h1 {...anim(0.2)} className="text-3xl md:text-[36px] font-bold leading-[1.1] md:leading-[1.05] mb-5 tracking-tight">
             Precision Drilling &<br />
             Low-Carbon Infrastructure Partner
           </motion.h1>
@@ -105,7 +107,7 @@ export default function OrinoxCapabilitiesPresentation() {
           <motion.p {...anim(0.1)} className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-6">
             WHAT WE DO
           </motion.p>
-          <motion.h1 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[52px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
+          <motion.h1 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[32px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
             We develop and manage Critical,<br className="hidden md:block" />
             Capital-Intensive Infrastructure<br className="hidden md:block" />
             for the Oil & Gas Industry
@@ -138,10 +140,10 @@ export default function OrinoxCapabilitiesPresentation() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 lg:gap-32 max-w-7xl">
             {/* Mission */}
             <motion.div {...anim(0.1)} className="flex flex-col">
-              <p className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-5">
+              <p className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/80 mb-5">
                 MISSION
               </p>
-              <h2 className="text-xl md:text-2xl lg:text-[26px] font-medium leading-[1.5] text-white">
+              <h2 className="text-xl md:text-2xl lg:text-[20px] font-medium leading-[1.5] text-white">
                 To deliver high-precision infrastructure and<br className="hidden lg:block" />
                 technical reliability across the global energy<br className="hidden lg:block" />
                 value chain.
@@ -150,10 +152,10 @@ export default function OrinoxCapabilitiesPresentation() {
 
             {/* Vision */}
             <motion.div {...anim(0.3)} className="flex flex-col">
-              <p className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-5">
+              <p className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/80 mb-5">
                 VISION
               </p>
-              <h2 className="text-xl md:text-2xl lg:text-[26px] font-medium leading-[1.5] text-white">
+              <h2 className="text-xl md:text-2xl lg:text-[20px] font-medium leading-[1.5] text-white">
                 Setting the global standard for operational<br className="hidden lg:block" />
                 transparency and technical mastery in<br className="hidden lg:block" />
                 petroleum logistics.
@@ -179,7 +181,7 @@ export default function OrinoxCapabilitiesPresentation() {
             alt="Orinox Logo"
             className="h-[40px] md:h-[70px] w-auto opacity-95 object-contain"
           />
-          <h1 className="text-3xl md:text-[64px] font-bold text-white tracking-tight">Core Values</h1>
+          <h1 className="text-3xl md:text-[34px] font-bold text-white tracking-tight">Core Values</h1>
         </motion.div>
 
         {/* Values Grid */}
@@ -221,7 +223,7 @@ export default function OrinoxCapabilitiesPresentation() {
         />
         <div className="absolute inset-0 bg-black/30" />
         <div className="relative z-20 max-w-4xl text-white">
-          <motion.h1 {...anim(0.1)} className="text-3xl md:text-[58px] font-bold text-white tracking-tight mb-6">
+          <motion.h1 {...anim(0.1)} className="text-3xl md:text-[32px] font-bold text-white tracking-tight mb-6">
             Strategic Leadership
           </motion.h1>
           <motion.p {...anim(0.2)} className="text-[14px] md:text-[16px] text-white/90 leading-relaxed font-normal max-w-2xl">
@@ -239,7 +241,7 @@ export default function OrinoxCapabilitiesPresentation() {
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-20 flex flex-col items-center justify-center text-center">
-          <motion.h1 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[54px] font-bold text-white mb-6 leading-tight max-w-5xl tracking-tight">
+          <motion.h1 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[38px] font-bold text-white mb-6 leading-tight max-w-5xl tracking-tight">
             Advancing the Frontier of<br className="hidden md:block" />
             Petroleum Infrastructure
           </motion.h1>
@@ -251,7 +253,7 @@ export default function OrinoxCapabilitiesPresentation() {
             <button className="w-full sm:min-w-[180px] px-8 py-3.5 bg-white text-black text-[11px] font-bold uppercase tracking-[0.15em] rounded-[5px] hover:bg-white/90 transition-all duration-300">
               View Holding
             </button>
-            <button className="w-full sm:min-w-[180px] px-8 py-3.5 border border-white text-white text-[11px] font-bold uppercase tracking-[0.15em] rounded-[5px] hover:bg-white/10 transition-all duration-300">
+            <button className="w-full sm:min-w-[200px] px-8 py-3.5 border border-white text-white text-[11px] font-bold uppercase tracking-[0.15em] rounded-[5px] hover:bg-white/10 transition-all duration-300">
               Contact Experts
             </button>
           </motion.div>
@@ -266,7 +268,7 @@ export default function OrinoxCapabilitiesPresentation() {
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="relative z-20 max-w-5xl text-white flex flex-col">
-          <motion.h1 {...anim(0.1)} className="text-3xl md:text-4xl lg:text-[52px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
+          <motion.h1 {...anim(0.1)} className="text-3xl md:text-4xl lg:text-[38px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
             Integrated Infrastructure for<br className="hidden md:block" />
             Upstream and Midstream<br className="hidden md:block" />
             Excellence
@@ -298,7 +300,7 @@ export default function OrinoxCapabilitiesPresentation() {
 
         {/* Header content centered top-mid */}
         <div className="relative z-20 mb-16 md:mb-24">
-          <motion.h1 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[62px] font-bold text-white mb-6 tracking-tight">
+          <motion.h1 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[38px] font-bold text-white mb-6 tracking-tight">
             Core Operational Sectors
           </motion.h1>
           <motion.p {...anim(0.2)} className="text-white/80 text-[14px] md:text-[16px] max-w-3xl mx-auto leading-relaxed">
@@ -363,7 +365,7 @@ export default function OrinoxCapabilitiesPresentation() {
 
           {/* Block 1 */}
           <motion.div {...anim(0.1)} className="space-y-3">
-            <h1 className="text-2xl md:text-4xl lg:text-[42px] font-bold leading-[1.2] md:leading-[1.1] tracking-tight">
+            <h1 className="text-2xl md:text-4xl lg:text-[32px] font-bold leading-[1.2] md:leading-[1.1] tracking-tight">
               Integrated Technical<br className="hidden md:block" />
               Infrastructure &<br className="hidden md:block" />
               Midstream Logistics
@@ -375,7 +377,7 @@ export default function OrinoxCapabilitiesPresentation() {
 
           {/* Block 2 */}
           <motion.div {...anim(0.3)} className="space-y-3">
-            <h2 className="text-xl md:text-3xl lg:text-[38px] font-bold leading-tight tracking-tight">
+            <h2 className="text-xl md:text-3xl lg:text-[32px] font-bold leading-tight tracking-tight">
               Digital Midstream<br className="hidden md:block" />
               Infrastructure
             </h2>
@@ -386,7 +388,7 @@ export default function OrinoxCapabilitiesPresentation() {
 
           {/* Block 3 */}
           <motion.div {...anim(0.5)} className="space-y-3">
-            <h2 className="text-xl md:text-3xl lg:text-[38px] font-bold leading-tight tracking-tight">
+            <h2 className="text-xl md:text-3xl lg:text-[32px] font-bold leading-tight tracking-tight">
               Asset Integrity &<br className="hidden md:block" />
               Compliance
             </h2>
@@ -404,7 +406,7 @@ export default function OrinoxCapabilitiesPresentation() {
           <motion.p {...anim(0.1)} className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-8">
             SAFETY AT SCALE
           </motion.p>
-          <motion.h1 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[54px] font-bold text-white mb-8 tracking-tight max-w-4xl leading-[1.2] md:leading-[1.1]">
+          <motion.h1 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[32px] font-bold text-white mb-8 tracking-tight max-w-4xl leading-[1.2] md:leading-[1.1]">
             The Orinox Standard for<br className="hidden md:block" />
             Operational Risk<br className="hidden md:block" />
             Management
@@ -426,7 +428,7 @@ export default function OrinoxCapabilitiesPresentation() {
 
         {/* Header content right-aligned */}
         <div className="relative z-20 text-right">
-          <motion.h1 {...anim(0.1)} className="text-4xl md:text-[68px] font-bold text-white tracking-tight mb-4">
+          <motion.h1 {...anim(0.1)} className="text-4xl md:text-[38px] font-bold text-white tracking-tight mb-4">
             Global Footprint
           </motion.h1>
           <motion.div {...anim(0.2)} className="w-full h-[1px] bg-white/30 mb-12 ml-auto max-w-2xl" />
@@ -436,19 +438,19 @@ export default function OrinoxCapabilitiesPresentation() {
         <div className="relative z-20 space-y-8 text-right mt-12 md:mt-0">
           <motion.div {...anim(0.3)}>
             <p className="text-[10px] uppercase tracking-[0.25em] font-medium text-white/60 mb-1">STRATEGIC HUB</p>
-            <h2 className="text-white text-2xl md:text-4xl tracking-tight font-medium md:font-normal">Dubai</h2>
+            <h2 className="text-white text-2xl md:text-3xl tracking-tight font-medium md:font-normal">Dubai</h2>
           </motion.div>
           <motion.div {...anim(0.4)}>
             <p className="text-[10px] uppercase tracking-[0.25em] font-medium text-white/60 mb-1">OPERATIONAL HQ</p>
-            <h2 className="text-white text-2xl md:text-4xl tracking-tight font-medium md:font-normal">London</h2>
+            <h2 className="text-white text-2xl md:text-3xl tracking-tight font-medium md:font-normal">London</h2>
           </motion.div>
           <motion.div {...anim(0.5)}>
             <p className="text-[10px] uppercase tracking-[0.25em] font-medium text-white/60 mb-1">TECHNICAL HUB</p>
-            <h2 className="text-white text-2xl md:text-4xl tracking-tight font-medium md:font-normal">Madrid</h2>
+            <h2 className="text-white text-2xl md:text-3xl tracking-tight font-medium md:font-normal">Madrid</h2>
           </motion.div>
           <motion.div {...anim(0.6)}>
             <p className="text-[10px] uppercase tracking-[0.25em] font-medium text-white/60 mb-1">REGIONAL HUB</p>
-            <h2 className="text-white text-2xl md:text-4xl tracking-tight font-medium md:font-normal">Caracas</h2>
+            <h2 className="text-white text-2xl md:text-3xl tracking-tight font-medium md:font-normal">Caracas</h2>
           </motion.div>
         </div>
       </section>
@@ -459,7 +461,7 @@ export default function OrinoxCapabilitiesPresentation() {
 
           {/* Left Side - Content */}
           <motion.div {...anim(0.1)} className="flex flex-col space-y-6 text-center lg:text-left">
-            <h1 className="text-3xl md:text-6xl lg:text-[68px] font-bold text-white leading-tight tracking-tight">
+            <h1 className="text-3xl md:text-6xl lg:text-[48px] font-bold text-white leading-tight tracking-tight">
               Connect with our<br className="hidden lg:block" />
               petroleum experts.
             </h1>
@@ -470,7 +472,7 @@ export default function OrinoxCapabilitiesPresentation() {
 
           {/* Right Side - Form */}
           <motion.div {...anim(0.3)} className="flex flex-col space-y-8 p-0 md:p-12 rounded-2xl backdrop-blur-sm">
-            <h2 className="text-2xl font-bold text-white mb-4 text-center lg:text-left">Contact Us</h2>
+            <h2 className="text-xl font-bold text-white mb-4 text-center lg:text-left">Contact Us</h2>
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-1.5">
