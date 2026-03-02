@@ -70,7 +70,7 @@ export default function Orinox() {
 
       <div className="relative z-10 flex flex-col h-full px-6 md:px-32">
         {/* Navbar Header (Always visible at the top) */}
-        <div className="flex justify-between items-center h-20 md:h-28 flex-shrink-0">
+        <div className="flex justify-between items-center h-20 md:h-24 flex-shrink-0">
           <Link href="/">
             <img
               src="/images/orinox-white-logo.png"
