@@ -23,27 +23,22 @@ export default function Orinox() {
     lastScrollY.current = latest;
   });
 
-  const columns = [
-    {
-      title: "About",
-      items: ["Services", "Operations"],
-    },
-    {
-      title: "Regions",
-      items: ["Contracts", "Technology"],
-    },
-    {
-      title: "E&P Services",
-      items: ["Upstream", "Midstream"],
-    },
-    {
-      title: "Investors",
-      items: ["ESG", "Case Studies / Projects"],
-    },
-    {
-      title: "Team",
-      items: ["Insights", "Contact"],
-    },
+  const navLinks = [
+    { name: "About", href: "/orinox-capabilities-presentation" },
+    { name: "Services", href: "/orinox-services" },
+    { name: "Operations", href: "/" },
+    { name: "Regions", href: "/" },
+    { name: "Contracts", href: "/" },
+    { name: "Technology", href: "/" },
+    { name: "E&P Services", href: "/" },
+    { name: "Upstream", href: "/" },
+    { name: "Midstream", href: "/" },
+    { name: "Investors", href: "/" },
+    { name: "ESG", href: "/" },
+    { name: "Case Studies / Projects", href: "/" },
+    { name: "Team", href: "/" },
+    { name: "Insights", href: "/" },
+    { name: "Contact", href: "/" },
   ];
 
   return (
@@ -71,7 +66,7 @@ export default function Orinox() {
       <div className="relative z-10 flex flex-col h-full px-6 md:px-32">
         {/* Navbar Header (Always visible at the top) */}
         <div className="flex justify-between items-center h-20 md:h-34 flex-shrink-0">
-          <Link href="/">
+          <Link href="/" onClick={() => setIsOpen(false)}>
             <img
               src="/images/orinox-white-logo.png"
               alt="Orinox Logo"
@@ -112,27 +107,22 @@ export default function Orinox() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="flex-1 flex items-center justify-center pb-12 overflow-y-auto"
             >
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-x-8 md:gap-x-20 lg:gap-x-48 gap-y-8 md:gap-y-0 max-w-7xl w-full">
-                {columns.map((column, idx) => (
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-8 md:gap-x-20 gap-y-8 md:gap-y-8 max-w-7xl w-full">
+                {navLinks.map((link, idx) => (
                   <motion.div
                     key={idx}
                     initial={{ opacity: 0, y: 15 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 + idx * 0.05 }}
-                    className="flex flex-col space-y-2 md:space-y-4"
                   >
-                    <h3 className="text-white text-[11px] md:text-[12px] font-medium  tracking-wider cursor-pointer hover:text-white/60 transition-colors">
-                      {column.title}
-                    </h3>
-                    <div className="flex flex-col space-y-2 md:space-y-3">
-                      {column.items.map((item, itemIdx) => (
-                        <p
-                          key={itemIdx}
-                          className="text-white text-[11px] md:text-[12px] font-medium tracking-normal cursor-pointer hover:text-white/60 transition-colors"
-                        >
-                          {item}
-                        </p>
-                      ))}
+                    <div className="flex flex-col space-y-2 md:space-y-4">
+
+                      <Link
+                        href={link.href}
+                        onClick={() => setIsOpen(false)}
+                        className="text-white text-[11px] md:text-[12px] font-medium tracking-normal cursor-pointer hover:text-white/60 transition-colors"                    >
+                        {link.name}
+                      </Link>
                     </div>
                   </motion.div>
                 ))}
@@ -144,4 +134,3 @@ export default function Orinox() {
     </motion.nav>
   );
 }
-
