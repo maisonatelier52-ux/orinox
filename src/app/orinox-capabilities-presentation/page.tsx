@@ -520,7 +520,7 @@ export default function OrinoxCapabilitiesPresentation() {
       </section>
 
       {/* 14. FOOTER */}
-      <footer className="relative h-screen w-full bg-black overflow-hidden px-6 md:px-32 py-8 flex flex-col justify-between">
+      <footer className="relative h-screen w-full bg-black overflow-hidden px-6 md:px-32 pt-12 flex flex-col justify-between">
         <img
           src="/images/first-well-to-low-carbon-evacuation-route.png"
           alt="Offshore Rig"
@@ -597,12 +597,12 @@ export default function OrinoxCapabilitiesPresentation() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="relative z-20 pt-6 border-t border-white/20">
+        <div className="relative z-20 py-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-[12px] md:text-[13px] text-white tracking-wider">© 2026 Orinox Holding</p>
+            <p className="text-[12px] md:text-[13px] text-white/70 tracking-wider">© 2026 Orinox Holding</p>
             <div className="flex gap-8 md:gap-12">
-              <Link href="/" className="text-[12px] md:text-[13px] text-white hover:text-white/70 transition-colors">Terms of Use</Link>
-              <Link href="/" className="text-[12px] md:text-[13px] text-white hover:text-white/70 transition-colors">Privacy Policy</Link>
+              <Link href="/" className="text-[12px] md:text-[13px] text-white/70 hover:text-white transition-colors">Terms of Use</Link>
+              <Link href="/" className="text-[12px] md:text-[13px] text-white/70 hover:text-white transition-colors">Privacy Policy</Link>
             </div>
           </div>
         </div>
