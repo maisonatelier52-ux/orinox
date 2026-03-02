@@ -1,29 +1,27 @@
 "use client";
 
+import { useState, useRef } from "react";
+import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import Link from "next/link";
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Menu, X } from "lucide-react";
-
-const fadeUp: Variants = {
-  initial: { opacity: 0, y: 40 },
-  animate: { opacity: 1, y: 0 },
-};
-
-const anim = (delay: number = 0) => ({
-  variants: fadeUp,
-  initial: "initial",
-  animate: "animate",
-  exit: "initial",
-  transition: {
-    duration: 0.8,
-    delay: delay,
-    ease: [0.21, 0.47, 0.32, 0.98] as const,
-  }
-});
 
 export default function Orinox() {
   const [isOpen, setIsOpen] = useState(false);
+  const [hidden, setHidden] = useState(false);
+  const { scrollY } = useScroll();
+  const lastScrollY = useRef(0);
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const previous = lastScrollY.current;
+    if (latest > previous && latest > 150) {
+      // Scrolling down and past threshold
+      if (!isOpen) setHidden(true);
+    } else {
+      // Scrolling up or at the top
+      setHidden(false);
+    }
+    lastScrollY.current = latest;
+  });
 
   const columns = [
     {
@@ -49,8 +47,14 @@ export default function Orinox() {
   ];
 
   return (
-    <nav
-      className={`fixed top-0 left-0 w-full z-[100] bg-black text-white transition-all duration-700 ease-[0.21, 0.47, 0.32, 0.98] overflow-hidden ${isOpen ? "h-[60vh] md:h-[50vh]" : "h-20 md:h-28"
+    <motion.nav
+      variants={{
+        visible: { y: 0 },
+        hidden: { y: "-100%" },
+      }}
+      animate={hidden ? "hidden" : "visible"}
+      transition={{ duration: 0.35, ease: "easeInOut" }}
+      className={`fixed top-0 left-0 w-full z-[100] bg-black text-white transition-[height] duration-700 ease-[0.21, 0.47, 0.32, 0.98] overflow-hidden ${isOpen ? "h-[60vh] md:h-[50vh]" : "h-20 md:h-24"
         }`}
     >
       {/* Background Illustration - Visible in the entire area */}
@@ -74,23 +78,28 @@ export default function Orinox() {
               className="h-8 md:h-12 w-auto"
             />
           </Link>
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="text-white hover:text-white/70 transition-colors focus:outline-none"
-            aria-label="Toggle Menu"
-          >
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={isOpen ? "open" : "closed"}
-                initial={{ rotate: -90, opacity: 0 }}
-                animate={{ rotate: 0, opacity: 1 }}
-                exit={{ rotate: 90, opacity: 0 }}
-                transition={{ duration: 0.2 }}
-              >
-                {isOpen ? <X size={32} strokeWidth={1.5} /> : <Menu size={32} strokeWidth={1.5} />}
-              </motion.div>
-            </AnimatePresence>
-          </button>
+          <div className="flex items-center space-x-6 md:space-x-12">
+            <button className="hidden sm:block text-[10px] md:text-[10px] font-medium uppercase tracking-[0.2em] px-6 py-2 border border-white/70 rounded-md hover:bg-white hover:text-black transition-all duration-300">
+              Client Login
+            </button>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-white hover:text-white/70 transition-colors focus:outline-none"
+              aria-label="Toggle Menu"
+            >
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={isOpen ? "open" : "closed"}
+                  initial={{ rotate: -90, opacity: 0 }}
+                  animate={{ rotate: 0, opacity: 1 }}
+                  exit={{ rotate: 90, opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  {isOpen ? <X size={32} strokeWidth={1.5} /> : <Menu size={32} strokeWidth={1.5} />}
+                </motion.div>
+              </AnimatePresence>
+            </button>
+          </div>
         </div>
 
         {/* Dropdown Content - Revealed on Click */}
@@ -132,7 +141,7 @@ export default function Orinox() {
           )}
         </AnimatePresence>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
 
