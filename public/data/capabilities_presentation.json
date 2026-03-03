@@ -1,5 +1,4 @@
 [
-   
     {
         "id": "upstream",
         "image": "/images/e-p.png",
@@ -640,24 +639,24 @@
     {
         "id": "global-locations",
         "image": "/images/orinox-global-locations.jpg",
-        "overlayClassName": "bg-black/30",
-        "contentContainerClassName": "absolute bottom-0 -translate-y-1/2 right-10 lg:right-25 z-20 space-y-3 md:space-y-5 max-w-xs sm:max-w-md lg:max-w-xl text-white flex flex-col text-right",
+        "overlayClassName": "bg-black/60",
+        "contentContainerClassName": "absolute top-1/2 -translate-y-1/2 right-10 lg:right-24 z-20 grid grid-cols-2 gap-x-12 lg:gap-x-24 gap-y-10 lg:gap-y-16 max-w-4xl text-white",
         "sections": [
             {
                 "heading": "United Kingdom",
                 "description": "Level 28, 52 Lime Street, London,\nEC3M 7AF, United Kingdom"
             },
             {
+                "heading": "Madrid",
+                "description": "Plaza de la Independencia 8,\nPiso 3\nMadrid, Spain"
+            },
+            {
                 "heading": "United Arab Emirates",
-                "description": "Villa 145, Al Manara Street, Al Safa 2,\nDubai, United Arab Emirates"
+                "description": "Vila 145, Al Manara Street, Al Safa 2,\nDubai, United Arab Emirates"
             },
             {
                 "heading": "Venezuela",
-                "description": "Edificio Epsilon CIIP 3 Avenida Venezuela,\nCaracas 1060, Distrito Capital Piso 7"
-            },
-            {
-                "heading": "Spain",
-                "description": "Plaza de la Independencia 8,\nPiso 3 Madrid Spain"
+                "description": "Edificio Epsilon CIIP\n3 Avenida Venezuela,\nCaracas 1060, Distrito Capital Piso 7"
             }
         ]
     }
