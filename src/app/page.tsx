@@ -6,6 +6,6 @@ import OrinoxWebsite from "./orinox-website/page";
 
 export default function Home() {
   return (
-  <OrinoxSplash />
+  <OrinoxSplash /> 
   );
 }
