@@ -223,7 +223,7 @@ export default function TechnologyPage() {
                             initial={{ opacity: 0, clipPath: 'inset(0 0 0 100%)' }}
                             whileInView={{ opacity: 1, clipPath: 'inset(0 0 0 0%)' }}
                             viewport={{ once: true }}
-                            transition={{ duration: 4.8, ease: [0.19, 1, 0.22, 1] }}
+                            transition={{ duration: 4.5, ease: [0.19, 1, 0.22, 1] }}
                             className="h-full w-full saturate-50"
                         >
                             <Image
@@ -281,9 +281,9 @@ export default function TechnologyPage() {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="bg-white text-black px-10 py-3 text-[12px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
+                                className="bg-white text-black px-10 py-3 text-[11px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
                             >
-                                VIEW ESG REPORT
+                                View ESG Report
                             </motion.button>
                         </motion.div>
                     </div>
@@ -294,7 +294,7 @@ export default function TechnologyPage() {
                             initial={{ opacity: 0, clipPath: 'inset(0 0 0 100%)' }}
                             whileInView={{ opacity: 1, clipPath: 'inset(0 0 0 0%)' }}
                             viewport={{ once: true }}
-                            transition={{ duration: 5.8, ease: [0.19, 1, 0.22, 1] }}
+                            transition={{ duration: 4.5, ease: [0.19, 1, 0.22, 1] }}
                             className="h-full w-full"
                         >
                             <Image
@@ -303,6 +303,79 @@ export default function TechnologyPage() {
                                 fill
                                 className="object-cover"
                             />
+                        </motion.div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Technical Infrastructure Section */}
+            <section className="relative w-full min-h-screen bg-black flex items-center py-20 px-8 md:px-16 lg:px-24 xl:px-32">
+                <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+
+                    {/* Left Image Side */}
+                    <div className="w-full h-screen lg:w-1/2 relative aspect-square lg:aspect-[4/5] overflow-hidden">
+                        <motion.div
+                            initial={{ opacity: 0, clipPath: 'inset(0 100% 0 0)' }}
+                            whileInView={{ opacity: 1, clipPath: 'inset(0 0 0 0%)' }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 4.5, ease: [0.19, 1, 0.22, 1] }}
+                            className="h-full w-full"
+                        >
+                            <Image
+                                src="/images/tech-stack.jpg"
+                                alt="Orinox Technical Control Center"
+                                fill
+                                className="object-cover"
+                            />
+                        </motion.div>
+                    </div>
+
+                    {/* Right Content Side */}
+                    <div className="w-full lg:w-1/2 flex flex-col justify-center">
+                        <motion.div
+                            {...anim(0.1)}
+                            className="max-w-xl"
+                        >
+                            <span className="text-white/40 text-[10px] md:text-[11px] font-bold tracking-[0.3em] uppercase mb-4 block">
+                                TECHNICAL INFRASTRUCTURE
+                            </span>
+                            <h2 className="text-3xl lg:text-3xl font-bold text-white mb-8 tracking-tight">
+                                The Orinox Tech Stack & Strategy
+                            </h2>
+                            <p className="text-white/30 text-[13px] md:text-[14px] leading-relaxed mb-12">
+                                We integrate cutting-edge technical infrastructure with rigorous industry standards to
+                                redefine upstream efficiency. Our strategy focuses on operational transparency and
+                                high-precision telemetry.
+                            </p>
+
+                            <ul className="space-y-6 mb-12">
+                                {[
+                                    { title: "Predictive Maintenance", desc: "AI algorithms reducing technical downtime." },
+                                    { title: "Integrated Midstream Cloud", desc: "Real-time logistics and safety monitoring." },
+                                    { title: "Strategic Compliance", desc: "Tech-backed adherence to ISO global safety standards." }
+                                ].map((point, index) => (
+                                    <motion.li
+                                        key={index}
+                                        {...anim(0.2 + index * 0.1)}
+                                        className="flex items-start text-white/70 text-[13px] md:text-[14px] leading-relaxed"
+                                    >
+                                        <span className="mr-3 text-white/30 mt-1">•</span>
+                                        <div>
+                                            <span className="text-white font-bold">{point.title}: </span>
+                                            {point.desc}
+                                        </div>
+                                    </motion.li>
+                                ))}
+                            </ul>
+
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="bg-white text-black px-12 py-3 text-[12px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
+                            >
+                                Technical Inquiry
+                            </motion.button>
                         </motion.div>
                     </div>
 
