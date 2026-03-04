@@ -64,7 +64,7 @@ export default function TechnologyPage() {
                         <motion.div
                             initial={{ opacity: 0, clipPath: 'inset(0 0 0 100%)', scale: 1.1 }}
                             animate={{ opacity: 1, clipPath: 'inset(0 0 0 0%)', scale: 1 }}
-                            transition={{ duration: 1.8, ease: [0.19, 1, 0.22, 1] }}
+                            transition={{ duration: 4.5, ease: [0.19, 1, 0.22, 1] }}
                             className="h-full w-full"
                         >
                             <Image
@@ -77,6 +77,164 @@ export default function TechnologyPage() {
                             {/* Subtle overlay for depth */}
                         </motion.div>
                     </div>
+                </div>
+            </section>
+
+            {/* Engineered for Technical Resilience Section */}
+            <section className="relative w-full min-h-screen bg-black flex items-center py-20 px-8 md:px-16 lg:px-24 xl:px-32">
+                <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+
+                    {/* Left Image Side */}
+                    <div className="w-full h-screen lg:w-1/2 relative aspect-[3/4] overflow-hidden">
+                        <motion.div
+                            initial={{ opacity: 0, clipPath: 'inset(0 100% 0 0 )' }}
+                            whileInView={{ opacity: 1, clipPath: 'inset(0 0 0 0%)' }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 4.5, ease: [0.19, 1, 0.22, 1] }}
+                            className="h-full w-full"
+                        >
+                            <Image
+                                src="/images/e and ps1.jpg"
+                                alt="Offshore Drilling Rig at Sunset"
+                                fill
+                                className="object-cover"
+                            />
+                        </motion.div>
+                    </div>
+
+                    {/* Right Content Side */}
+                    <div className="w-full lg:w-1/2 flex flex-col pt-15 justify-center">
+                        <motion.div
+                            {...anim(0.1)}
+                            className="max-w-xl"
+                        >
+                            <h2 className="text-3xl lg:text-3xl font-bold text-white mb-4">
+                                Engineered for Technical Resilience
+                            </h2>
+                            <p className="text-white/70 text-[12px] md:text-[13px] leading-relaxed mb-12">
+                                Orinox synchronizes high-spec infrastructure with proprietary analytics to drive efficiency
+                                across every upstream and midstream operation.
+                            </p>
+
+                            <div className="space-y-10 mb-12">
+                                {[
+                                    {
+                                        title: "Automated Rig Fleet",
+                                        desc: "Utilizing Tier 1 engineering and automated drilling control systems to maximize unit performance while reducing environmental footprint."
+                                    },
+                                    {
+                                        title: "Predictive Telemetry Stack",
+                                        desc: "Real-time data integration across global regions, providing investors with transparent operational metrics and infrastructure security."
+                                    },
+                                    {
+                                        title: "ESG-Integrated Framework",
+                                        desc: "Commitment to sustainability through precision engineering that minimizes leakage and optimizes resource recovery in sensitive basins."
+                                    }
+                                ].map((point, index) => (
+                                    <motion.div
+                                        key={index}
+                                        {...anim(0.2 + index * 0.1)}
+                                        className="flex flex-col space-y-2"
+                                    >
+                                        <h3 className="text-white text-[15px] font-bold tracking-tight">
+                                            {point.title}
+                                        </h3>
+                                        <p className="text-white/60 text-[12px] md:text-[13px] leading-relaxed">
+                                            {point.desc}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="bg-white text-black px-10 py-3 text-[12px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
+                            >
+                                Technical Specs
+                            </motion.button>
+                        </motion.div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Strategic Growth & Investor Framework Section */}
+            <section className="relative w-full min-h-screen bg-black flex items-center py-20 px-8 md:px-16 lg:px-24 xl:px-32">
+                <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+
+                    {/* Left Content Side */}
+                    <div className="w-full lg:w-1/2 flex flex-col justify-center order-2 lg:order-1">
+                        <motion.div
+                            {...anim(0.1)}
+                            className="max-w-xl"
+                        >
+                            <h2 className="text-3xl lg:text-3xl font-bold text-white mb-6">
+                                Strategic Growth & <br className="hidden lg:block" /> Investor Framework
+                            </h2>
+                            <p className="text-white/70 text-[12px] md:text-[13px] leading-relaxed mb-12">
+                                Driving sustainable value through technical leadership and disciplined capital
+                                efficiency across global markets.
+                            </p>
+
+                            <div className="space-y-6 mb-8">
+                                {[
+                                    {
+                                        title: "Capital Efficiency",
+                                        desc: "Allocation strategies focused on high-yield upstream assets and resilient midstream infrastructure networks."
+                                    },
+                                    {
+                                        title: "Operational Scalability",
+                                        desc: "Infrastructure systems designed for rapid deployment and integration across emerging energy regions."
+                                    },
+                                    {
+                                        title: "Technical Integrity",
+                                        desc: "Maintaining 99.9% operational uptime through advanced predictive R&D and rigorous engineering standards."
+                                    }
+                                ].map((point, index) => (
+                                    <motion.div
+                                        key={index}
+                                        {...anim(0.2 + index * 0.1)}
+                                        className="flex flex-col space-y-2"
+                                    >
+                                        <h3 className="text-white text-[15px] font-bold tracking-tight">
+                                            {point.title}
+                                        </h3>
+                                        <p className="text-white/40 text-[12px] md:text-[13px] leading-relaxed group-hover:text-white/60 transition-colors">
+                                            {point.desc}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="bg-white text-black px-12 py-3 text-[12px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
+                            >
+                                Investor Portal
+                            </motion.button>
+                        </motion.div>
+                    </div>
+
+                    {/* Right Image Side */}
+                    <div className="w-full h-screen lg:w-1/2 relative aspect-[4/5] lg:aspect-[3/4]  overflow-hidden order-1 lg:order-2">
+                        <motion.div
+                            initial={{ opacity: 0, clipPath: 'inset(0 0 0 100%)' }}
+                            whileInView={{ opacity: 1, clipPath: 'inset(0 0 0 0%)' }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 4.8, ease: [0.19, 1, 0.22, 1] }}
+                            className="h-full w-full saturate-50"
+                        >
+                            <Image
+                                src="/images/investor-framework.png"
+                                alt="Modern Corporate Architecture"
+                                fill
+                                className="object-cover"
+                            />
+                        </motion.div>
+                    </div>
+
                 </div>
             </section>
 
