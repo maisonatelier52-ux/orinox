@@ -39,7 +39,7 @@ export default function TechnologyPage() {
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             className="max-w-2xl"
                         >
-                            <h1 className="text-4xl md:text-3xl lg:text-4xl font-bold text-white leading-[1.1] mb-8">
+                            <h1 className="text-4xl md:text-3xl lg:text-3xl font-bold text-white leading-[1.1] mb-8">
                                 The Digital Delta
                             </h1>
 
