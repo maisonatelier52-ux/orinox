@@ -177,10 +177,9 @@ export default function ESGPage() {
                     {/* Left Column: Image */}
                     <div className="w-full lg:w-1/2 relative">
                         <motion.div
-                            initial={{ opacity: 0, x: -50 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 6.2, ease: [0.19, 1, 0.22, 1] }}
+                            initial={{ opacity: 0, clipPath: 'inset(0 100% 0 0 )', scale: 1.1 }}
+                            animate={{ opacity: 1, clipPath: 'inset(0 0 0 0%)', scale: 1 }}
+                            transition={{ duration: 6.5, ease: [0.19, 1, 0.22, 1] }}
                             className="relative h-screen w-full aspect-[4/5] overflow-hidden border border-white/10"
                         >
                             <img
@@ -250,10 +249,9 @@ export default function ESGPage() {
                     {/* Left Column: Image */}
                     <div className="w-full lg:w-1/2 relative">
                         <motion.div
-                            initial={{ opacity: 0, x: -50 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 6.2, ease: [0.19, 1, 0.22, 1] }}
+                            initial={{ opacity: 0, clipPath: 'inset(0 100% 0 0 )', scale: 1.1 }}
+                            animate={{ opacity: 1, clipPath: 'inset(0 0 0 0%)', scale: 1 }}
+                            transition={{ duration: 6.5, ease: [0.19, 1, 0.22, 1] }}
                             className="relative h-screen w-full aspect-[4/5] overflow-hidden border border-white/10"
                         >
                             <img
@@ -371,10 +369,9 @@ export default function ESGPage() {
                     {/* Right Column: Large Image */}
                     <div className="w-full lg:w-2/5 relative">
                         <motion.div
-                            initial={{ opacity: 0, scale: 1.05 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 5.5, ease: [0.19, 1, 0.22, 1] }}
+                           initial={{ opacity: 0, clipPath: 'inset(0  0 0 100%)', scale: 1.1 }}
+                            animate={{ opacity: 1, clipPath: 'inset(0 0 0 0%)', scale: 1 }}
+                            transition={{ duration: 6.5, ease: [0.19, 1, 0.22, 1] }}
                             className="relative h-screen w-full aspect-[3/4]  overflow-hidden border border-white/10"
                         >
                             <img
@@ -438,10 +435,9 @@ export default function ESGPage() {
                     {/* Right Column: Image */}
                     <div className="w-full lg:w-1/2 relative">
                         <motion.div
-                            initial={{ opacity: 0, x: 50 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 6.2, ease: [0.19, 1, 0.22, 1] }}
+                           initial={{ opacity: 0, clipPath: 'inset(0  0 0 100%)', scale: 1.1 }}
+                            animate={{ opacity: 1, clipPath: 'inset(0 0 0 0%)', scale: 1 }}
+                            transition={{ duration: 6.5, ease: [0.19, 1, 0.22, 1] }}
                             className="relative h-screen w-full aspect-[4/5] overflow-hidden border border-white/10"
                         >
                             <img
