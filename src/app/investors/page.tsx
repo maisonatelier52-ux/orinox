@@ -7,6 +7,7 @@ import InvestorsHero from "@/components/InvestorsHero";
 import StrategicFoundations from "@/components/StrategicFoundations";
 import StrategicFramework from "@/components/StrategicFramework";
 import GovernanceMastery from "@/components/GovernanceMastery";
+import InvestorContactSection from "@/components/InvestorContactSection";
 
 const fadeUp: Variants = {
   initial: { opacity: 0, y: 40 },
@@ -42,6 +43,9 @@ export default function InvestorsPage() {
 
       {/* Governance Mastery Section */}
       <GovernanceMastery />
+
+      {/* Contact & Technical Brief Section */}
+      <InvestorContactSection />
 
       {/* Global Footer (Standard across pages) */}
       <footer className="relative min-h-screen md:h-screen w-full bg-black overflow-auto md:overflow-hidden px-6 md:px-32 pt-12 flex flex-col justify-between border-t border-white/10">
