@@ -66,19 +66,9 @@ export default function Orinox() {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className={`fixed top-0 left-0 w-full z-[100] bg-black text-white transition-[height] duration-700 ease-[0.21, 0.47, 0.32, 0.98] ${isOpen ? "h-[60vh] md:h-[50vh]" : "h-20 md:h-34"
+      className={`fixed top-0 left-0 w-full z-[100] bg-black/10 backdrop-blur-3xl border-b border-white/5 text-white transition-[height] duration-700 ease-[0.21, 0.47, 0.32, 0.98] ${isOpen ? "h-[60vh] md:h-[50vh]" : "h-20 md:h-34"
         }`}
     >
-      {/* Background Illustration - Visible in the entire area */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
-        <img
-          src="/images/who-we-are.png"
-          alt="Technical Illustration"
-          className="h-full w-full object-cover"
-        />
-        {/* Subtle overlay to ensure text readability enquanto keeping the dark aesthetic */}
-        <div className="absolute inset-0 bg-black/40" />
-      </div>
 
       <div className="relative z-10 flex flex-col h-full px-6 md:px-32">
         {/* Navbar Header (Always visible at the top) */}
