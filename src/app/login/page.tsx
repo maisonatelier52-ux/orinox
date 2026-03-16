@@ -244,7 +244,7 @@ export default function LoginPage() {
                                     >
                                         {isSubmitting ? (
                                             <>
-                                                <div className="w-3 h-3 border border-zinc-400 border-t-white rounded-full animate-spin" />
+                                                <div className="w-3 h-3 border text-white/70 border-zinc-400 border-t-white rounded-full animate-spin" />
                                                 AUTHENTICATING...
                                             </>
                                         ) : 'ACCESS PORTAL'}
