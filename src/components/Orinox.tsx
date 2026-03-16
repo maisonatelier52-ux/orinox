@@ -41,7 +41,7 @@ export default function Orinox() {
   });
 
   const navLinks = [
-    { name: "About", href: "/orinox-capabilities-presentation" },
+    { name: "About", href: "/home" },
     { name: "Services", href: "/orinox-services" },
     { name: "Operations", href: "/operations" },
     { name: "Regions", href: "/regions" },
