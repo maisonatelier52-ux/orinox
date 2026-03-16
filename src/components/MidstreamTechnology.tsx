@@ -19,7 +19,7 @@ export default function MidstreamTechnology() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
+                    transition={{ duration: 1, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] as const }}
                     className="relative aspect-square lg:aspect-[4/5] w-full order-2 lg:order-1"
                 >
                     <img

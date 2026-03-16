@@ -8,11 +8,11 @@ export default function IntegratedInfrastructure() {
       <div className="flex flex-col lg:flex-row items-start">
         {/* RIGHT IMAGE - Order 1 on Mobile, 2 on Large */}
         <div className="flex-1 w-full max-w-[580px] order-1 lg:order-2 px-8 lg:px-0">
-          <motion.div 
+          <motion.div
             initial={{ x: "100%", opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 3, ease: [0.25, 1, 0.5, 1] }}
+            transition={{ duration: 3, ease: [0.25, 1, 0.5, 1] as const }}
             className="w-full h-[380px] lg:h-[650px] rounded-l-xl overflow-hidden"
           >
             <Image
@@ -39,7 +39,7 @@ export default function IntegratedInfrastructure() {
             We maintain operational excellence through absolute integrity and transparency. By integrating innovative engineering with streamlined midstream logistics, Orinox provides the foundational reliability required for industrial-scale energy production, transportation, and strategic petroleum management.
           </p>
         </div>
-       
+
       </div>
     </section>
   );

@@ -47,7 +47,7 @@ export default function OperationsHero() {
                     <motion.div
                         initial={{ opacity: 0, clipPath: 'inset(0 0 0 100%)', scale: 1.1 }}
                         animate={{ opacity: 1, clipPath: 'inset(0 0 0 0%)', scale: 1 }}
-                        transition={{ duration: 6.5, ease: [0.19, 1, 0.22, 1] }}
+                        transition={{ duration: 6.5, ease: [0.19, 1, 0.22, 1] as const }}
                         className="relative w-full aspect-square md:aspect-[5/6] max-h-[700px] overflow-hidden rounded-sm"
                     >
                         <Image

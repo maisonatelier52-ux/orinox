@@ -1,21 +1,38 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu, X, User } from "lucide-react";
+import { useAuth } from "@/context/AuthContext";
 
 export default function Orinox() {
   const [isOpen, setIsOpen] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const [isAccountOpen, setIsAccountOpen] = useState(false);
+  const { user, logout } = useAuth();
   const { scrollY } = useScroll();
   const lastScrollY = useRef(0);
+  const accountRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (accountRef.current && !accountRef.current.contains(event.target as Node)) {
+        setIsAccountOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = lastScrollY.current;
     if (latest > previous && latest > 150) {
       // Scrolling down and past threshold
-      if (!isOpen) setHidden(true);
+      if (!isOpen) {
+        setHidden(true);
+        setIsAccountOpen(false);
+      }
     } else {
       // Scrolling up or at the top
       setHidden(false);
@@ -49,11 +66,11 @@ export default function Orinox() {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className={`fixed top-0 left-0 w-full z-[100] bg-black text-white transition-[height] duration-700 ease-[0.21, 0.47, 0.32, 0.98] overflow-hidden ${isOpen ? "h-[60vh] md:h-[50vh]" : "h-20 md:h-34"
+      className={`fixed top-0 left-0 w-full z-[100] bg-black text-white transition-[height] duration-700 ease-[0.21, 0.47, 0.32, 0.98] ${isOpen ? "h-[60vh] md:h-[50vh]" : "h-20 md:h-34"
         }`}
     >
       {/* Background Illustration - Visible in the entire area */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <img
           src="/images/who-we-are.png"
           alt="Technical Illustration"
@@ -73,10 +90,53 @@ export default function Orinox() {
               className="h-8 md:h-12 w-auto"
             />
           </Link>
-          <div className="flex items-center space-x-6 md:space-x-12">
-            <button className="hidden sm:block text-[10px] md:text-[10px] font-medium uppercase tracking-[0.2em] px-6 py-2 border border-white/70 rounded-md hover:bg-white hover:text-black transition-all duration-300">
-              Client Login
-            </button>
+          <div className="flex items-center gap-4 lg:gap-8">
+            {user ? (
+              <div className="relative" ref={accountRef}>
+                <button
+                  onClick={() => setIsAccountOpen(!isAccountOpen)}
+                  className="w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors"
+                >
+                  <User size={20} className="text-white" />
+                </button>
+
+                <AnimatePresence>
+                  {isAccountOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                      transition={{ duration: 0.2 }}
+                      className="absolute right-0 mt-4 w-64 bg-zinc-900 border border-white/10 p-6 rounded-sm shadow-2xl backdrop-blur-xl"
+                    >
+                      <div className="flex flex-col gap-1 mb-6">
+                        <span className="text-[10px] uppercase tracking-widest text-zinc-500 font-bold font-mono">Profile Summary</span>
+                        <h4 className="text-[14px] font-bold text-white truncate">{user.fullName}</h4>
+                        <p className="text-[11px] text-zinc-400 truncate">{user.email}</p>
+                      </div>
+
+                      <div className="h-px w-full bg-white/5 mb-6" />
+
+                      <button
+                        onClick={() => {
+                          logout();
+                          setIsAccountOpen(false);
+                        }}
+                        className="w-full py-2.5 text-[10px] uppercase tracking-[0.2em] font-bold text-white/50 hover:text-white transition-colors text-left"
+                      >
+                        LOGOUT
+                      </button>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            ) : (
+              <Link href="/login">
+                <button className="hidden sm:block text-[10px] md:text-[10px] font-medium uppercase tracking-[0.2em] px-6 py-2 border border-white/70 rounded-md hover:bg-white hover:text-black transition-all duration-300">
+                  Client Login
+                </button>
+              </Link>
+            )}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-white hover:text-white/70 transition-colors focus:outline-none"

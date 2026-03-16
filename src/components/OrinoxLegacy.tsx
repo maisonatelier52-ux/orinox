@@ -45,7 +45,7 @@ export default function OrinoxLegacy() {
           initial={{ x: 60, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] as const }}
           className="flex-1 w-full max-w-[680px]"
         >
           <div className="relative aspect-[16/11] rounded-xl overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.7)] group">
@@ -60,45 +60,45 @@ export default function OrinoxLegacy() {
         </motion.div>
 
       </div>
-      
-        {/* Flex container */}
-        <div className="flex flex-col md:flex-row md:justify-between  gap-10 md:gap-28">
 
-          {/* Mission */}
-          <div className="md:w-1/2">
-            <p className="text-[13px] tracking-[0.25em] text-white/70 mb-4 md:mb-8">
-              MISSION
-            </p>
+      {/* Flex container */}
+      <div className="flex flex-col md:flex-row md:justify-between  gap-10 md:gap-28">
 
-            <motion.h2 
-              initial={{ y: 40, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-                           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-              className="text-[26px] md:text-4xl lg:text-[18px] text-white/70 leading-[1.1] font-normal "
-            >
-              To deliver high-precision infrastructure and technical reliability across the global energy value chain.
-            </motion.h2>
-          </div>
+        {/* Mission */}
+        <div className="md:w-1/2">
+          <p className="text-[13px] tracking-[0.25em] text-white/70 mb-4 md:mb-8">
+            MISSION
+          </p>
 
-          {/* Vision */}
-          <div className="md:w-1/2">
-            <p className="text-[13px] tracking-[0.25em] text-white/70 mb-4 md:mb-8">
-              VISION
-            </p>
-
-            <motion.h2 
-              initial={{ y: 40, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-                transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-              className="text-[26px] md:text-4xl lg:text-[18px] text-white/70 leading-[1.1] font-normal"
-            >
-              Setting the global standard for operational transparency and technical mastery in petroleum logistics.
-            </motion.h2>
-          </div>
-
+          <motion.h2
+            initial={{ y: 40, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            className="text-[26px] md:text-4xl lg:text-[18px] text-white/70 leading-[1.1] font-normal "
+          >
+            To deliver high-precision infrastructure and technical reliability across the global energy value chain.
+          </motion.h2>
         </div>
+
+        {/* Vision */}
+        <div className="md:w-1/2">
+          <p className="text-[13px] tracking-[0.25em] text-white/70 mb-4 md:mb-8">
+            VISION
+          </p>
+
+          <motion.h2
+            initial={{ y: 40, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            className="text-[26px] md:text-4xl lg:text-[18px] text-white/70 leading-[1.1] font-normal"
+          >
+            Setting the global standard for operational transparency and technical mastery in petroleum logistics.
+          </motion.h2>
+        </div>
+
+      </div>
     </section>
   );
 }

@@ -13,7 +13,7 @@ export default function UpstreamTechnology() {
   return (
     <section className="relative min-h-[80vh] flex items-center py-24 px-8 md:px-16 lg:px-24 xl:px-32 bg-black overflow-hidden border-t border-white/5">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-        
+
         {/* Text Content */}
         <div className="flex flex-col relative z-10">
           <motion.div {...anim(0.1)} className="mb-6">
@@ -49,16 +49,16 @@ export default function UpstreamTechnology() {
         </div>
 
         {/* Visual Content */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
+          transition={{ duration: 1, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] as const }}
           className="relative aspect-square lg:aspect-[4/5] w-full"
         >
-          <img 
-            src="/images/fit-for-purpose-fleet.png" 
-            alt="Rig Fleet Technology" 
+          <img
+            src="/images/fit-for-purpose-fleet.png"
+            alt="Rig Fleet Technology"
             className="w-full h-full object-cover rounded-sm grayscale opacity-80"
           />
           {/* Decorative Corner Borders */}

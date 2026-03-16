@@ -14,7 +14,7 @@ export default function StrategicFoundations() {
   return (
     <section className="bg-black text-white py-24 px-8 md:px-16 lg:px-24 xl:px-32 border-t border-white/5">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
-        
+
         {/* Left Side: Text Content */}
         <div className="w-full lg:w-3/5 flex flex-col">
           <motion.div {...anim(0.1)} className="mb-12">
@@ -22,7 +22,7 @@ export default function StrategicFoundations() {
               Strategic Financial Foundations & Investor Value
             </h2>
             <p className="text-[12px] md:text-[13px] leading-relaxed text-white/50 font-light max-w-2xl">
-              Orinox Holding delivers sustainable investor returns through the integration of high-precision upstream assets and 
+              Orinox Holding delivers sustainable investor returns through the integration of high-precision upstream assets and
               resilient midstream logistics. Our strategy focuses on long-term infrastructure reliability and technical excellence.
             </p>
           </motion.div>
@@ -64,11 +64,11 @@ export default function StrategicFoundations() {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1, ease: [0.21, 0.47, 0.32, 0.98] }}
+            transition={{ duration: 1, ease: [0.21, 0.47, 0.32, 0.98] as const }}
             className="relative w-full aspect-[4/5] md:aspect-[5/6] max-h-[700px] overflow-hidden rounded-lg shadow-2xl border border-white/5"
           >
             <Image
-              src="/images/oil-and-gas-processing.png" 
+              src="/images/oil-and-gas-processing.png"
               alt="Industrial Processing Infrastructure"
               fill
               className="object-cover brightness-90 saturate-[0.8]"

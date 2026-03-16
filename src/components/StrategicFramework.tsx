@@ -33,7 +33,7 @@ export default function StrategicFramework() {
   return (
     <section className="bg-black text-white py-24 px-8 md:px-16 lg:px-24 xl:px-32">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-stretch gap-16 lg:gap-24">
-        
+
         {/* Left Side: Content */}
         <div className="w-full lg:w-3/5 flex flex-col justify-center">
           <motion.div {...anim(0.1)} className="mb-12">
@@ -41,7 +41,7 @@ export default function StrategicFramework() {
               Strategic Framework & Investor Growth
             </h2>
             <p className="text-[12px] md:text-[13px] leading-relaxed text-white/50 font-light max-w-2xl">
-              Orinox Holding combines technical mastery with capital discipline to drive sustainable value 
+              Orinox Holding combines technical mastery with capital discipline to drive sustainable value
               across the global upstream and midstream value chain.
             </p>
           </motion.div>
@@ -71,11 +71,11 @@ export default function StrategicFramework() {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1, ease: [0.21, 0.47, 0.32, 0.98] }}
+            transition={{ duration: 1, ease: [0.21, 0.47, 0.32, 0.98] as const }}
             className="relative w-full min-h-[500px] md:min-h-[700px] overflow-hidden rounded-sm"
           >
             <Image
-              src="/images/offshore-rig-sunset.png" 
+              src="/images/offshore-rig-sunset.png"
               alt="Offshore Rig Infrastructure"
               fill
               className="object-cover"
