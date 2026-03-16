@@ -122,7 +122,7 @@ export default function ForgotPasswordPage() {
                             <motion.div
                                 key={step}
                                 {...anim(0.1)}
-                                className="bg-zinc-900/60 border border-white/10 p-8 md:p-12 rounded-sm backdrop-blur-md shadow-2xl"
+                                className="bg-zinc-900/60 border border-white/10 p-8 md:p-8 rounded-sm backdrop-blur-md shadow-2xl"
                             >
                                 <div className="text-center mb-10">
                                     <motion.span {...anim(0.2)} className="text-[9px] font-normal tracking-[0.3em] text-white/50 uppercase mb-2 block">

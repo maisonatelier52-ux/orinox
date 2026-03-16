@@ -88,7 +88,7 @@ export default function LoginPage() {
                 setIsAuthenticated(true);
                 // Redirect to home page
                 setTimeout(() => {
-                    router.push("/orinox-capabilities-presentation/");
+                    router.push("/home");
                 }, 2000);
             } else {
                 setErrorObj("Invalid email or security key. Access denied.");

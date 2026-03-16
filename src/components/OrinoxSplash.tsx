@@ -66,7 +66,7 @@ const OrinoxSplash = () => {
       <AnimatePresence>
         {showContent && (
           <div className="relative z-10 w-full max-w-[1400px] flex flex-col md:flex-row items-center justify-center md:justify-between px-10 md:px-26 py-20">
-            
+
             {/* Branding Section */}
             <div className="flex flex-col items-center space-y-6">
               <motion.div
@@ -105,16 +105,16 @@ const OrinoxSplash = () => {
                   ORINOX Capabilities Presentation
                 </motion.button>
               </Link>
-              <Link href="/orinox-capabilities-presentation" className="w-full">
-            
-              <motion.button
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1.5, ease: "easeOut", delay: 0.5 }}
-                className="w-full py-4 px-4 border border-white/90 rounded-full text-[12.34px] transition-all duration-300 hover:underline cursor-pointer"
-              >
-                Continue to Orinox Website
-              </motion.button>
+              <Link href="/home" className="w-full">
+
+                <motion.button
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1.5, ease: "easeOut", delay: 0.5 }}
+                  className="w-full py-4 px-4 border border-white/90 rounded-full text-[12.34px] transition-all duration-300 hover:underline cursor-pointer"
+                >
+                  Continue to Orinox Website
+                </motion.button>
               </Link>
             </div>
           </div>
