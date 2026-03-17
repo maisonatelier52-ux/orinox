@@ -1,17 +1,15 @@
+# Clean .htaccess for Next.js trailingSlash: true export
+# This configuration relies on Next.js folder structure (e.g. /home/index.html)
+# which cPanel/Apache serves natively with a trailing slash.
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
 
-  # 1. Force trailing slash for all non-file/non-directory requests
-  # This makes the URL look like /home/
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_URI} !(.*)/$
-  RewriteRule ^(.*)$ $1/ [L,R=301]
-
-  # 2. Serve the index.html inside the folder
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteRule ^(.*)/$ $1/index.html [L]
-
-  # 3. Handle 404 errors safely
+  # Handle 404 errors by pointing to the exported 404 page
   ErrorDocument 404 /404/index.html
+
+  # Optional: Force HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
