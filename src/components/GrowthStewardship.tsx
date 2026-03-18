@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function GrowthStewardship() {
@@ -63,9 +64,9 @@ export default function GrowthStewardship() {
                     </div>
 
                     <motion.div {...anim(0.6)}>
-                        <button className="bg-white text-black px-8 py-3 text-[9px] font-normal uppercase tracking-widest rounded-sm hover:bg-white/90 transition-colors">
+                        <Link href="/login"><button className="bg-white text-black px-8 py-3 text-[9px] font-normal uppercase tracking-widest rounded-sm hover:bg-white/90 transition-colors">
                             Investor Relations
-                        </button>
+                        </button></Link>
                     </motion.div>
                 </div>
 

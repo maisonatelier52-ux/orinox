@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const insights = [
   {
@@ -86,9 +87,9 @@ export default function StrategicEnergyInsights() {
               </div>
 
               {/* Button */}
-              <button className="w-full py-3.5 border border-white/20 text-[10px] font-normal uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 rounded-sm">
+              <Link href="/login"><button className="w-full py-3.5 border border-white/20 text-[10px] font-normal uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 rounded-sm">
                 View Summary
-              </button>
+              </button></Link>
             </motion.div>
           ))}
         </div>

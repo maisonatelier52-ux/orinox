@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronDown, Check } from "lucide-react";
 
@@ -149,9 +150,9 @@ export default function StrategicInsightsContact() {
                 <p className="text-[12px] leading-relaxed text-white/50 font-light mb-6 max-w-xl">
                   {pub.description}
                 </p>
-                <button className="px-10 py-3 border border-white/20 text-[9px] font-normal uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
+                <Link href="/login"><button className="px-10 py-3 border border-white/20 text-[9px] font-normal uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
                   View Brief
-                </button>
+                </button></Link>
               </motion.div>
             ))}
           </div>
@@ -172,12 +173,12 @@ export default function StrategicInsightsContact() {
               <p className="text-zinc-500 text-[13px] leading-relaxed max-w-xs">
                 Technical consultation for <strong>{selectedSlot}</strong> on <strong>{formatDate(selectedDateObj)}</strong> has been secured for <strong>{formData.name}</strong>. Confirmation sent to {formData.email}.
               </p>
-              <button
+              <Link href="/login"><button
                 onClick={() => setSubmitted(false)}
                 className="mt-8 text-[10px] uppercase tracking-widest text-zinc-400 hover:text-white transition-colors underline cursor-pointer"
               >
                 Book another phase
-              </button>
+              </button></Link>
             </motion.div>
           ) : (
             <>

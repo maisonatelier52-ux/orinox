@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function MidstreamPageHero() {
     const anim = (delay = 0) => ({
@@ -43,9 +44,9 @@ export default function MidstreamPageHero() {
                 </motion.p>
 
                 <motion.div {...anim(0.4)} className="flex items-center gap-6">
-                    <button className="px-8 py-4 bg-white text-black text-[9px] uppercase tracking-widest font-normal hover:bg-white/90 transition-colors rounded-sm">
+                    <Link href="/login"><button className="px-8 py-4 bg-white text-black text-[9px] uppercase tracking-widest font-normal hover:bg-white/90 transition-colors rounded-sm">
                         Discover Assets
-                    </button>
+                    </button></Link>
                 </motion.div>
             </div>
         </section>

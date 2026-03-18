@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 const fleet = [
@@ -102,9 +103,9 @@ export default function VesselInventory() {
                                     {item.meta}
                                 </p>
 
-                                <button className="w-full py-4 border border-white/20 text-[8px] md:text-[8px] uppercase tracking-[0.3em] hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm">
+                                <Link href="/login"><button className="w-full py-4 border border-white/20 text-[8px] md:text-[8px] uppercase tracking-[0.3em] hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm">
                                     TECHNICAL SPECS
-                                </button>
+                                </button></Link>
                             </div>
                         </motion.div>
                     ))}

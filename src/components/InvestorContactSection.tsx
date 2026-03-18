@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function InvestorContactSection() {
@@ -69,9 +70,9 @@ export default function InvestorContactSection() {
                             <p className="text-[12px] text-zinc-600 font-light"><span className="text-zinc-500">HQ:</span> +1 (713) 555-0922</p>
                         </div>
 
-                        <button className="w-full py-4 border border-white/20 text-[9px] font-normal rounded-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
+                        <Link href="/login"><button className="w-full py-4 border border-white/20 text-[9px] font-normal rounded-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
                             Inquiry Desk
-                        </button>
+                        </button></Link>
                     </motion.div>
 
                    

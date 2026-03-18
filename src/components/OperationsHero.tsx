@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function OperationsHero() {
@@ -32,13 +33,13 @@ export default function OperationsHero() {
                             investor-focused commitment to safety and innovation.
                         </p>
 
-                        <motion.button
+                        <Link href="/login"><motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="bg-white text-black px-6 py-3 text-[10px] font-normal uppercase tracking-wider rounded-sm transition-colors hover:bg-white/90"
                         >
                             View Fleet
-                        </motion.button>
+                        </motion.button></Link>
                     </motion.div>
                 </div>
 

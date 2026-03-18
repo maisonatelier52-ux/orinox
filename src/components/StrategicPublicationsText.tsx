@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const publications = [
     {
@@ -64,9 +65,9 @@ export default function StrategicPublicationsText() {
                                 {pub.description}
                             </p>
 
-                            <button className="w-full py-4 border border-white/20 text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
+                            <Link href="/login"><button className="w-full py-4 border border-white/20 text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
                                 Read Brief
-                            </button>
+                            </button></Link>
                         </motion.div>
                     ))}
                 </div>

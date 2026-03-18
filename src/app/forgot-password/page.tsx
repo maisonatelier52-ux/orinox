@@ -183,19 +183,19 @@ export default function ForgotPasswordPage() {
                                                 className="bg-black/50 border border-white/10 p-4 text-center text-2xl tracking-[1em] text-white focus:outline-none focus:border-white/30 transition-colors rounded-sm font-mono"
                                             />
                                         </div>
-                                        <button
+                                        <Link href="/login"><button
                                             type="submit"
                                             className="w-full py-4 border border-white/20 text-[10px] uppercase font-bold tracking-[0.2em] hover:bg-white hover:text-black transition-all rounded-sm"
                                         >
                                             VERIFY IDENTITY
-                                        </button>
-                                        <button
+                                        </button></Link>
+                                        <Link href="/login"><button
                                             type="button"
                                             onClick={() => setStep("email")}
                                             className="w-full text-[9px] text-zinc-500 uppercase tracking-widest hover:text-white transition-colors"
                                         >
                                             Incorrect email? Go back
-                                        </button>
+                                        </button></Link>
                                     </form>
                                 )}
 

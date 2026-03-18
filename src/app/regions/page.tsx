@@ -58,20 +58,20 @@ export default function RegionsPage() {
                         </p>
 
                         <div className="flex flex-wrap gap-6">
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="border border-white/70 text-white px-10 py-4 text-[12px] font-normal  tracking-widest rounded-sm transition-all hover:bg-white hover:text-black"
                             >
                                 Our Strategy
-                            </motion.button>
-                            <motion.button
+                            </motion.button></Link>
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="border border-white/70 text-white px-10 py-4 text-[12px] font-normal  tracking-widest rounded-sm transition-all hover:bg-white hover:text-black"
                             >
                                 ESG Vision
-                            </motion.button>
+                            </motion.button></Link>
                         </div>
                     </motion.div>
                 </div>
@@ -207,14 +207,14 @@ export default function RegionsPage() {
 
                     {/* Bottom Right Button */}
                     <div className="pb-20 flex justify-end">
-                        <motion.button
+                        <Link href="/login"><motion.button
                             {...anim(0.7)}
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="bg-white text-black px-10 py-4 text-[11px] font-normal tracking-wide rounded-sm transition-colors hover:bg-gray-200"
                         >
                             Contact Regional Office
-                        </motion.button>
+                        </motion.button></Link>
                     </div>
                 </div>
             </section>
@@ -362,13 +362,13 @@ export default function RegionsPage() {
 
                             <div className="flex-1 w-full" />
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-12 py-3 text-[11px] font-normal tracking-wider rounded-sm w-full transition-colors hover:bg-gray-200 z-10"
                             >
                                 Contact Office
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 

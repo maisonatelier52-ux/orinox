@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 const items = [
@@ -75,9 +76,9 @@ export default function InsightsPublications() {
                                 {item.description}
                             </p>
 
-                            <button className="w-fit px-12 py-3.5 border border-white/20 text-[9px] font-bold uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
+                            <Link href="/login"><button className="w-fit px-12 py-3.5 border border-white/20 text-[9px] font-bold uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
                                 {item.buttonText}
-                            </button>
+                            </button></Link>
                         </motion.div>
                     ))}
                 </div>

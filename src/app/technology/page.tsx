@@ -50,13 +50,13 @@ export default function TechnologyPage() {
                                 and zero-latency decision-making across global petroleum assets.
                             </p>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-10 py-3 text-[12px] font-normal tracking-wider rounded-sm transition-colors hover:bg-gray-200"
                             >
                                 View Stack
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 
@@ -147,13 +147,13 @@ export default function TechnologyPage() {
                                 ))}
                             </div>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-10 py-3 text-[12px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
                             >
                                 Technical Specs
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 
@@ -208,13 +208,13 @@ export default function TechnologyPage() {
                                 ))}
                             </div>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-12 py-3 text-[12px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
                             >
                                 Investor Portal
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 
@@ -279,13 +279,13 @@ export default function TechnologyPage() {
                                 ))}
                             </ul>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-10 py-3 text-[11px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
                             >
                                 View ESG Report
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 
@@ -370,13 +370,13 @@ export default function TechnologyPage() {
                                 ))}
                             </ul>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-12 py-3 text-[12px] font-normal tracking-wider rounded-sm w-fit transition-colors hover:bg-gray-200"
                             >
                                 Technical Inquiry
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 

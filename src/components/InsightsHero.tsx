@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const insightCategories = [
   {
@@ -74,9 +75,9 @@ export default function InsightsHero() {
                 {item.description}
               </p>
 
-              <button className="px-10 py-3 border border-white/20 text-[10px] font-normal uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 rounded-sm">
+              <Link href="/login"><button className="px-10 py-3 border border-white/20 text-[10px] font-normal uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 rounded-sm">
                 {item.buttonText}
-              </button>
+              </button></Link>
             </motion.div>
           ))}
         </div>

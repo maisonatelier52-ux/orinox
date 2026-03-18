@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function CoreOperationalSectors() {
@@ -55,9 +56,9 @@ export default function CoreOperationalSectors() {
                 Identification and assessment of high-potential upstream assets leveraging advanced geological modeling and seismic evaluation protocols.
               </p>
 
-              <button className="border border-white/60 px-8 py-3 rounded-md text-[16px] font-medium hover:bg-white hover:text-black transition">
+              <Link href="/login"><button className="border border-white/60 px-8 py-3 rounded-md text-[16px] font-medium hover:bg-white hover:text-black transition">
                 Technical Specs
-              </button>
+              </button></Link>
             </div>
 
 
@@ -87,9 +88,9 @@ export default function CoreOperationalSectors() {
                 Optimizing asset lifecycle yields through innovative field development techniques and high-integrity rig infrastructure management.
               </p>
 
-              <button className="border border-white/60 px-8 py-3 rounded-md text-[16px] font-medium hover:bg-white hover:text-black transition">
+              <Link href="/login"><button className="border border-white/60 px-8 py-3 rounded-md text-[16px] font-medium hover:bg-white hover:text-black transition">
                 Technical Specs
-              </button>
+              </button></Link>
             </div>
 
 
@@ -118,9 +119,9 @@ export default function CoreOperationalSectors() {
                 Engineering resilient midstream infrastructure for the secure and reliable transportation of global petroleum resources across vast networks.
               </p>
 
-              <button className="border border-white/60 px-8 py-3 rounded-md text-[16px] font-medium hover:bg-white hover:text-black transition">
+              <Link href="/login"><button className="border border-white/60 px-8 py-3 rounded-md text-[16px] font-medium hover:bg-white hover:text-black transition">
                 Technical Specs
-              </button>
+              </button></Link>
             </div>
 
           </div>

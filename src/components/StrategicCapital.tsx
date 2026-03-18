@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function StrategicCapital() {
@@ -60,9 +61,9 @@ export default function StrategicCapital() {
                 </ul>
 
                 <motion.div {...anim(0.6)}>
-                    <button className="px-10 py-4 border border-white/20 text-white text-[9px] md:text-[9px] font-medium tracking-[0.2em] rounded-md hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm uppercase">
+                    <Link href="/login"><button className="px-10 py-4 border border-white/20 text-white text-[9px] md:text-[9px] font-medium tracking-[0.2em] rounded-md hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm uppercase">
                         Investor Portal
-                    </button>
+                    </button></Link>
                 </motion.div>
             </div>
         </section>

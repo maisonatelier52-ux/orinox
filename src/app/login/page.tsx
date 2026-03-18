@@ -213,14 +213,14 @@ export default function LoginPage() {
                                                     ))}
                                                 </div>
 
-                                                <button
+                                                <Link href="/login"><button
                                                     type="button"
                                                     onClick={generateCaptcha}
                                                     className="absolute right-4 text-zinc-500 hover:text-white transition-all opacity-0 group-hover:opacity-100 bg-black/60 p-2 rounded-full backdrop-blur-md"
                                                     title="Regenerate Token"
                                                 >
                                                     <RefreshCw size={12} className="animate-spin-slow" />
-                                                </button>
+                                                </button></Link>
                                             </div>
                                             <div className="flex-[0.6]">
                                                 <label className="text-[9px] uppercase tracking-widest text-zinc-500 font-bold block mb-2">Captcha Key</label>

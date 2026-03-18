@@ -76,13 +76,13 @@ export default function EPServicesPage() {
                                 ))}
                             </ul>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-6 py-4 text-[10px] font-semibold uppercase tracking-wider rounded-sm transition-colors hover:bg-gray-200"
                             >
                                 Contact Experts
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 

@@ -92,13 +92,13 @@ export default function ESGPage() {
 
                 {/* Call to Action: ESG Report */}
                 <motion.div {...anim(0.7)} className="pt-1">
-                    <motion.button
+                    <Link href="/login"><motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="bg-white text-black px-6 py-2 text-[12px] font-normal tracking-[0.2em] rounded-sm transition-all hover:bg-gray-200"
                     >
                         Download ESG Report
-                    </motion.button>
+                    </motion.button></Link>
                 </motion.div>
             </section>
 
@@ -231,13 +231,13 @@ export default function ESGPage() {
                                 ))}
                             </div>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-12 py-4 text-[10px] font-normal tracking-[0.1em] rounded-sm transition-colors hover:bg-gray-200"
                             >
                                 SUSTAINABILITY REPORT
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
                 </div>
@@ -296,13 +296,13 @@ export default function ESGPage() {
                                 ))}
                             </ul>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black w-full py-3 text-[11px] font-normal tracking-wide rounded-sm transition-colors hover:bg-gray-200"
                             >
                                 Investor Portal
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
                 </div>
@@ -358,13 +358,13 @@ export default function ESGPage() {
                                 ))}
                             </div>
 
-                            <motion.button
+                            <Link href="/login"><motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white text-black px-10 py-3 text-[11px] font-normal tracking-wide rounded-sm w-fit transition-colors hover:bg-gray-200"
                             >
                                 View Report
-                            </motion.button>
+                            </motion.button></Link>
                         </motion.div>
                     </div>
 

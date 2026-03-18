@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 const pillars = [
@@ -59,9 +60,9 @@ export default function StrategicFramework() {
           </div>
 
           <motion.div {...anim(0.6)}>
-            <button className="bg-white text-black px-8 py-3 text-[9px] font-normal uppercase tracking-widest rounded-sm hover:bg-white/90 transition-all duration-300">
+            <Link href="/login"><button className="bg-white text-black px-8 py-3 text-[9px] font-normal uppercase tracking-widest rounded-sm hover:bg-white/90 transition-all duration-300">
               Investor Portal
-            </button>
+            </button></Link>
           </motion.div>
         </div>
 

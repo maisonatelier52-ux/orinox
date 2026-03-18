@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 const investorCards = [
@@ -66,9 +67,9 @@ export default function InvestorsHero() {
                 {card.description}
               </p>
 
-              <button className="w-full sm:w-fit px-8 py-3 bg-white text-black text-[9px] font-normal uppercase tracking-widest rounded-sm hover:bg-white/90 transition-all duration-300">
+              <Link href="/login"><button className="w-full sm:w-fit px-8 py-3 bg-white text-black text-[9px] font-normal uppercase tracking-widest rounded-sm hover:bg-white/90 transition-all duration-300">
                 {card.buttonText}
-              </button>
+              </button></Link>
             </motion.div>
           ))}
         </div>

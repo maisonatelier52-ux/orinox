@@ -54,9 +54,9 @@ export default function OrinoxCapabilitiesPresentation() {
 
         {/* Action Button */}
         <motion.div {...anim(0.5)} className="absolute bottom-20 md:bottom-24 z-10">
-          <button className="px-8 py-4 border border-white/40 text-white text-[12px] md:text-[12px] font-medium tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-500 rounded-sm">
+          <Link href="/login"><button className="px-8 py-4 border border-white/40 text-white text-[12px] md:text-[12px] font-medium tracking-widest uppercase hover:bg-white hover:text-black transition-all duration-500 rounded-sm">
             Know More
-          </button>
+          </button></Link>
         </motion.div>
       </section>
 
@@ -89,9 +89,9 @@ export default function OrinoxCapabilitiesPresentation() {
             </p>
           </motion.div>
           <motion.div {...anim(0.5)}>
-            <button className="px-8 py-3.5 border rounded-[5px] border-white/60 text-[10px] font-medium uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
+            <Link href="/login"><button className="px-8 py-3.5 border rounded-[5px] border-white/60 text-[10px] font-medium uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all duration-300">
               Know More
-            </button>
+            </button></Link>
           </motion.div>
         </div>
       </section>
@@ -122,9 +122,9 @@ export default function OrinoxCapabilitiesPresentation() {
             </p>
           </motion.div>
           <motion.div {...anim(0.4)}>
-            <button className="px-10 py-3.5 border rounded-[5px] border-white/60 text-[11px] font-medium uppercase tracking-[0.15em] hover:bg-white hover:text-black transition-all duration-300">
+            <Link href="/login"><Link href="/login"><button className="px-10 py-3.5 border rounded-[5px] border-white/60 text-[11px] font-medium uppercase tracking-[0.15em] hover:bg-white hover:text-black transition-all duration-300">
               Know More
-            </button>
+            </button></Link></Link>
           </motion.div>
         </div>
       </section>
@@ -251,12 +251,12 @@ export default function OrinoxCapabilitiesPresentation() {
             We deliver the foundational systems that drive exploration, production, and midstream efficiency across the global oil and gas sector.
           </motion.p>
           <motion.div {...anim(0.3)} className="flex flex-col sm:flex-row gap-4 items-center w-full sm:w-auto">
-            <button className="w-full sm:min-w-[180px] px-8 py-3.5 bg-white text-black text-[11px] font-bold uppercase tracking-[0.15em] rounded-[5px] hover:bg-white/90 transition-all duration-300">
+            <Link href="/login"><button className="w-full sm:min-w-[180px] px-8 py-3.5 bg-white text-black text-[11px] font-bold uppercase tracking-[0.15em] rounded-[5px] hover:bg-white/90 transition-all duration-300">
               View Holding
-            </button>
-            <button className="w-full sm:min-w-[200px] px-8 py-3.5 border border-white text-white text-[11px] font-bold uppercase tracking-[0.15em] rounded-[5px] hover:bg-white/10 transition-all duration-300">
+            </button></Link>
+            <Link href="/login"><button className="w-full sm:min-w-[200px] px-8 py-3.5 border border-white text-white text-[11px] font-bold uppercase tracking-[0.15em] rounded-[5px] hover:bg-white/10 transition-all duration-300">
               Contact Experts
-            </button>
+            </button></Link>
           </motion.div>
         </div>
       </section>
@@ -283,9 +283,9 @@ export default function OrinoxCapabilitiesPresentation() {
             </p>
           </motion.div>
           <motion.div {...anim(0.3)}>
-            <button className="px-10 py-3.5 border rounded-[5px] border-white/60 text-[11px] font-medium uppercase tracking-[0.15em] hover:bg-white hover:text-black transition-all duration-300">
+            <Link href="/login"><Link href="/login"><button className="px-10 py-3.5 border rounded-[5px] border-white/60 text-[11px] font-medium uppercase tracking-[0.15em] hover:bg-white hover:text-black transition-all duration-300">
               Know More
-            </button>
+            </button></Link></Link>
           </motion.div>
         </div>
       </section>
@@ -319,9 +319,9 @@ export default function OrinoxCapabilitiesPresentation() {
                 Identification and assessment of high-potential upstream assets leveraging advanced geological modeling and seismic evaluation protocols.
               </p>
               <div>
-                <button className="px-8 py-2.5 border rounded-[5px] border-white/40 text-[10px] font-medium uppercase tracking-[0.1em] text-white/80 hover:bg-white hover:text-black transition-all duration-300">
+                <Link href="/login"><button className="px-8 py-2.5 border rounded-[5px] border-white/40 text-[10px] font-medium uppercase tracking-[0.1em] text-white/80 hover:bg-white hover:text-black transition-all duration-300">
                   Technical Specs
-                </button>
+                </button></Link>
               </div>
             </motion.div>
 
@@ -332,9 +332,9 @@ export default function OrinoxCapabilitiesPresentation() {
                 Optimizing asset lifecycle yields through innovative field development techniques and high-integrity rig infrastructure management.
               </p>
               <div>
-                <button className="px-8 py-2.5 border rounded-[5px] border-white/40 text-[10px] font-medium uppercase tracking-[0.1em] text-white/80 hover:bg-white hover:text-black transition-all duration-300">
+                <Link href="/login"><button className="px-8 py-2.5 border rounded-[5px] border-white/40 text-[10px] font-medium uppercase tracking-[0.1em] text-white/80 hover:bg-white hover:text-black transition-all duration-300">
                   Technical Specs
-                </button>
+                </button></Link>
               </div>
             </motion.div>
 
@@ -345,9 +345,9 @@ export default function OrinoxCapabilitiesPresentation() {
                 Engineering resilient midstream infrastructure for the secure and reliable transportation of global petroleum resources across vast networks.
               </p>
               <div>
-                <button className="px-8 py-2.5 border rounded-[5px] border-white/40 text-[10px] font-medium uppercase tracking-[0.1em] text-white/80 hover:bg-white hover:text-black transition-all duration-300">
+                <Link href="/login"><button className="px-8 py-2.5 border rounded-[5px] border-white/40 text-[10px] font-medium uppercase tracking-[0.1em] text-white/80 hover:bg-white hover:text-black transition-all duration-300">
                   Technical Specs
-                </button>
+                </button></Link>
               </div>
             </motion.div>
           </div>
@@ -513,9 +513,9 @@ export default function OrinoxCapabilitiesPresentation() {
               </div>
 
               <div className="pt-6">
-                <button type="submit" className="w-full py-4 border text-white/60 border-white/60 text-[11px] font-bold uppercase tracking-[0.2em] rounded-full hover:bg-white hover:text-black transition-all duration-300">
+                <Link href="/login"><button type="submit" className="w-full py-4 border text-white/60 border-white/60 text-[11px] font-bold uppercase tracking-[0.2em] rounded-full hover:bg-white hover:text-black transition-all duration-300">
                   Submit
-                </button>
+                </button></Link>
               </div>
             </form>
           </motion.div>

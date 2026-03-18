@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const advisoryTeams = [
   {
@@ -72,9 +73,9 @@ export default function StrategicAdvisoryTeam() {
                 </p>
               </div>
 
-              <button className="w-full py-3 border border-white/20 text-[10px] text-white/60 font-normal uppercase tracking-widest rounded-sm hover:bg-white hover:text-black transition-all duration-300">
+              <Link href="/login"><button className="w-full py-3 border border-white/20 text-[10px] text-white/60 font-normal uppercase tracking-widest rounded-sm hover:bg-white hover:text-black transition-all duration-300">
                 {team.buttonText}
-              </button>
+              </button></Link>
             </motion.div>
           ))}
         </div>

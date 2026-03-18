@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function ESGImperative() {
     const anim = (delay = 0) => ({
@@ -48,9 +49,9 @@ export default function ESGImperative() {
                 </div>
 
                 <motion.div {...anim(0.5)}>
-                    <button className="px-10 py-3.5 border border-white/30 text-white text-[9px] md:text-[10px] font-medium tracking-[0.2em] rounded-md hover:bg-white hover:text-black transition-all duration-300 uppercase">
+                    <Link href="/login"><button className="px-10 py-3.5 border border-white/30 text-white text-[9px] md:text-[10px] font-medium tracking-[0.2em] rounded-md hover:bg-white hover:text-black transition-all duration-300 uppercase">
                         Sustainability Report
-                    </button>
+                    </button></Link>
                 </motion.div>
             </div>
         </section>

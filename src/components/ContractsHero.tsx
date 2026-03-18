@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function ContractsHero() {
@@ -41,14 +42,14 @@ export default function ContractsHero() {
                     operational integrity across our global petroleum network.
                 </motion.p>
 
-                <motion.button
+                <Link href="/login"><motion.button
                     {...anim(0.5)}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     className="px-6 py-4 border rounded-md border-white/40 text-white text-[10px] md:text-[9px] uppercase tracking-[0.3em] hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm"
                 >
                     STRATEGIC TERMS
-                </motion.button>
+                </motion.button></Link>
             </div>
         </section>
     );
