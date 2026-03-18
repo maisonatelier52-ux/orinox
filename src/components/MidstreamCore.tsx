@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const midstreamAssets = [
     {
@@ -59,9 +60,11 @@ export default function MidstreamCore() {
                             <h3 className="text-xl font-bold tracking-tight mb-4 group-hover:text-white transition-colors">{asset.title}</h3>
                             <p className="text-[13px] text-zinc-500 font-light leading-relaxed mb-6 flex-grow">{asset.description}</p>
                             <div className="mt-auto">
-                                <span className="text-[10px] font-bold uppercase tracking-widest text-white/30 group-hover:text-white transition-colors cursor-pointer pb-1 border-b border-transparent group-hover:border-white">
-                                    Learn More
-                                </span>
+                                <Link href="/login">
+                                    <span className="text-[10px] font-bold uppercase tracking-widest text-white/30 group-hover:text-white transition-colors cursor-pointer pb-1 border-b border-transparent group-hover:border-white">
+                                        Learn More
+                                    </span>
+                                </Link>
                             </div>
                         </motion.div>
                     ))}

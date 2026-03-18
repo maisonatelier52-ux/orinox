@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const capabilities = [
   {
@@ -32,13 +33,13 @@ export default function UpstreamCapabilities() {
     <section className="bg-black text-white py-24 px-8 md:px-16 lg:px-24 xl:px-32 border-t border-white/5">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 md:mb-24 max-w-3xl">
-          <motion.h2 
+          <motion.h2
             {...anim(0.1)}
             className="text-xl md:text-2xl lg:text-3xl font-bold tracking-tight mb-6"
           >
             Full-Lifecycle Upstream Operations
           </motion.h2>
-          <motion.p 
+          <motion.p
             {...anim(0.2)}
             className="text-[12px] md:text-[13px] text-zinc-500 font-light leading-relaxed"
           >
@@ -50,18 +51,20 @@ export default function UpstreamCapabilities() {
           {capabilities.map((cap, index) => (
             <motion.div key={index} {...anim(0.3 + index * 0.1)} className="flex flex-col group">
               <div className="relative aspect-[4/3] w-full overflow-hidden mb-8 border border-white/5 bg-zinc-900 rounded-sm">
-                <img 
-                  src={cap.image} 
-                  alt={cap.title} 
+                <img
+                  src={cap.image}
+                  alt={cap.title}
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                 />
               </div>
               <h3 className="text-xl font-bold tracking-tight mb-4 group-hover:text-white transition-colors">{cap.title}</h3>
               <p className="text-[13px] text-zinc-500 font-light leading-relaxed mb-6 flex-grow">{cap.description}</p>
               <div className="mt-auto">
-                <span className="text-[10px] font-bold uppercase tracking-widest text-white/30 group-hover:text-white transition-colors cursor-pointer pb-1 border-b border-transparent group-hover:border-white">
-                  Learn More
-                </span>
+                <Link href="/login">
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-white/30 group-hover:text-white transition-colors cursor-pointer pb-1 border-b border-transparent group-hover:border-white">
+                    Learn More
+                  </span>
+                </Link>
               </div>
             </motion.div>
           ))}
