@@ -52,8 +52,8 @@ export default function OperationsHero() {
                         className="relative w-full aspect-square md:aspect-[5/6] max-h-[700px] overflow-hidden rounded-sm"
                     >
                         <Image
-                            src="/images/seismic-survey.png"
-                            alt="Offshore Rig"
+                            src="/images/elite_rig_fleet.png"
+                            alt="Elite Rig Fleet"
                             fill
                             className="object-cover"
                             priority
