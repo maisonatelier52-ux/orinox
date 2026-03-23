@@ -1,47 +1,17 @@
-"use client";
+import type { Metadata } from "next";
+import ContactClient from "./contact-client";
 
-import { motion, Variants } from "framer-motion";
-import Link from "next/link";
-import Orinox from "@/components/Orinox";
-import ContactHero from "@/components/ContactHero";
-import GlobalOfficesGrid from "@/components/GlobalOfficesGrid";
-import ContactFormSection from "@/components/ContactFormSection";
-import Footer from "@/components/Footer";
-
-const fadeUp: Variants = {
-    initial: { opacity: 0, y: 40 },
-    animate: { opacity: 1, y: 0 },
+export const metadata: Metadata = {
+    title: "Contact Us | Global Energy Infrastructure | Orinox Holding",
+    description: "Get in touch with Orinox Holding's US and global offices. Contact our technical experts for upstream and midstream energy inquiries.",
+    keywords: ["contact Orinox Holding", "energy industry contact USA", "petroleum infrastructure inquiry", "global energy offices", "Orinox headquarters"],
+    openGraph: {
+        title: "Contact Us | Orinox Holding US",
+        description: "Connect with our technical and strategic teams worldwide.",
+        images: ["/images/logo1.png"],
+    },
 };
 
-const anim = (delay: number = 0) => ({
-    variants: fadeUp,
-    initial: "initial",
-    whileInView: "animate",
-    viewport: { once: true },
-    transition: {
-        duration: 0.8,
-        delay: delay,
-        ease: [0.21, 0.47, 0.32, 0.98] as const,
-    }
-});
-
 export default function ContactPage() {
-    return (
-        <div className="flex flex-col bg-black overflow-hidden">
-            {/* Navigation */}
-            <Orinox />
-
-            {/* Hero Section */}
-            <ContactHero />
-
-            {/* Global Offices Section */}
-            <GlobalOfficesGrid />
-
-            {/* Contact Form Section */}
-            <ContactFormSection />
-
-            {/* Global Footer (Standard across pages) */}
-            <Footer />
-        </div>
-    );
+    return <ContactClient />;
 }

@@ -1,45 +1,17 @@
-"use client";
+import type { Metadata } from "next";
+import ContractsClient from "./contracts-client";
 
-import { motion, Variants } from "framer-motion";
-import Link from "next/link";
-import Orinox from "@/components/Orinox";
-import ContractsHero from "@/components/ContractsHero";
-import ContractFrameworks from "@/components/ContractFrameworks";
-import RigFleetSection from "@/components/RigFleetSection";
-import StrategicCapital from "@/components/StrategicCapital";
-import ESGImperative from "@/components/ESGImperative";
-import Footer from "@/components/Footer";
-
-const fadeUp: Variants = {
-    initial: { opacity: 0, y: 40 },
-    animate: { opacity: 1, y: 0 },
+export const metadata: Metadata = {
+    title: "US Petroleum Service Contracts & Rig Chartering | Orinox",
+    description: "Securing multi-year upstream contracts and midstream service agreements in the US and globally. High-spec rig chartering and infrastructure development contracts.",
+    keywords: ["petroleum service contracts", "rig chartering USA", "upstream drilling agreements", "midstream infrastructure contracts"],
+    openGraph: {
+        title: "Service Contracts | Orinox Holding",
+        description: "Strategic contract frameworks for global energy markets.",
+        images: ["/images/logo1.png"],
+    },
 };
 
-const anim = (delay: number = 0) => ({
-    variants: fadeUp,
-    initial: "initial",
-    whileInView: "animate",
-    viewport: { once: true },
-    transition: {
-        duration: 0.8,
-        delay: delay,
-        ease: [0.21, 0.47, 0.32, 0.98] as const,
-    }
-});
-
 export default function ContractsPage() {
-    return (
-        <div className="flex flex-col bg-black overflow-hidden">
-            <Orinox />
-
-            <ContractsHero />
-            <ContractFrameworks />
-            <RigFleetSection />
-            <StrategicCapital />
-            <ESGImperative />
-
-            {/* Global Footer */}
-            <Footer />
-        </div>
-    );
+    return <ContractsClient />;
 }

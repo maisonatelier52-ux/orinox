@@ -1,35 +1,12 @@
-import AdvancingFrontier from "@/components/AdvancingFrontier";
-import ContactSection from "@/components/ContactSection";
-import CoreOperationalSectors from "@/components/CoreOperationalSectors";
-import CoreValues from "@/components/CoreValues";
-import Footer from "@/components/Footer";
-import GlobalFootprint from "@/components/GlobalFootprint";
-import IntegratedInfrastructure from "@/components/IntegratedInfrastructure";
-import MissionVision from "@/components/MissionVision";
-import Orinox1 from "@/components/Orinox1";
-import OrinoxAbout from "@/components/OrinoxAbout";
-import OrinoxLegacy from "@/components/OrinoxLegacy";
-import QuoteSection from "@/components/QuoteSection";
-import SafetyAtScale from "@/components/SafetyAtScale";
-import StrategicLeadership from "@/components/StrategicLeadership";
-import TechnicalAndMidstream from "@/components/TechnicalAndMidstream";
+import type { Metadata } from "next";
+import OrinoxWebsiteClient from "./orinox-website-client";
 
-export default function OrinoxWebsite() {
-  return (
-   <main className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
-    <OrinoxAbout />
-    <OrinoxLegacy/>
-    {/* <MissionVision/>   */}
-    {/* <CoreValues/> */}
-    <StrategicLeadership/>
-    <AdvancingFrontier/>
-    <IntegratedInfrastructure/>
-    <CoreOperationalSectors/>
-    <TechnicalAndMidstream/>
-    <GlobalFootprint/>
-    <ContactSection/>
-    <QuoteSection/>
-    <Footer/>
-   </main>
-  );
+export const metadata: Metadata = {
+  title: "Global Energy Portfolio | Strategic Infrastructure | Orinox",
+  description: "Explore Orinox Holding's comprehensive energy portfolio. From upstream exploration to midstream technical management, we drive innovation in the global petroleum sector.",
+  keywords: ["energy portfolio US", "integrated infrastructure", "strategic energy leadership", "petroleum value chain", "Orinox global footprint"],
+};
+
+export default function OrinoxWebsitePage() {
+  return <OrinoxWebsiteClient />;
 }

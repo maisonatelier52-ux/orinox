@@ -1,47 +1,17 @@
-"use client";
+import type { Metadata } from "next";
+import MidstreamClient from "./midstream-client";
 
-import { motion, Variants } from "framer-motion";
-import Link from "next/link";
-import Orinox from "@/components/Orinox";
-import MidstreamPageHero from "@/components/MidstreamPageHero";
-import MidstreamCore from "@/components/MidstreamCore";
-import MidstreamTechnology from "@/components/MidstreamTechnology";
-import Footer from "@/components/Footer";
-
-const fadeUp: Variants = {
-    initial: { opacity: 0, y: 40 },
-    animate: { opacity: 1, y: 0 },
+export const metadata: Metadata = {
+    title: "Midstream Petroleum Logistics & Storage | Orinox Infrastructure US",
+    description: "Optimizing the transit and storage of critical hydrocarbon assets in the US. Advanced midstream operations for efficient energy distribution in North America.",
+    keywords: ["midstream logistics US", "petroleum storage USA", "oil and gas transport", "energy infrastructure pipelines"],
+    openGraph: {
+        title: "Midstream Logistics & Storage | Orinox Holding",
+        description: "Focusing on high-spec technical development for North American midstream energy markets.",
+        images: ["/images/logo1.png"],
+    },
 };
 
-const anim = (delay: number = 0) => ({
-    variants: fadeUp,
-    initial: "initial",
-    whileInView: "animate",
-    viewport: { once: true },
-    transition: {
-        duration: 0.8,
-        delay: delay,
-        ease: [0.21, 0.47, 0.32, 0.98] as const,
-    }
-});
-
 export default function MidstreamPage() {
-    return (
-        <div className="flex flex-col bg-black overflow-hidden">
-            {/* Navigation */}
-            <Orinox />
-
-            {/* Hero Section */}
-            <MidstreamPageHero />
-
-            {/* Core Assets Section */}
-            <MidstreamCore />
-
-            {/* Technology Integration Section */}
-            <MidstreamTechnology />
-
-            {/* Global Footer (Standard across pages) */}
-            <Footer />
-        </div>
-    );
+    return <MidstreamClient />;
 }

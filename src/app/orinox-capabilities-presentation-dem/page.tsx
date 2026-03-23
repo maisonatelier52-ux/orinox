@@ -1,14 +1,13 @@
-import OrinoxGenericSlide from "@/components/OrinoxGenericSlide";
+import type { Metadata } from "next";
+import PresentationClient from "./presentation-client";
 import presentationData from "../../../public/data/capabilities_presentation.json";
-import OrinoxDem from "@/components/Orinox-dem";
+
+export const metadata: Metadata = {
+  title: "Capabilities Presentation | Technical Mastery | Orinox",
+  description: "Detailed overview of Orinox Holding's technical capabilities in US and global energy infrastructure. Strategic exploration, production, and midstream expertise.",
+  keywords: ["Orinox capabilities", "energy presentation", "technical mastery petroleum", "energy infrastructure highlights"],
+};
 
 export default function OrinoxCapabilitiesPresentation() {
-  return (
-    <>
-    <OrinoxDem />
-      {presentationData.map((slide: any) => (
-        <OrinoxGenericSlide key={slide.id} {...slide} />
-      ))}
-    </>
-  );
+  return <PresentationClient presentationData={presentationData} />;
 }

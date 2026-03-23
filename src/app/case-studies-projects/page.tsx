@@ -1,45 +1,17 @@
-"use client";
+import type { Metadata } from "next";
+import CaseStudiesClient from "./case-studies-client";
 
-import { motion, Variants } from "framer-motion";
-import Link from "next/link";
-import Orinox from "@/components/Orinox";
-import CaseStudiesHero from "@/components/CaseStudiesHero";
-import CaseStudiesGrid from "@/components/CaseStudiesGrid";
-import StrategicInsights from "@/components/StrategicInsights";
-import StrategicPublicationsText from "@/components/StrategicPublicationsText";
-import InsightsPublications from "@/components/InsightsPublications";
-import Footer from "@/components/Footer";
-
-const fadeUp: Variants = {
-    initial: { opacity: 0, y: 40 },
-    animate: { opacity: 1, y: 0 },
+export const metadata: Metadata = {
+    title: "Energy Project Case Studies | Technical Excellence | Orinox US",
+    description: "Review Orinox Holding's successful US and global energy projects. Demonstrating technical mastery in upstream exploration and midstream infrastructure.",
+    keywords: ["energy case studies US", "petroleum project portfolio", "upstream success stories", "midstream infrastructure projects", "Orinox project highlights"],
+    openGraph: {
+        title: "Case Studies | Orinox Holding US",
+        description: "Proven results in global energy infrastructure.",
+        images: ["/images/logo1.png"],
+    },
 };
 
-const anim = (delay: number = 0) => ({
-    variants: fadeUp,
-    initial: "initial",
-    whileInView: "animate",
-    viewport: { once: true },
-    transition: {
-        duration: 0.8,
-        delay: delay,
-        ease: [0.21, 0.47, 0.32, 0.98] as const,
-    }
-});
-
 export default function CaseStudiesPage() {
-    return (
-        <div className="flex flex-col bg-black overflow-hidden">
-            <Orinox />
-
-            <CaseStudiesHero />
-            <CaseStudiesGrid />
-            <StrategicInsights />
-            <StrategicPublicationsText />
-            <InsightsPublications />
-
-            {/* Global Footer (Standard across pages) */}
-            <Footer />
-        </div>
-    );
+    return <CaseStudiesClient />;
 }
