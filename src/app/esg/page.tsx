@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import ESGClient from "./esg-client";
 
 export const metadata: Metadata = {
-    title: "US Sustainable Energy & ESG Metrics | Orinox Holding",
-    description: "Aligning petroleum profit with environmental stewardship. Verifiable ESG reporting and sustainable oil and gas operations in the USA.",
-    keywords: ["ESG energy US", "sustainable oil drilling", "petroleum environmental stewardship", "US energy metrics"],
+    title: "Sustainable Energy & ESG | US, Spain & UAE | Orinox",
+    description: "Aligning petroleum profit with environmental stewardship across US, Spain, and UAE. Verifiable ESG reporting and sustainable oil and gas operations.",
+    keywords: [
+        "ESG energy UAE", "sustainable drilling Dubai", "Spain petroleum ESG", "US sustainable energy",
+        "environmental stewardship Madrid", "Dubai energy transparency"
+    ],
     openGraph: {
-        title: "ESG & Sustainability | Orinox Holding US",
-        description: "Focusing on sustainable development for North American energy markets.",
+        title: "ESG & Sustainability | Global Operations | Orinox",
+        description: "Sustainable development for global energy markets in US, Spain, and UAE.",
         images: ["/images/logo1.png"],
     },
 };

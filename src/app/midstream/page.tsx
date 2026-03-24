@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import MidstreamClient from "./midstream-client";
 
 export const metadata: Metadata = {
-    title: "Midstream Petroleum Logistics & Storage | Orinox Infrastructure US",
-    description: "Optimizing the transit and storage of critical hydrocarbon assets in the US. Advanced midstream operations for efficient energy distribution in North America.",
-    keywords: ["midstream logistics US", "petroleum storage USA", "oil and gas transport", "energy infrastructure pipelines"],
+    title: "Midstream Petroleum Logistics & Storage | US, UAE & Spain | Orinox",
+    description: "Optimizing hydrocarbon transit and storage across US, UAE, and Spain. Advanced midstream operations for global energy distribution and strategic reservoir management.",
+    keywords: [
+        "midstream logistics UAE", "petroleum storage Dubai", "oil transport Spain", "US pipeline infrastructure",
+        "energy storage Madrid", "Dubai petroleum distribution", "midstream asset management"
+    ],
     openGraph: {
         title: "Midstream Logistics & Storage | Orinox Holding",
-        description: "Focusing on high-spec technical development for North American midstream energy markets.",
+        description: "Global technical development for midstream energy markets across the US, Spain, and Middle East.",
         images: ["/images/logo1.png"],
     },
 };

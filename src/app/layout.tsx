@@ -15,14 +15,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://orinoxholding.com"),
   title: {
-    default: "Orinox Holding | US Energy Infrastructure & Petroleum Logistics",
+    default: "Orinox Holding | Global Energy Infrastructure & Petroleum Logistics",
     template: "%s | Orinox Holding"
   },
-  description: "Orinox Holding is a global leader in the strategic development and technical management of capital-intensive energy infrastructure across the US petroleum value chain.",
-  keywords: ["US energy infrastructure", "petroleum logistics USA", "upstream exploration US", "midstream operations North America", "energy asset management"],
+  description: "Orinox Holding is a global leader in the strategic development and technical management of capital-intensive energy infrastructure across the US, Spain, and UAE petroleum value chains.",
+  keywords: [
+    "Orinox Holding", "petroleum drilling", "upstream energy", "midstream logistics",
+    "US energy infrastructure", "petroleum logistics UAE", "Dubai energy operations", "Spain petroleum services",
+    "upstream exploration US", "midstream operations North America", "petroleum drilling services Dubai", "energy asset management Spain",
+    "drilling infrastructure Middle East", "strategic energy development Madrid"
+  ],
   openGraph: {
-    title: "Orinox Holding | US Energy Infrastructure",
-    description: "Strategic development and technical management of petroleum assets in the United States and globally.",
+    title: "Orinox Holding | Global Energy Infrastructure",
+    description: "Strategic development and technical management of petroleum assets in the United States, Spain, UAE, and globally.",
     url: "https://orinoxholding.com",
     siteName: "Orinox Holding",
     images: [
@@ -38,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Orinox Holding | US Energy Operations",
-    description: "Leading technical management of energy infrastructure across the US petroleum value chain.",
+    title: "Orinox Holding | Global Energy Operations",
+    description: "Leading technical management of energy infrastructure across the US, Spain, and UAE petroleum value chains.",
     images: ["/images/logo1.png"],
   },
   icons: {
