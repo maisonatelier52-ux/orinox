@@ -6,7 +6,7 @@ export default function AdvancingFrontier() {
   return (
     <section className="relative w-full h-screen bg-black text-white snap-start overflow-hidden">
       {/* Background Image */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -26,15 +26,15 @@ export default function AdvancingFrontier() {
 
       {/* Text Content */}
       <div className="relative z-10 h-full mx-auto flex flex-col items-center justify-center pt-14 md:pt-16 text-center px-8 md:px-16 lg:px-24">
-        <motion.h1 
+        <motion.h2
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-[32px] md:text-6xl lg:text-[30px] text-white/90 leading-tight font-bold max-w-4xl mb-6"
         >
           ADVANCING THE FRONTIER OF PETROLEUM INFRASTRUCTURE
-        </motion.h1>
-        <motion.p 
+        </motion.h2>
+        <motion.p
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}

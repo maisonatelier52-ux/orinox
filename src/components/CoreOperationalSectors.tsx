@@ -10,23 +10,23 @@ export default function CoreOperationalSectors() {
 
         {/* Heading */}
         <div className="max-w-full md:max-w-150">
-          <motion.h1 
+          <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="text-[30px] md:text-6xl lg:text-[40px] text-white/90 leading-none font-bold mb-5"
           >
             Core Operational
-         Sectors
-          </motion.h1>
+            Sectors
+          </motion.h2>
 
           {/* Description */}
           <p className="text-[13px] text-white/90 leading-tight max-w-212.5 mb-4 md:mb-12">
-            Driving technical excellence across the integrated oil and gas value chain with precision-led infrastructure solutions. 
+            Driving technical excellence across the integrated oil and gas value chain with precision-led infrastructure solutions.
           </p>
         </div>
-      
+
         <section className="w-full py-10 ">
           <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row justify-between gap-12 md:gap-20">
 

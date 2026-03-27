@@ -6,15 +6,15 @@ import { motion, AnimatePresence, useAnimationControls } from "framer-motion";
 
 
 export default function OrinoxAbout() {
-  
+
 
   return (
     <section className="relative h-screen w-full bg-black overflow-hidden text-white snap-start">
 
-     
+
       {/* ── REVEALED CONTENT (unchanged) ── */}
       <div
-      
+
         className="relative z-10 px-8 md:px-16 lg:px-28 md:pt-20"
       >
         <div className="max-w-[1100px] ">
@@ -25,6 +25,7 @@ export default function OrinoxAbout() {
               alt="Orinox"
               className="h-10 md:h-13 w-auto"
             />
+            <h1 className="sr-only">Orinox Holding | Global Energy Infrastructure</h1>
 
             <Link href='/about'>
               <button className="rounded-md border cursor-pointer border-white/60 px-6 md:px-10 py-3 text-[12px] md:text-[13px] font-medium whitespace-nowrap hover:bg-white hover:text-black transition-colors">

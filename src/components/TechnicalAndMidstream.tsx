@@ -7,7 +7,7 @@ export default function TechnicalAndMidstream() {
     <section className="w-full bg-black text-white px-8 md:px-16 lg:px-28 snap-start">
       <div className="max-w-full mx-auto flex flex-col items-center text-center">
         <div className="max-w-250 ">
-          <motion.h1
+          <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -15,7 +15,7 @@ export default function TechnicalAndMidstream() {
             className="text-[30px] md:text-6xl lg:text-[50px] leading-none font-bold mb-4 md:mb-7"
           >
             Integrated Technical Infrastructure & Midstream Logistics
-          </motion.h1>
+          </motion.h2>
 
           <p className="text-[15px] text-white/90 leading-tight max-w-212.5 mb-10">
             Orinox Holding delivers superior technical mastery across the petroleum value chain, ensuring operational success from drilling frameworks to midstream distribution.

@@ -80,6 +80,7 @@ const OrinoxSplash = () => {
                   alt="Orinox"
                   className="h-17 md:h-17 w-auto"
                 />
+                <h1 className="sr-only">Orinox Holding | Global Energy Infrastructure Splash</h1>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0 }}

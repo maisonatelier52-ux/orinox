@@ -42,7 +42,7 @@ export default function OrinoxCapabilitiesClient() {
                     <motion.div {...anim(0.1)} className="space-y-4">
                         <p className="text-white text-[12px] md:text-[12px] font-medium uppercase tracking-[0.2em]">Company History</p>
                         <h1 className="text-white text-4xl md:text-4xl lg:text-[38px] font-bold leading-[1.1] tracking-tight">
-                            A Legacy of Specialized Drilling Excellence
+                            Orinox Holding | A Legacy of Specialized Drilling Excellence
                         </h1>
                     </motion.div>
 
@@ -72,10 +72,10 @@ export default function OrinoxCapabilitiesClient() {
                     <motion.p {...anim(0.1)} className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-5">
                         WHO WE ARE
                     </motion.p>
-                    <motion.h1 {...anim(0.2)} className="text-3xl md:text-[36px] font-bold leading-[1.1] md:leading-[1.05] mb-5 tracking-tight">
+                    <motion.h2 {...anim(0.2)} className="text-3xl md:text-[36px] font-bold leading-[1.1] md:leading-[1.05] mb-5 tracking-tight">
                         Precision Drilling &<br />
                         Low-Carbon Infrastructure Partner
-                    </motion.h1>
+                    </motion.h2>
                     <motion.p {...anim(0.3)} className="text-[15px] md:text-[18px] font-bold mb-6 tracking-normal text-white">
                         High-performance drilling and future-ready oil & gas infrastructure
                     </motion.p>
@@ -108,11 +108,11 @@ export default function OrinoxCapabilitiesClient() {
                     <motion.p {...anim(0.1)} className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-6">
                         WHAT WE DO
                     </motion.p>
-                    <motion.h1 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[32px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
+                    <motion.h2 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[32px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
                         We develop and manage Critical,<br className="hidden md:block" />
                         Capital-Intensive Infrastructure<br className="hidden md:block" />
                         for the Oil & Gas Industry
-                    </motion.h1>
+                    </motion.h2>
                     <motion.div {...anim(0.3)} className="space-y-6 mb-12 max-w-2xl">
                         <p className="text-[14px] md:text-[15px] text-white/90 leading-relaxed font-normal">
                             Orinox Holding was founded with a clear mandate: to deliver technical excellence and absolute transparency to the petroleum infrastructure sector. Since our inception as a specialized engineering firm, we have evolved into a premier global organization, managing upstream exploration and midstream logistics with unparalleled precision.
@@ -182,7 +182,7 @@ export default function OrinoxCapabilitiesClient() {
                         alt="Orinox Logo"
                         className="h-[40px] md:h-[70px] w-auto opacity-95 object-contain"
                     />
-                    <h1 className="text-3xl md:text-[34px] font-bold text-white tracking-tight">Core Values</h1>
+                    <h2 className="text-3xl md:text-[34px] font-bold text-white tracking-tight">Core Values</h2>
                 </motion.div>
 
                 {/* Values Grid */}
@@ -224,9 +224,9 @@ export default function OrinoxCapabilitiesClient() {
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="relative z-20 max-w-4xl text-white">
-                    <motion.h1 {...anim(0.1)} className="text-3xl md:text-[32px] font-bold text-white tracking-tight mb-6">
+                    <motion.h2 {...anim(0.1)} className="text-3xl md:text-[32px] font-bold text-white tracking-tight mb-6">
                         Strategic Leadership
-                    </motion.h1>
+                    </motion.h2>
                     <motion.p {...anim(0.2)} className="text-[14px] md:text-[16px] text-white/90 leading-relaxed font-normal max-w-2xl">
                         Orinox is guided by a team of industry veterans with deep expertise in petroleum engineering and midstream infrastructure. Our leadership is committed to transparency, technical innovation, and delivering the highest level of resource security to our global partners.
                     </motion.p>
@@ -242,10 +242,10 @@ export default function OrinoxCapabilitiesClient() {
                 />
                 <div className="absolute inset-0 bg-black/40" />
                 <div className="relative z-20 flex flex-col items-center justify-center text-center">
-                    <motion.h1 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[38px] font-bold text-white mb-6 leading-tight max-w-5xl tracking-tight">
+                    <motion.h2 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[38px] font-bold text-white mb-6 leading-tight max-w-5xl tracking-tight">
                         Advancing the Frontier of<br className="hidden md:block" />
                         Petroleum Infrastructure
-                    </motion.h1>
+                    </motion.h2>
                     <motion.p {...anim(0.2)} className="text-white/90 text-[14px] md:text-[16px] leading-relaxed max-w-3xl mb-12 font-normal">
                         Orinox Holding stands at the intersection of technical mastery and industry reliability.<br className="hidden md:block" />
                         We deliver the foundational systems that drive exploration, production, and midstream efficiency across the global oil and gas sector.
@@ -269,11 +269,11 @@ export default function OrinoxCapabilitiesClient() {
                     className="absolute inset-0 h-full w-full object-cover"
                 />
                 <div className="relative z-20 max-w-5xl text-white flex flex-col">
-                    <motion.h1 {...anim(0.1)} className="text-3xl md:text-4xl lg:text-[38px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
+                    <motion.h2 {...anim(0.1)} className="text-3xl md:text-4xl lg:text-[38px] font-bold leading-[1.2] md:leading-[1.1] mb-8 tracking-tight max-w-4xl">
                         Integrated Infrastructure for<br className="hidden md:block" />
                         Upstream and Midstream<br className="hidden md:block" />
                         Excellence
-                    </motion.h1>
+                    </motion.h2>
                     <motion.div {...anim(0.2)} className="space-y-6 mb-12 max-w-2xl">
                         <p className="text-[14px] md:text-[12px] text-white/90 leading-relaxed font-normal">
                             Orinox Holding serves as a strategic force in the global energy sector, orchestrating technical success across the entire oil and gas value chain. From high-precision drilling frameworks to sophisticated process infrastructure, we deliver the technical solutions that drive operational efficiency and resource security.
@@ -301,9 +301,9 @@ export default function OrinoxCapabilitiesClient() {
 
                 {/* Header content centered top-mid */}
                 <div className="relative z-20 mb-16 md:mb-24">
-                    <motion.h1 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[38px] font-bold text-white mb-6 tracking-tight">
+                    <motion.h2 {...anim(0.1)} className="text-3xl md:text-5xl lg:text-[38px] font-bold text-white mb-6 tracking-tight">
                         Core Operational Sectors
-                    </motion.h1>
+                    </motion.h2>
                     <motion.p {...anim(0.2)} className="text-white/80 text-[14px] md:text-[16px] max-w-3xl mx-auto leading-relaxed">
                         Driving technical excellence across the integrated oil and gas value chain with precision-led infrastructure solutions.
                     </motion.p>
@@ -366,11 +366,11 @@ export default function OrinoxCapabilitiesClient() {
 
                     {/* Block 1 */}
                     <motion.div {...anim(0.1)} className="space-y-3">
-                        <h1 className="text-2xl md:text-4xl lg:text-[32px] font-bold leading-[1.2] md:leading-[1.1] tracking-tight">
+                        <h2 className="text-2xl md:text-4xl lg:text-[32px] font-bold leading-[1.2] md:leading-[1.1] tracking-tight">
                             Integrated Technical<br className="hidden md:block" />
                             Infrastructure &<br className="hidden md:block" />
                             Midstream Logistics
-                        </h1>
+                        </h2>
                         <p className="text-[13px] md:text-[13px] text-white/80 leading-relaxed max-w-2xl font-normal">
                             Orinox Holding delivers superior technical mastery across the petroleum value chain, ensuring operational success from drilling frameworks to midstream distribution.
                         </p>
@@ -407,11 +407,11 @@ export default function OrinoxCapabilitiesClient() {
                     <motion.p {...anim(0.1)} className="text-[10px] md:text-[11px] uppercase tracking-[0.25em] font-medium text-white/70 mb-8">
                         SAFETY AT SCALE
                     </motion.p>
-                    <motion.h1 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[32px] font-bold text-white mb-8 tracking-tight max-w-4xl leading-[1.2] md:leading-[1.1]">
+                    <motion.h2 {...anim(0.2)} className="text-3xl md:text-5xl lg:text-[32px] font-bold text-white mb-8 tracking-tight max-w-4xl leading-[1.2] md:leading-[1.1]">
                         The Orinox Standard for<br className="hidden md:block" />
                         Operational Risk<br className="hidden md:block" />
                         Management
-                    </motion.h1>
+                    </motion.h2>
                     <motion.p {...anim(0.3)} className="text-[13px] md:text-[14px] text-white/80 leading-relaxed max-w-2xl font-normal">
                         Our zero-incident goal is backed by a robust framework of hazard identification, personnel safety training, and real-time environment monitoring across process facilities.
                     </motion.p>
@@ -429,9 +429,9 @@ export default function OrinoxCapabilitiesClient() {
 
                 {/* Header content right-aligned */}
                 <div className="relative z-20 text-right">
-                    <motion.h1 {...anim(0.1)} className="text-4xl md:text-[38px] font-bold text-white tracking-tight mb-4">
+                    <motion.h2 {...anim(0.1)} className="text-4xl md:text-[38px] font-bold text-white tracking-tight mb-4">
                         Global Footprint
-                    </motion.h1>
+                    </motion.h2>
                     <motion.div {...anim(0.2)} className="w-full h-[1px] bg-white/30 mb-12 ml-auto max-w-2xl" />
                 </div>
 
@@ -462,10 +462,10 @@ export default function OrinoxCapabilitiesClient() {
 
                     {/* Left Side - Content */}
                     <motion.div {...anim(0.1)} className="flex flex-col space-y-6 text-center lg:text-left">
-                        <h1 className="text-3xl md:text-6xl lg:text-[48px] font-bold text-white leading-tight tracking-tight">
+                        <h2 className="text-3xl md:text-6xl lg:text-[48px] font-bold text-white leading-tight tracking-tight">
                             Connect with our<br className="hidden lg:block" />
                             petroleum experts.
-                        </h1>
+                        </h2>
                         <p className="text-white/60 text-sm md:text-sm max-w-lg leading-relaxed mx-auto lg:mx-0">
                             Facilitating upstream exploration and midstream infrastructure projects through precision engineering and technical advisory.
                         </p>

@@ -9,9 +9,9 @@ export default function OrinoxLegacy() {
 
         {/* LEFT CONTENT */}
         <div className="flex-1 max-w-[580px]">
-          <h1 className="text-[38px] md:text-[50px] max-w-100 font-bold text-white/80 leading-[1.0] mb-8">
+          <h2 className="text-[38px] md:text-[50px] max-w-100 font-bold text-white/80 leading-[1.0] mb-8">
             THE ORINOX LEGACY
-          </h1>
+          </h2>
 
           <div className="text-[13px] md:text-[12px] text-white/85 space-y-7">
             <motion.p
