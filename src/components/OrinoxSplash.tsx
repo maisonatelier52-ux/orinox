@@ -90,6 +90,9 @@ const OrinoxSplash = () => {
                 transition={{ duration: 2, ease: "easeOut", delay: 1.2 }}
                 className="flex flex-col items-center space-y-4"
               >
+                <h2 className="text-[10px] md:text-[10px] tracking-[0.2em] uppercase text-white/50 font-medium">
+                  Global Energy Hubs & Regional Operations
+                </h2>
                 <div className="flex flex-wrap justify-center text-center gap-4 md:gap-5 text-[10px] md:text-[10px] tracking-[0.2em] uppercase text-white/70">
                   <span className="hover:text-white transition-colors cursor-default">London</span>
                   <span className="hover:text-white transition-colors cursor-default">Dubai</span>

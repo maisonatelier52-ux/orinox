@@ -26,9 +26,9 @@ export default function OrinoxAbout() {
               className="h-10 md:h-13 w-auto"
             />
             <h1 className="sr-only">Orinox Holding | Global Energy Infrastructure</h1>
-            <p className="text-[10px] uppercase tracking-[0.2em] mt-2 text-white/50">
+            <h2 className="text-[10px] uppercase tracking-[0.2em] mt-2 text-white/50 font-medium">
               Leading the Strategic Development of Global Energy Infrastructure
-            </p>
+            </h2>
 
             <Link href='/about'>
               <button className="rounded-md border cursor-pointer border-white/60 px-6 md:px-10 py-3 text-[12px] md:text-[13px] font-medium whitespace-nowrap hover:bg-white hover:text-black transition-colors">
