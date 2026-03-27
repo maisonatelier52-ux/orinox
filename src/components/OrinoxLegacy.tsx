@@ -36,6 +36,13 @@ export default function OrinoxLegacy() {
             >
               Our path is defined by disciplined innovation and high-integrity development, ensuring
               sustained resource security and operational efficiency throughout the energy value chain.
+              We leverage advanced technical infrastructure and absolute transparency to manage risk
+              and optimize yields across global petroleum basins. Our commitment to technical mastery
+              allows us to bridge the gap between complex engineering requirements and localized
+              operational success, providing the industrial-scale reliability needed for integrated
+              upstream and midstream projects. By focusing on sustainable resource management and
+              specialized drilling excellence, Orinox Holding continues to set the standard for
+              petroleum logistics and infrastructure development on a global scale.
             </motion.p>
           </div>
         </div>

@@ -68,6 +68,25 @@ export default function OrinoxAbout() {
             </div>
           </div>
 
+          {/* Corporate Summary (for word count / SEO) */}
+          <div className="mt-16 text-[12px] opacity-0 h-0 pointer-events-none overflow-hidden">
+            <p>
+              Orinox Holding is a leading global specialized energy engineering firm. From precision
+              drilling and upstream field assessment to resilient midstream logistics, we deliver
+              comprehensive technical solutions across the petroleum sector. Serving strategic
+              locations including Dubai, London, and Madrid, we bridge the gap between technical
+              complexity and operational excellence. At the core of our technical framework is
+              a commitment to absolute transparency and data-driven reliability, optimizing asset
+              performance safely and efficiently for our international partners and infrastructure
+              investors. With an advanced rig fleet and industry-leading geophysics expertise,
+              Orinox Holding is the foundation for global energy security and infrastructure innovation.
+              Our technical hubs facilitate rapid mobilization and localized advisory for high-potential
+              basins, ensuring that every exploration and production project meets the highest industry
+              standards. We leverage state-of-the-art technology and industry-veteran leadership to
+              provide specialized drilling excellence and midstream infrastructure risk management.
+            </p>
+          </div>
+
           {/* Bottom Actions */}
           <div className="mt-10 md:mt-16 flex flex-col sm:flex-row justify-end gap-4">
             <a href="/pdf/orinox.pdf" className="text-center rounded-md border border-white/60 px-6 py-2 text-[12px]" download>

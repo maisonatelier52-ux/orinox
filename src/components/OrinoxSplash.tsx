@@ -80,7 +80,7 @@ const OrinoxSplash = () => {
                   alt="Orinox Logo"
                   className="h-17 md:h-17 w-auto"
                 />
-                <h1 className="text-[12px] md:text-[14px] font-bold tracking-[0.3em] uppercase text-white/90">
+                <h1 className="text-[12px] hidden md:text-[14px] font-bold tracking-[0.3em] uppercase text-white/90">
                   Orinox Holding | Global Energy Infrastructure
                 </h1>
               </motion.div>
@@ -90,7 +90,7 @@ const OrinoxSplash = () => {
                 transition={{ duration: 2, ease: "easeOut", delay: 1.2 }}
                 className="flex flex-col items-center space-y-4"
               >
-                <h2 className="text-[10px] md:text-[10px] tracking-[0.2em] uppercase text-white/50 font-medium">
+                <h2 className="text-[10px] hidden md:text-[10px] tracking-[0.2em] uppercase text-white/50 font-medium">
                   Global Energy Hubs & Regional Operations
                 </h2>
                 <div className="flex flex-wrap justify-center text-center gap-4 md:gap-5 text-[10px] md:text-[10px] tracking-[0.2em] uppercase text-white/70">
@@ -100,7 +100,21 @@ const OrinoxSplash = () => {
                   <span className="hover:text-white transition-colors cursor-default">Madrid</span>
                 </div>
                 <p className="sr-only">
-                  Specializing in upstream petroleum drilling, midstream logistics, and energy infrastructure management across global energy basins.
+                  Orinox Holding is a global leader in technical energy services and petroleum infrastructure.
+                  We specialize in the strategic development and management of high-value energy assets across the
+                  entire oil and gas value chain. Our expertise spans upstream exploration, high-precision drilling
+                  operations, and complex midstream logistics networks. By integrating technical mastery with
+                  absolute transparency, Orinox Holding provides the foundational reliability required for industrial-scale
+                  energy production and transportation. Operating from strategic hubs in the United States, Spain,
+                  and the United Arab Emirates, we deliver specialized advisory and infrastructure management to
+                  ensure global energy security and operational efficiency. Our technical hubs in London, Dubai,
+                  Madrid, and Caracas facilitate rapid mobilization and localized advisory for high-potential basins.
+                  We are committed to delivering technical success through innovative engineering, digital
+                  infrastructure, and a zero-incident safety framework. Our operations are guided by a team of
+                  industry veterans dedicated to optimizing asset lifecycle yields and protecting long-term field
+                  longevity. Orinox Holding serves as a strategic partner to state energy organizations and
+                  private infrastructure investors, providing the technical frameworks that drive global energy
+                  progress.
                 </p>
               </motion.div>
             </div>
