@@ -24,5 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${baseUrl}/team/`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
         { url: `${baseUrl}/insights/`, lastModified, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${baseUrl}/contact/`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
+        { url: `${baseUrl}/orinox-oil-gas-drilling-infrastructure/`, lastModified, changeFrequency: 'monthly', priority: 0.9 },
     ];
 }

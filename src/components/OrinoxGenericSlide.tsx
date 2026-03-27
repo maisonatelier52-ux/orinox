@@ -84,9 +84,9 @@ export default function OrinoxGenericSlide({
               {upstreamSections.map((s, i) => (
                 <div key={i}>
                   <p className="text-white/70 text-[12px] mb-2">{s.topic}</p>
-                  <h1 className="text-white text-5xl md:text-6xl font-light tracking-wide">
+                  <h2 className="text-white text-5xl md:text-6xl font-light tracking-wide">
                     {s.title}
-                  </h1>
+                  </h2>
                 </div>
               ))}
             </div>
@@ -112,11 +112,11 @@ export default function OrinoxGenericSlide({
           )}
 
           {mainHeading && (
-            <h1
+            <h2
               className={`text-[14px] font-semibold leading-none ${mainHeadingClassName}`}
             >
               {mainHeading}
-            </h1>
+            </h2>
           )}
 
           {sections.map((section, idx) => (

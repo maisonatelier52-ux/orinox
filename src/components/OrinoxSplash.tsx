@@ -120,7 +120,7 @@ const OrinoxSplash = () => {
             </div>
 
             <div className="flex flex-col space-y-4 w-full max-w-xs mt-32 md:mt-0">
-              <Link href="/orinox-capabilities-presentation-dem" className="w-full">
+              <Link href="/orinox-oil-gas-drilling-infrastructure" className="w-full">
                 <motion.button
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
