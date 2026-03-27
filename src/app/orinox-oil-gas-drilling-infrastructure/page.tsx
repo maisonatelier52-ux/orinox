@@ -1,13 +1,25 @@
 import type { Metadata } from "next";
-import PresentationClient from "./presentation-client";
-import presentationData from "../../../public/data/capabilities_presentation.json";
+import OrinoxCapabilitiesClient from "./home-client";
 
 export const metadata: Metadata = {
-  title: "Capabilities Presentation | Technical Mastery | Orinox",
-  description: "Detailed overview of Orinox Holding's technical capabilities in US and global energy infrastructure. Strategic exploration, production, and midstream expertise.",
-  keywords: ["Orinox capabilities", "energy presentation", "technical mastery petroleum", "energy infrastructure highlights"],
+    title: "Orinox Holding – Upstream & Midstream Energy Infrastructure",
+    description: "Discover Orinox Holding’s expertise in upstream drilling and midstream energy infrastructure. Delivering efficient, low-carbon solutions worldwide.",
+    keywords: ["upstream exploration", "midstream logistics", "petroleum infrastructure", "global energy operations", "oil and gas US"],
+    openGraph: {
+        title: "Orinox Holding – Upstream & Midstream Energy Infrastructure",
+        description: "Discover Orinox Holding’s expertise in upstream drilling and midstream energy infrastructure. Delivering efficient, low-carbon solutions worldwide.",
+        images: ["/images/logo1.png"],
+        url: "https://orinoxholding.com/orinox-oil-gas-drilling-infrastructure/",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Orinox Holding – Upstream & Midstream Energy Infrastructure",
+        description: "Discover Orinox Holding’s expertise in upstream drilling and midstream energy infrastructure. Delivering efficient, low-carbon solutions worldwide.",
+        images: ["/images/logo1.png"],
+    },
 };
 
 export default function OrinoxCapabilitiesPresentation() {
-  return <PresentationClient presentationData={presentationData} />;
+    return <OrinoxCapabilitiesClient />;
 }

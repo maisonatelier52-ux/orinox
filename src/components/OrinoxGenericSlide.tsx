@@ -39,7 +39,7 @@ export default function OrinoxGenericSlide({
   bottomDescription,
   logo,
   logoClassName = "h-15 md:h-20 w-auto",
-  logoHref = "/home",
+  logoHref = "/orinox-oil-gas-drilling-infrastructure",
 }: OrinoxGenericSlideProps) {
   if (layout === "splash") {
     return (

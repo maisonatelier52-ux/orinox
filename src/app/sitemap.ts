@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return [
         { url: `${baseUrl}/`, lastModified, changeFrequency: 'monthly', priority: 1 },
-        { url: `${baseUrl}/home/`, lastModified, changeFrequency: 'monthly', priority: 0.9 },
+        { url: `${baseUrl}/orinox-capabilities-presentation-dem/`, lastModified, changeFrequency: 'monthly', priority: 0.9 },
         { url: `${baseUrl}/orinox-services/`, lastModified, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${baseUrl}/operations/`, lastModified, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${baseUrl}/regions/`, lastModified, changeFrequency: 'monthly', priority: 0.7 },

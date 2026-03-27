@@ -88,7 +88,7 @@ export default function LoginPageClient() {
                 setIsAuthenticated(true);
                 // Redirect to home page
                 setTimeout(() => {
-                    router.push("/home");
+                    router.push("/orinox-oil-gas-drilling-infrastructure");
                 }, 2000);
             } else {
                 setErrorObj("Invalid email or security key. Access denied.");

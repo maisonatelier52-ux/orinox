@@ -15,9 +15,9 @@ export default function Orinox1() {
 
           {/* RIGHT ALIGNED TOP BUTTON */}
           <Link href='/about' title='about'>
-          <button className="rounded-md border cursor-pointer border-white/60 px-6 md:px-10 py-3 text-[12px] md:text-[13px] font-medium whitespace-nowrap">
-            Technical Solutions
-          </button>
+            <button className="rounded-md border cursor-pointer border-white/60 px-6 md:px-10 py-3 text-[12px] md:text-[13px] font-medium whitespace-nowrap">
+              Technical Solutions
+            </button>
           </Link>
         </div>
 
@@ -70,7 +70,7 @@ export default function Orinox1() {
           </a>
 
           <a
-            href="/home"
+            href="/orinox-oil-gas-drilling-infrastructure"
             className="text-center rounded-md px-6 py-2 text-[12px] font-medium text-white border border-white/60 transition"
           >
             Home

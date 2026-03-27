@@ -92,7 +92,7 @@ export default function OrinoxAbout() {
             <a href="/pdf/orinox.pdf" className="text-center rounded-md border border-white/60 px-6 py-2 text-[12px]" download>
               Download Orinox
             </a>
-            <Link href="/home" className="text-center rounded-md px-6 py-2 text-[12px] border border-white/60">
+            <Link href="/orinox-oil-gas-drilling-infrastructure" className="text-center rounded-md px-6 py-2 text-[12px] border border-white/60">
               Home
             </Link>
           </div>
