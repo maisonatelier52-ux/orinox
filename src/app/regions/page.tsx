@@ -2,15 +2,23 @@ import type { Metadata } from "next";
 import RegionsClient from "./regions-client";
 
 export const metadata: Metadata = {
-    title: "Global Energy Hubs | US, Spain & UAE (Dubai) | Orinox Holding",
-    description: "Orinox Holding's strategic footprint spans North America, Spain (Madrid), and the UAE (Dubai). Managing high-precision energy infrastructure in the world's most productive petroleum basins.",
+    title: "Global Energy Hubs in US, Spain & UAE | Orinox Holding",
+    description: "Discover Orinox Holding’s energy hubs in the US, Spain, and UAE. Delivering advanced upstream and midstream infrastructure solutions worldwide.",
     keywords: [
         "Dubai energy infrastructure", "Madrid petroleum services", "US energy hubs",
         "Middle East petroleum logistics", "Spain oil and gas exploration", "global energy corridors"
     ],
     openGraph: {
-        title: "Global Regions & Hubs | Orinox Holding",
-        description: "Technical mastery in energy hubs across US, Spain, and the Middle East.",
+        title: "Global Energy Hubs in US, Spain & UAE | Orinox Holding",
+        description: "Discover Orinox Holding’s energy hubs in the US, Spain, and UAE. Delivering advanced upstream and midstream infrastructure solutions worldwide.",
+        images: ["/images/logo1.png"],
+        url: "https://orinoxholding.com/regions/",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Global Energy Hubs in US, Spain & UAE | Orinox Holding",
+        description: "Discover Orinox Holding’s energy hubs in the US, Spain, and UAE. Delivering advanced upstream and midstream infrastructure solutions worldwide.",
         images: ["/images/logo1.png"],
     },
 };
