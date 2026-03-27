@@ -77,21 +77,28 @@ const OrinoxSplash = () => {
               >
                 <img
                   src="/images/orinox-white-logo.png"
-                  alt="Orinox"
+                  alt="Orinox Logo"
                   className="h-17 md:h-17 w-auto"
                 />
-                <h1 className="sr-only">Orinox Holding | Global Energy Infrastructure Splash</h1>
+                <h1 className="text-[12px] md:text-[14px] font-bold tracking-[0.3em] uppercase text-white/90">
+                  Orinox Holding | Global Energy Infrastructure
+                </h1>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 2, ease: "easeOut", delay: 1.2 }}
-                className="flex flex-wrap justify-center text-center gap-4 md:gap-5 text-[10px] md:text-[10px] tracking-[0.2em] uppercase text-white/90"
+                className="flex flex-col items-center space-y-4"
               >
-                <span className="hover:text-white transition-colors cursor-default">London</span>
-                <span className="hover:text-white transition-colors cursor-default">Dubai</span>
-                <span className="hover:text-white transition-colors cursor-default">Caracas</span>
-                <span className="hover:text-white transition-colors cursor-default">Madrid</span>
+                <div className="flex flex-wrap justify-center text-center gap-4 md:gap-5 text-[10px] md:text-[10px] tracking-[0.2em] uppercase text-white/70">
+                  <span className="hover:text-white transition-colors cursor-default">London</span>
+                  <span className="hover:text-white transition-colors cursor-default">Dubai</span>
+                  <span className="hover:text-white transition-colors cursor-default">Caracas</span>
+                  <span className="hover:text-white transition-colors cursor-default">Madrid</span>
+                </div>
+                <p className="sr-only">
+                  Specializing in upstream petroleum drilling, midstream logistics, and energy infrastructure management across global energy basins.
+                </p>
               </motion.div>
             </div>
 

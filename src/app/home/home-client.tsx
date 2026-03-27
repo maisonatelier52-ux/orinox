@@ -47,7 +47,7 @@ export default function OrinoxCapabilitiesClient() {
                     </motion.div>
 
                     <motion.p {...anim(0.3)} className="text-white/80 text-[14px] md:text-[16px] leading-relaxed max-w-2xl font-light">
-                        ORINOX is a full-service oil drilling company operating across the Upstream (Exploration & Production)
+                        ORINOX is a full-service oil drilling company delivering specialized drilling excellence across the Upstream (Exploration & Production)
                         and Midstream (Transportation & Storage) segments of the oil and gas value chain.
                     </motion.p>
                 </div>
