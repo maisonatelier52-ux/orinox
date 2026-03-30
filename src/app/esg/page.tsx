@@ -9,8 +9,16 @@ export const metadata: Metadata = {
         "environmental stewardship Madrid", "Dubai energy transparency"
     ],
     openGraph: {
-        title: "ESG & Sustainability | Global Operations | Orinox",
-        description: "Sustainable development for global energy markets in US, Spain, and UAE.",
+        title: "Sustainable Energy & ESG | US, Spain & UAE | Orinox",
+        description: "Aligning petroleum profit with environmental stewardship across US, Spain, and UAE. Verifiable ESG reporting and sustainable oil and gas operations.",
+        images: ["/images/logo1.png"],
+        url: "https://orinoxholding.com/esg/",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Sustainable Energy & ESG | US, Spain & UAE | Orinox",
+        description: "Aligning petroleum profit with environmental stewardship across US, Spain, and UAE. Verifiable ESG reporting and sustainable oil and gas operations.",
         images: ["/images/logo1.png"],
     },
 };

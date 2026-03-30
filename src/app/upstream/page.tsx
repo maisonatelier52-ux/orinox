@@ -9,8 +9,16 @@ export const metadata: Metadata = {
     "petroleum exploration Madrid", "energy development Dubai", "exploration and production services"
   ],
   openGraph: {
-    title: "Upstream E&P Services | Orinox Holding",
-    description: "Technical mastery in global upstream petroleum exploration and drilling from US to UAE.",
+    title: "Upstream Exploration & Production Services | US, Spain & UAE | Orinox",
+    description: "Advanced upstream energy solutions. Our experts in the US and Dubai provide technical petroleum services, including seismic modeling and drilling for global energy fields.",
+    images: ["/images/logo1.png"],
+    url: "https://orinoxholding.com/upstream/",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Upstream Exploration & Production Services | US, Spain & UAE | Orinox",
+    description: "Advanced upstream energy solutions. Our experts in the US and Dubai provide technical petroleum services, including seismic modeling and drilling for global energy fields.",
     images: ["/images/logo1.png"],
   },
 };

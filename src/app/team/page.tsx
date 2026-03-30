@@ -9,8 +9,16 @@ export const metadata: Metadata = {
     "petroleum drilling experts Spain", "upstream technical advisory Dubai"
   ],
   openGraph: {
-    title: "Our Team | Global Leadership | Orinox Holding",
-    description: "Technical mastery and strategic leadership in the global energy industry across US, Spain, and UAE.",
+    title: "Our Team | Leadership & Technical Advisory | US, Spain & UAE | Orinox",
+    description: "Meet the Orinox Holding team. Strategic leaders and technical experts driving global energy innovation in petroleum drilling and strategic management across US, Spain, and UAE.",
+    images: ["/images/logo1.png"],
+    url: "https://orinoxholding.com/team/",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Team | Leadership & Technical Advisory | US, Spain & UAE | Orinox",
+    description: "Meet the Orinox Holding team. Strategic leaders and technical experts driving global energy innovation in petroleum drilling and strategic management across US, Spain, and UAE.",
     images: ["/images/logo1.png"],
   },
 };

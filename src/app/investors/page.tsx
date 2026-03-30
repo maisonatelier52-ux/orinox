@@ -9,8 +9,16 @@ export const metadata: Metadata = {
     "petroleum drilling ROI Dubai", "Madrid energy capital"
   ],
   openGraph: {
-    title: "Investors | Global Strategic Growth | Orinox",
-    description: "Technical mastery and financial transparency for the energy sector in US, Spain, and UAE.",
+    title: "Investors | Strategic Growth & Capital Efficiency | US, Spain & UAE",
+    description: "Orinox Holding delivers superior value through technical leadership and disciplined petroleum capital efficiency in US, Spain, and UAE energy markets.",
+    url: 'https://orinoxholding.com/investors/',
+    type: 'website',
+    images: ["/images/logo1.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Investors | Strategic Growth & Capital Efficiency | US, Spain & UAE",
+    description: "Orinox Holding delivers superior value through technical leadership and disciplined petroleum capital efficiency in US, Spain, and UAE energy markets.",
     images: ["/images/logo1.png"],
   },
 };

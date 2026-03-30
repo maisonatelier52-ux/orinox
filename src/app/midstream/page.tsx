@@ -9,8 +9,16 @@ export const metadata: Metadata = {
         "energy storage Madrid", "Dubai petroleum distribution", "midstream asset management"
     ],
     openGraph: {
-        title: "Midstream Logistics & Storage | Orinox Holding",
-        description: "Global technical development for midstream energy markets across the US, Spain, and Middle East.",
+        title: "Midstream Petroleum Logistics & Storage | US, UAE & Spain | Orinox",
+        description: "Optimizing hydrocarbon transit and storage across US, UAE, and Spain. Advanced midstream operations for global energy distribution and strategic reservoir management.",
+        images: ["/images/logo1.png"],
+        url: "https://orinoxholding.com/midstream/",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Midstream Petroleum Logistics & Storage | US, UAE & Spain | Orinox",
+        description: "Optimizing hydrocarbon transit and storage across US, UAE, and Spain. Advanced midstream operations for global energy distribution and strategic reservoir management.",
         images: ["/images/logo1.png"],
     },
 };

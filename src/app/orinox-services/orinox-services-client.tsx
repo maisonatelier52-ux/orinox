@@ -99,12 +99,12 @@ export default function OrinoxServicesClient() {
                         <p className="text-white/80 text-[12px] md:text-[14px] leading-relaxed font-light mb-8">
                             Orinox Holding optimizes the transit and storage of critical hydrocarbon assets, integrating advanced logistics with unmatched technical reliability.
                         </p>
-                        <h1 className="text-white text-3xl md:text-5xl font-bold tracking-tight">
+                        <h2 className="text-white text-3xl md:text-5xl font-bold tracking-tight">
                             Precision Midstream Operations
-                        </h1>
-                        <h2 className="text-white text-xl md:text-2xl font-bold tracking-tight opacity-90">
-                            Strategic Distribution Network
                         </h2>
+                        <h3 className="text-white text-xl md:text-2xl font-bold tracking-tight opacity-90">
+                            Strategic Distribution Network
+                        </h3>
                     </motion.div>
 
                     <motion.p {...anim(0.3)} className="text-white/80 text-[13px] md:text-[14px] leading-relaxed font-light max-w-lg mt-6">
@@ -119,13 +119,13 @@ export default function OrinoxServicesClient() {
                 {/* Bottom Stats */}
                 <div className="relative z-10 flex flex-wrap gap-x-16 gap-y-8">
                     <motion.div {...anim(0.5)} className="space-y-1">
-                        <h3 className="text-white/80 text-3xl md:text-4xl font-bold tracking-tight">15,000+</h3>
+                        <h4 className="text-white/80 text-3xl md:text-4xl font-bold tracking-tight">15,000+</h4>
                         <p className="text-white/60 text-[10px] md:text-[11px] uppercase tracking-[0.2em] font-medium">
                             Miles of Pipeline
                         </p>
                     </motion.div>
                     <motion.div {...anim(0.6)} className="space-y-1">
-                        <h3 className="text-white/80 text-3xl md:text-4xl font-bold tracking-tight">1.2M</h3>
+                        <h4 className="text-white/80 text-3xl md:text-4xl font-bold tracking-tight">1.2M</h4>
                         <p className="text-white/60 text-[10px] md:text-[11px] uppercase tracking-[0.2em] font-medium">
                             Storage Capacity
                         </p>

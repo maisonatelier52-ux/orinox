@@ -9,8 +9,16 @@ export const metadata: Metadata = {
         "US energy headquarters", "petroleum drilling inquiries Dubai"
     ],
     openGraph: {
-        title: "Contact Us | Global Energy Hubs | Orinox",
-        description: "Connect with our technical and strategic teams in the US, Spain, and UAE.",
+        title: "Contact Us | US, Spain & UAE Energy Projects | Orinox",
+        description: "Connect with Orinox Holding's offices in the US, Madrid, and Dubai. Contact our experts for petroleum drilling, upstream, and midstream inquiries worldwide.",
+        images: ["/images/logo1.png"],
+        url: "https://orinoxholding.com/contact/",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Contact Us | US, Spain & UAE Energy Projects | Orinox",
+        description: "Connect with Orinox Holding's offices in the US, Madrid, and Dubai. Contact our experts for petroleum drilling, upstream, and midstream inquiries worldwide.",
         images: ["/images/logo1.png"],
     },
 };

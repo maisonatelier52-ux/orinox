@@ -378,10 +378,10 @@ export default function OrinoxCapabilitiesClient() {
 
                     {/* Block 2 */}
                     <motion.div {...anim(0.3)} className="space-y-3">
-                        <h2 className="text-xl md:text-3xl lg:text-[32px] font-bold leading-tight tracking-tight">
+                        <h3 className="text-xl md:text-3xl lg:text-[32px] font-bold leading-tight tracking-tight">
                             Digital Midstream<br className="hidden md:block" />
                             Infrastructure
-                        </h2>
+                        </h3>
                         <p className="text-[13px] md:text-[13px] text-white/80 leading-relaxed max-w-2xl font-normal">
                             Optimizing pipeline gathering systems through advanced telemetry and real-time SCADA monitoring to ensure secure energy distribution.
                         </p>
@@ -389,10 +389,10 @@ export default function OrinoxCapabilitiesClient() {
 
                     {/* Block 3 */}
                     <motion.div {...anim(0.5)} className="space-y-3">
-                        <h2 className="text-xl md:text-3xl lg:text-[32px] font-bold leading-tight tracking-tight">
+                        <h3 className="text-xl md:text-3xl lg:text-[32px] font-bold leading-tight tracking-tight">
                             Asset Integrity &<br className="hidden md:block" />
                             Compliance
-                        </h2>
+                        </h3>
                         <p className="text-[13px] md:text-[13px] text-white/80 leading-relaxed max-w-2xl font-normal">
                             Orinox ensures Tier-1 performance across the value chain through uncompromising adherence to ISO and IOGP integrated standards.
                         </p>
@@ -473,7 +473,7 @@ export default function OrinoxCapabilitiesClient() {
 
                     {/* Right Side - Form */}
                     <motion.div {...anim(0.3)} className="flex flex-col space-y-8 p-0 md:p-12 rounded-2xl backdrop-blur-sm">
-                        <h2 className="text-xl font-bold text-white mb-4 text-center lg:text-left">Contact Us</h2>
+                        <h3 className="text-xl font-bold text-white mb-4 text-center lg:text-left">Contact Us</h3>
                         <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-1.5">

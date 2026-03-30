@@ -9,8 +9,16 @@ export const metadata: Metadata = {
         "Madrid petroleum engineering", "petroleum risk assessment Dubai"
     ],
     openGraph: {
-        title: "E&P Services | Orinox Holding",
-        description: "Precision engineering for global exploration and production in the US, Spain, and UAE.",
+        title: "E&P Services | Global Petroleum Drilling | Orinox US, Spain & UAE",
+        description: "Orinox Holding integrates deep US and UAE upstream expertise in exploration and production. High-intensity drilling and petroleum services for global energy frontiers.",
+        images: ["/images/logo1.png"],
+        url: "https://orinoxholding.com/ep-services/",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "E&P Services | Global Petroleum Drilling | Orinox US, Spain & UAE",
+        description: "Orinox Holding integrates deep US and UAE upstream expertise in exploration and production. High-intensity drilling and petroleum services for global energy frontiers.",
         images: ["/images/logo1.png"],
     },
 };
