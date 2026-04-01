@@ -40,13 +40,13 @@ export default function InsightsHero() {
       <div className="max-w-7xl mx-auto w-full">
         {/* Header */}
         <div className="max-w-4xl mb-24">
-          <motion.h1 
+          <motion.h1
             {...anim(0.1)}
             className="text-3xl md:text-2xl font-bold tracking-tight mb-6"
           >
             Latest Technical Insights
           </motion.h1>
-          <motion.p 
+          <motion.p
             {...anim(0.2)}
             className="text-[14px] md:text-[15px] text-white/50 font-light max-w-2xl leading-relaxed"
           >
@@ -57,7 +57,7 @@ export default function InsightsHero() {
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20">
           {insightCategories.map((item, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               {...anim(0.3 + index * 0.1)}
               className="flex flex-col items-start space-y-8"
@@ -66,9 +66,9 @@ export default function InsightsHero() {
                 <span className="text-[8px] font-bold tracking-[0.2em] text-white/40 uppercase">
                   {item.category}
                 </span>
-                <h3 className="text-xl md:text-lg font-bold tracking-tight leading-tight">
+                <h2 className="text-xl md:text-lg font-bold tracking-tight leading-tight">
                   {item.title}
-                </h3>
+                </h2>
               </div>
 
               <p className="text-[13px] md:text-[14px] text-white/40 font-light leading-relaxed flex-grow">

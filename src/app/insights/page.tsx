@@ -8,8 +8,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Energy Industry Insights & Technical Publications | Orinox",
     description: "Orinox Holding provides expert analysis and technical briefs on the US and global energy industry. Insights into upstream exploration and midstream logistics.",
-    images: ["/images/logo1.png"],
+    images: [
+      {
+        url: "/images/logo1.png",
+        width: 1200,
+        height: 630,
+        alt: "Orinox Holding Energy Insights",
+      },
+    ],
     url: "https://orinoxholding.com/insights/",
+    siteName: "Orinox Holding",
+    locale: "en_US",
     type: "website",
   },
   twitter: {

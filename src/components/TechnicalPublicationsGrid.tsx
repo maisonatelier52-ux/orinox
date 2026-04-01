@@ -107,9 +107,9 @@ function PublicationCard({ title, image, height, delay }: { title: string, image
 
       {/* Hover Overlay & Text */}
       <div className="absolute inset-0 bg-zinc-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8 backdrop-blur-sm">
-        <h4 className="text-xl font-bold text-white text-center translate-y-4 group-hover:translate-y-0 transition-transform duration-500 tracking-tight max-w-[200px]">
+        <h3 className="text-xl font-bold text-white text-center translate-y-4 group-hover:translate-y-0 transition-transform duration-500 tracking-tight max-w-[200px]">
           {title}
-        </h4>
+        </h3>
       </div>
 
       {/* Decorative Border/Corner Effect (Optional touch of premium) */}
