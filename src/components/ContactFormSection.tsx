@@ -81,11 +81,11 @@ export default function ContactFormSection() {
 
                     <motion.div {...anim(0.3)} className="space-y-6">
                         <div>
-                            <h4 className="text-[10px] font-bold tracking-[0.2em] text-white/40 uppercase mb-2">General Correspondence</h4>
+                            <h3 className="text-[10px] font-bold tracking-[0.2em] text-white/40 uppercase mb-2">General Correspondence</h3>
                             <a href="mailto:info@orinoxholding.com" className="text-[13px] text-white hover:text-white/70 transition-colors">info@orinoxholding.com</a>
                         </div>
                         <div>
-                            <h4 className="text-[10px] font-bold tracking-[0.2em] text-white/40 uppercase mb-2">Investor Relations</h4>
+                            <h3 className="text-[10px] font-bold tracking-[0.2em] text-white/40 uppercase mb-2">Investor Relations</h3>
                             <a href="mailto:ir@orinoxholding.com" className="text-[13px] text-white hover:text-white/70 transition-colors">ir@orinoxholding.com</a>
                         </div>
                     </motion.div>

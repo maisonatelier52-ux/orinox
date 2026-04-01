@@ -83,9 +83,9 @@ export default function CaseStudiesHero() {
                             transition={{ duration: 0.8, delay: idx * 0.1 }}
                             className="group border-t border-white/10 pt-10"
                         >
-                            <h3 className="text-xl md:text-xl font-bold mb-4 group-hover:text-white/80 transition-colors">
+                            <h2 className="text-xl md:text-xl font-bold mb-4 group-hover:text-white/80 transition-colors">
                                 {project.title}
-                            </h3>
+                            </h2>
                             <div className="space-y-1">
                                 <p className="text-sm md:text-[12px] leading-relaxed">
                                     <span className="font-bold">Client: </span>

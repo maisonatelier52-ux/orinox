@@ -8,8 +8,17 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Energy Project Case Studies | Technical Excellence | Orinox US",
         description: "Review Orinox Holding's successful US and global energy projects. Demonstrating technical mastery in upstream exploration and midstream infrastructure.",
-        images: ["/images/logo1.png"],
+        images: [
+            {
+                url: "/images/logo1.png",
+                width: 1200,
+                height: 630,
+                alt: "Orinox Energy Projects",
+            },
+        ],
         url: "https://orinoxholding.com/case-studies-projects/",
+        siteName: "Orinox Holding",
+        locale: "en_US",
         type: "website",
     },
     twitter: {

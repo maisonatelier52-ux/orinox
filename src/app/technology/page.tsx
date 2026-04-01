@@ -11,8 +11,17 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Energy Technology & Digital Delta | US, Spain & UAE | Orinox",
         description: "Orinox's Digital Delta infrastructure synchronizes upstream exploration data with midstream logistics across the US, Spain, and UAE through real-time telemetry.",
-        images: ["/images/logo1.png"],
+        images: [
+            {
+                url: "/images/logo1.png",
+                width: 1200,
+                height: 630,
+                alt: "Orinox Energy Technology",
+            },
+        ],
         url: "https://orinoxholding.com/technology/",
+        siteName: "Orinox Holding",
+        locale: "en_US",
         type: "website",
     },
     twitter: {

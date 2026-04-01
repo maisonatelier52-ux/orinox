@@ -11,8 +11,17 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Contact Us | US, Spain & UAE Energy Projects | Orinox",
         description: "Connect with Orinox Holding's offices in the US, Madrid, and Dubai. Contact our experts for petroleum drilling, upstream, and midstream inquiries worldwide.",
-        images: ["/images/logo1.png"],
+        images: [
+            {
+                url: "/images/logo1.png",
+                width: 1200,
+                height: 630,
+                alt: "Contact Orinox Holding",
+            },
+        ],
         url: "https://orinoxholding.com/contact/",
+        siteName: "Orinox Holding",
+        locale: "en_US",
         type: "website",
     },
     twitter: {
