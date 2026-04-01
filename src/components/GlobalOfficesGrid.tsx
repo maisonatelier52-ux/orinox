@@ -47,7 +47,7 @@ export default function GlobalOfficesGrid() {
                 <div className="mb-16 md:mb-20">
                     <motion.h2
                         {...anim(0.1)}
-                        className="text-xl md:text-2xl lg:text-3xl font-bold tracking-tight mb-4"
+                        className="text-xl md:text-2xl lg:text-2xl font-bold tracking-tight mb-4"
                     >
                         International Operations
                     </motion.h2>

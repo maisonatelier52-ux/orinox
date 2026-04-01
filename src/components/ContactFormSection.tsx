@@ -68,7 +68,7 @@ export default function ContactFormSection() {
                 <div className="flex flex-col">
                     <motion.h2
                         {...anim(0.1)}
-                        className="text-2xl md:text-3xl font-bold tracking-tight mb-6"
+                        className="text-2xl md:text-2xl font-bold tracking-tight mb-6"
                     >
                         Direct Inquiry
                     </motion.h2>

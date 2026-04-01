@@ -23,14 +23,14 @@ export default function ContactHero() {
 
             <div className="relative z-10 max-w-7xl mx-auto w-full">
                 <motion.div {...anim(0.1)} className="mb-6">
-                    <span className="text-[8px] md:text-[9px] font-bold tracking-[0.3em] text-white/50 uppercase border-l-2 border-white/30 pl-4 py-1">
+                    <span className="text-[8px] md:text-[7px] font-bold tracking-[0.3em] text-white/50 uppercase border-l-2 border-white/30 pl-4 py-1">
                         GLOBAL REACH
                     </span>
                 </motion.div>
 
                 <motion.h1
                     {...anim(0.2)}
-                    className="text-xl md:text-2xl lg:text-4xl font-bold tracking-tight mb-8 text-white max-w-3xl leading-tight"
+                    className="text-xl md:text-2xl lg:text-2xl font-bold tracking-tight mb-8 text-white max-w-3xl leading-tight"
                 >
                     Connect with Orinox Holding
                 </motion.h1>

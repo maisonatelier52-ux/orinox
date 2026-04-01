@@ -41,7 +41,7 @@ export default function OrinoxCapabilitiesClient() {
                 <div className="relative z-10 max-w-4xl space-y-6">
                     <motion.div {...anim(0.1)} className="space-y-4">
                         <p className="text-white text-[12px] md:text-[12px] font-medium uppercase tracking-[0.2em]">Company History</p>
-                        <h1 className="text-white text-4xl md:text-4xl lg:text-[38px] font-bold leading-[1.1] tracking-tight">
+                        <h1 className="text-white text-2xl md:text-2xl lg:text-[28px] font-bold leading-[1.1] tracking-tight">
                             Orinox Holding | A Legacy of Specialized Drilling Excellence
                         </h1>
                     </motion.div>

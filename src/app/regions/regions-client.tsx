@@ -46,7 +46,7 @@ export default function RegionsClient() {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         className="max-w-3xl"
                     >
-                        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-[1.1] mb-8">
+                        <h1 className="text-2xl md:text-2xl lg:text-3xl font-bold text-white leading-[1.1] mb-8">
                             Pioneering Global <br />
                             Energy Infrastructure
                         </h1>
