@@ -72,9 +72,9 @@ export default function OrinoxServicesClient() {
                                 {...anim(0.2 + idx * 0.1)}
                                 className="space-y-4"
                             >
-                                <h3 className="text-white/70 text-[15px] font-bold tracking-normal">
+                                <h2 className="text-white/70 text-[15px] font-bold tracking-normal">
                                     {cap.title}
-                                </h3>
+                                </h2>
                                 <p className="text-white/60 text-[13px] leading-relaxed font-light">
                                     {cap.description}
                                 </p>
@@ -99,7 +99,7 @@ export default function OrinoxServicesClient() {
                         <p className="text-white/80 text-[12px] md:text-[14px] leading-relaxed font-light mb-8">
                             Orinox Holding optimizes the transit and storage of critical hydrocarbon assets, integrating advanced logistics with unmatched technical reliability.
                         </p>
-                        <h2 className="text-white text-3xl md:text-5xl font-bold tracking-tight">
+                        <h2 className="text-white text-2xl md:text-2xl font-bold tracking-tight">
                             Precision Midstream Operations
                         </h2>
                         <h3 className="text-white text-xl md:text-2xl font-bold tracking-tight opacity-90">
